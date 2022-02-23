@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Footer from '../components/footer'
 import NavBar from '../components/navbar'
-import Link from 'next/link'
+import utilStyles from '../styles/utils.module.css'
 
 const name = 'GenevaMSmith'
 export const siteTitle = 'Geneva M. Smith'
 
 export default function Layout({ children, home }) {
     return (
-      <div className='is-centered-mobile'>
+      <div>
         <Head>
           <link rel="icon" href="puzzle-piece-solid.svg" />
           <meta
@@ -22,27 +22,20 @@ export default function Layout({ children, home }) {
             )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
           />
           <meta name="og:title" content={siteTitle} />
-          <meta name="twitter:card" content="summary_large_image" />
         </Head>
 
         <div className='columns'>
-          <div className='column is-one-quarter'>
+          <div className='column is-one-quarter pb-0'>
             <NavBar></NavBar>
           </div>
 
-          <div className='column is-half p-3'>
-            <main>{children}</main>
-            <Footer></Footer>
+          <div className='column is-half pt-3 pb-0 px-3'>
+            <div className={utilStyles.withstickyfoot}>
+              <main className='is-flex is-flex-grow-1'>{children}</main>
+              <Footer></Footer>
+            </div>
           </div>
         </div>
-
-        {!home && (
-          <div>
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
-          </div>
-        )}
     </div>
   )
 }
