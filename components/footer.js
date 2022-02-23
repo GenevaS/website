@@ -6,9 +6,9 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
 	return (
-    <footer className='footer has-text-light has-background-grey-dark'>
+    <footer className='footer mt-6 has-text-light has-background-grey-dark'>
       <div className='has-text-centered'>
-            <h4>Contact Me</h4>
+            <h3>Contact Me</h3>
 
             <address>
             <FontAwesomeIcon icon={faEnvelope} alt="Mail Envelope Icon"/> <a href="mailto:smithgm@mcmaster.ca">smithgm@mcmaster.ca</a>

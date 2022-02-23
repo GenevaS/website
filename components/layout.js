@@ -25,24 +25,24 @@ export default function Layout({ children, home }) {
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
 
-      <div className='columns'>
-        <div className='column is-3'>
-          <NavBar></NavBar>
+        <div className='columns'>
+          <div className='column is-3'>
+            <NavBar></NavBar>
+          </div>
+
+          <div className='column is-9'>
+            <main>{children}</main>
+            <Footer></Footer>
+          </div>
         </div>
 
-        <div className='column is-9'>
-          <main>{children}</main>
-          <Footer></Footer>
-        </div>
-      </div>
-
-      {!home && (
-        <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+        {!home && (
+          <div>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
     </div>
   )
 }
