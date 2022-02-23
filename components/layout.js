@@ -8,7 +8,7 @@ export const siteTitle = 'Geneva M. Smith'
 
 export default function Layout({ children, home }) {
     return (
-      <div>
+      <div className='is-centered-mobile'>
         <Head>
           <link rel="icon" href="puzzle-piece-solid.svg" />
           <meta
@@ -26,11 +26,11 @@ export default function Layout({ children, home }) {
         </Head>
 
         <div className='columns'>
-          <div className='column is-3'>
+          <div className='column is-one-quarter'>
             <NavBar></NavBar>
           </div>
 
-          <div className='column is-9'>
+          <div className='column is-half p-3'>
             <main>{children}</main>
             <Footer></Footer>
           </div>
