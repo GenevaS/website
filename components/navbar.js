@@ -1,18 +1,26 @@
+import Link from 'next/link'
+
 function NavBar() {
 	return (
-		<div>
+        <aside className="menu">
+            <ul className="menu-list">
+                <li>
+                    <Link href="/">
+                        <a className="is-active">Home</a>
+                    </Link>
+                </li>
 
-        <a href="/">Home</a><br/>
+                <li><a href="publications">Projects & Publications</a></li>
 
-        <a href="publications">Projects & Publications</a><br/>
+                <li><a href="teaching">Teaching & Talks</a></li>
 
-        <a href="teaching">Teaching & Talks</a><br/>
+                <li><a href="fun">Just For Fun</a></li>
+            </ul>
 
-        <a href="fun">Just For Fun</a><br/>
-
-        <button>Resume:<br/> Download!</button>
-
-        </div>
+            <button className="button py-5 is-family-code has-text-grey-dark has-background-white">
+                    Résumé:<br/> Download!
+            </button>
+        </aside>
 	)
 }
 export default NavBar

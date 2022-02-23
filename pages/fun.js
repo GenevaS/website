@@ -5,18 +5,15 @@ import Layout, { siteTitle } from '../components/layout'
 
 export default function Fun( ) {
     return (
-        <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+      <Layout>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
 
-      <NavBar></NavBar>
+        <section>
+          <p>Fun Stuff</p>
+        </section>
 
-      <section>
-        <p>Fun Stuff</p>
-      </section>
-
-      <Footer></Footer>
     </Layout>
     )
 }

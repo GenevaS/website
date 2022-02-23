@@ -1,15 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import Footer from '../components/footer'
+import NavBar from '../components/navbar'
 import Link from 'next/link'
 
-const name = 'GMS'
+const name = 'GenevaMSmith'
 export const siteTitle = 'Geneva M. Smith'
 
 export default function Layout({ children, home }) {
     return (
-      <div className={styles.container}>
+      <div>
         <Head>
           <link rel="icon" href="puzzle-piece-solid.svg" />
           <meta
@@ -25,50 +24,20 @@ export default function Layout({ children, home }) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src="/images/smith_headshot.jpg"
-              className={utilStyles.borderCircle}
-              height={200}
-              width={200}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>Hi!</h1>
 
-            <h2>I'm Geneva, a Ph.D. candidate in the
-          <a href="https://www.eng.mcmaster.ca/cas"> Department of Computing and
-          Software at McMaster University</a>.</h2>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-              </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
+      <div className='columns'>
+        <div className='column is-3'>
+          <NavBar></NavBar>
+        </div>
 
-      <main>{children}</main>
+        <div className='column is-9'>
+          <main>{children}</main>
+          <Footer></Footer>
+        </div>
+      </div>
 
       {!home && (
-        <div className={styles.backToHome}>
+        <div>
           <Link href="/">
             <a>← Back to home</a>
           </Link>

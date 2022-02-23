@@ -5,18 +5,14 @@ import Layout, { siteTitle } from '../components/layout'
 
 export default function Teaching( ) {
     return (
-        <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+      <Layout>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
 
-      <NavBar></NavBar>
-
-      <section>
-        <p>Teaching Stuff</p>
-      </section>
-
-      <Footer></Footer>
-    </Layout>
+        <section>
+          <p>Teaching Stuff</p>
+        </section>
+      </Layout>
     )
 }
