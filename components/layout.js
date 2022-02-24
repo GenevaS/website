@@ -3,12 +3,11 @@ import Footer from '../components/footer'
 import NavBar from '../components/navbar'
 import utilStyles from '../styles/utils.module.css'
 
-const name = 'GenevaMSmith'
 export const siteTitle = 'Geneva M. Smith'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
-      <div>
+      <div className='has-background-grey-lighter'>
         <Head>
           <link rel="icon" href="puzzle-piece-solid.svg" />
           <meta
@@ -24,12 +23,14 @@ export default function Layout({ children, home }) {
           <meta name="og:title" content={siteTitle} />
         </Head>
 
-        <div className='columns'>
-          <div className='column is-one-quarter pb-0'>
-            <NavBar></NavBar>
+        <div className='columns is-flex is-flex-direction-row is-justify-content-center is-gapless'>
+          <div className='column is-one-fifth'>
+            <div className={utilStyles.stationary}>
+              <NavBar></NavBar>
+            </div>
           </div>
 
-          <div className='column is-half pt-3 pb-0 px-3'>
+          <div className='column is-half'>
             <div className={utilStyles.withstickyfoot}>
               <main className='is-flex is-flex-grow-1'>{children}</main>
               <Footer></Footer>

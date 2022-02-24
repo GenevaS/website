@@ -56,3 +56,11 @@
     flex-direction: column;
     min-height: 100vh;
   }
+
+  .scollable {
+    overflow: auto;
+  }
+
+  .stationary {
+    position: fixed;
+  }

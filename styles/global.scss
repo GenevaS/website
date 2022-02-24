@@ -1,2 +1,40 @@
 @charset "utf-8";
+
+$purple: #D7D2F8;
+$grey-lighter: #F0F0F0;
+$grey-darker: #393939;
+
+$primary: $purple;
+
+$menu-item-color: $grey-darker;
+$menu-item-hover-color: $grey-lighter;
+$menu-item-active-color: $grey-darker;
+$menu-item-hover-background-color: $grey-darker;
+$menu-item-active-background-color: $grey-lighter;
+
+$button-color : $grey-darker;
+$button-background-color : $grey-lighter;
+
+.button, .downloadbutton {
+    padding-top : 2rem !important;
+    padding-bottom : 2rem !important;
+
+    border : none !important;
+    outline : none;
+    box-shadow : 0 0.5em 0.9em $grey-darker !important;
+
+    transition : all 0.4s ease 0s;
+}
+
+.downloadbutton:hover {
+    font-weight: bold;
+    color : $grey-lighter !important;
+    background-color : $grey-darker !important;
+    transform : translateY(-0.5rem);
+}
+
+body {
+    background-color: $grey-lighter;
+}
+
 @import "../node_modules/bulma/bulma.sass";
