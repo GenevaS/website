@@ -12,13 +12,9 @@ export default function Home( ) {
       <section>
           <div className='columns is-hidden-touch pt-6 px-6'>
             <div className='column is-centered'>
-              <div className='columns level'>
+              <div className='columns is-justify-content-center is-align-items-center'>
 
-                <div className='column' aria-hidden='true'>
-
-                </div>
-
-                <section className='column level-left is-narrow has-text-right'>
+                <section className='column is-narrow has-text-right'>
                   <div className='image'>
                     <Image
                       priority
@@ -31,7 +27,7 @@ export default function Home( ) {
                   </div>
                 </section>
 
-                <section className='column level-right content is-6 has-text-left pr-3'>
+                <section className='column content is-6 has-text-left pr-3'>
                     <p className='title'>Hi!</p>
 
                     <p className='subtitle'>I&#39;m Geneva, a Ph.D. candidate in the
@@ -39,15 +35,11 @@ export default function Home( ) {
                     Software at McMaster University</a>.</p>
                 </section>
 
-                <div className='column' aria-hidden='true'>
-
-                </div>
-
               </div>
             </div>
           </div>
 
-        <div className='columns is-hidden-desktop is-centered pt-6 px-6'>
+        <div className='columns is-hidden-desktop is-flex-direction-column is-centered pt-6 px-6'>
           <div className='column'>
             <section className='image has-text-centered'>
               <Image
@@ -60,9 +52,7 @@ export default function Home( ) {
               />
             </section>
           </div>
-        </div>
 
-        <div className='columns is-hidden-desktop pt-6 px-6'>
           <section className='column content is-centered has-text-centered'>
               <p className='title'>Hi!</p>
 

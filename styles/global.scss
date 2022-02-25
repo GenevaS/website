@@ -33,16 +33,7 @@ $button-background-color : $grey-lighter;
     transform : translateY(-0.5rem);
 }
 
-.stationary {
-    position: fixed;
-    width : 25%;
-}
-
-.inlineblock {
-    display: inline-block;
-}
-
-.threequarters {
+.is-width-70-percent {
     width : 70%;
 }
 
@@ -50,14 +41,6 @@ $button-background-color : $grey-lighter;
     display: flex !important;
     flex-direction: column;
     min-height: 100vh;
-}
-
-.borderCircle {
-    border-radius: 9999px;
-}
-
-.scollable {
-    overflow: auto;
 }
 
 body {

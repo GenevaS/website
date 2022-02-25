@@ -25,7 +25,7 @@ export default function Layout({ children }) {
         <div className='container is-flex is-justify-content-center is-max-widescreen'>
           <NavBar></NavBar>
 
-          <div className='threequarters inlineblock withstickyfoot'>
+          <div className='is-width-70-percent withstickyfoot'>
             <main className='is-flex is-flex-grow-1 is-justify-content-center'>{children}</main>
             <Footer></Footer>
           </div>
