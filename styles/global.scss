@@ -33,6 +33,33 @@ $button-background-color : $grey-lighter;
     transform : translateY(-0.5rem);
 }
 
+.stationary {
+    position: fixed;
+    width : 25%;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.threequarters {
+    width : 70%;
+}
+
+.withstickyfoot {
+    display: flex !important;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
+
+.scollable {
+    overflow: auto;
+}
+
 body {
     background-color: $grey-lighter;
 }

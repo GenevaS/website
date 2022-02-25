@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/footer'
 import NavBar from '../components/navbar'
-import utilStyles from '../styles/utils.module.css'
 
 export const siteTitle = 'Geneva M. Smith'
 
@@ -23,19 +22,14 @@ export default function Layout({ children }) {
           <meta name="og:title" content={siteTitle} />
         </Head>
 
-        <div className='columns is-flex is-flex-direction-row is-justify-content-center is-gapless'>
-          <div className='column is-one-fifth'>
-            <div className={utilStyles.stationary}>
-              <NavBar></NavBar>
-            </div>
+        <div className='container is-flex is-justify-content-center is-max-widescreen'>
+          <NavBar></NavBar>
+
+          <div className='threequarters inlineblock withstickyfoot'>
+            <main className='is-flex is-flex-grow-1 is-justify-content-center'>{children}</main>
+            <Footer></Footer>
           </div>
 
-          <div className='column is-half'>
-            <div className={utilStyles.withstickyfoot}>
-              <main className='is-flex is-flex-grow-1'>{children}</main>
-              <Footer></Footer>
-            </div>
-          </div>
         </div>
     </div>
   )

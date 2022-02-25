@@ -6,7 +6,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
 	return (
-    <footer className='footer is-flex flex-column is-justify-content-center
+    <footer className='footer is-flex is-justify-content-center
                        mt-6
                        has-text-grey-lighter has-background-grey-dark'>
       <div className='has-text-centered'>

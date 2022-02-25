@@ -13,7 +13,7 @@ export default function Publications( ) {
             Publications
           </h2>
 
-          <div className='columns'>
+          <div className='columns px-6'>
             <div className='column'>
               <div className="card">
                 <div className="card-image">
