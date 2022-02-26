@@ -16,13 +16,16 @@ const profilePicture = <Image
                           alt="Picture of Geneva M. Smith"
                         />;
 
-const quickIntro = (<div>
-                      <p className='title'>Hi!</p>
+const quickIntro = (
+  <div>
+    <p className='title'>Hi!</p>
 
-                      <p className='subtitle'>I&#39;m Geneva, a Ph.D. candidate in the
-                      <a href="https://www.eng.mcmaster.ca/cas"> Department of Computing and
-                      Software at McMaster University</a>.</p>
-                    </div>);
+    <p className='subtitle'>I&#39;m Geneva, a Ph.D. candidate in the
+    <a href="https://www.eng.mcmaster.ca/cas"> Department of Computing and
+    Software at McMaster University</a>.</p>
+
+  </div>
+);
 
 const aboutMeContent = (
   <div className='content px-6'>
