@@ -49,7 +49,8 @@ export default function Layout({ children }) {
         <div className='container is-hidden-touch
                         is-flex is-justify-content-center
                         is-max-widescreen'>
-          <nav className='is-flex' role="navigation" aria-label="main navigation">
+          <nav className='is-flex
+                          has-background-primary pt-6' role="navigation" aria-label="main navigation">
             <NavBar></NavBar>
           </nav>
 
@@ -87,20 +88,18 @@ export default function Layout({ children }) {
         */}
         <div className='container is-hidden-desktop
                         is-flex is-flex-direction-column is-justify-content-center'>
-          <nav role="navigation" aria-label="main navigation">
+          <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand has-background-primary">
 
-              <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+              <a role="button" className="navbar-burger is-active" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
               </a>
             </div>
-            <div className="navbar-menu navbar-dropdown">
-              <NavBar></NavBar>
-            </div>
 
-            <div className="navbar-menu is-active navbar-dropdown p-0">
+            <div className="navbar-menu is-active has-shadow
+                            has-background-primary p-0">
               <NavBar></NavBar>
             </div>
           </nav>

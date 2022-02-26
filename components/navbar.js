@@ -40,8 +40,7 @@ function IsActiveLink( pagename, address ) {
 
 function NavBar(  ) {
 	return (
-        <div className='menu has-text-centered
-                        has-background-primary pt-6'>
+        <div className='menu has-text-centered'>
 
             <ul className="menu-list">
                 <li>
