@@ -43,13 +43,16 @@ export default function Layout({ children }) {
           <meta name="og:title" content={siteTitle} />
         </Head>
 
-        {/* Page Layout */
-        }
+        {/* Page Layout */}
         <div className='container is-flex is-justify-content-center is-max-widescreen'>
           <NavBar></NavBar>
 
           <div className='is-width-70-percent withstickyfoot'>
-            <main className='is-flex is-flex-grow-1 is-justify-content-center'>{children}</main>
+            <main className='is-flex is-flex-grow-1
+                             is-justify-content-center'>
+              {children}
+            </main>
+
             <Footer></Footer>
           </div>
 

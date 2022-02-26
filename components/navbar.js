@@ -1,22 +1,69 @@
+/* ---------------------------------------------------------------
+ * NAV BAR (Content and Layout)
+ * ---------------------------------------------------------------
+ */
+
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-function NavBar() {
+const home = "Home";
+const homeAddress = "/";
+
+const publications = "Projects & Publications";
+const pubAddress = "/publications";
+
+const teaching = "Teaching & Talks";
+const teachAddress = "/teaching";
+
+const funStuff = "Just For Fun";
+const funAddress = "/fun";
+
+/* ---------------------------------------------------------------
+ * Function: IsActiveLink
+ * ---------------------------------------------------------------
+ * Simple function for changing the active nav item based on a
+ * given page with name = pagename and address=address.
+ * ---------------------------------------------------------------
+ */
+function IsActiveLink( pagename, address ) {
+    const router = useRouter();
+    var item;
+    if (router.asPath === address) {
+        item = <a className='is-active'>{pagename}</a>
+    }
+    else {
+        item = <a>{pagename}</a>
+    }
+
+    return item;
+}
+
+function NavBar(  ) {
 	return (
         <div className='menu has-text-centered
                         has-background-primary pt-6'>
 
             <ul className="menu-list">
                 <li>
-                    <Link href="/">
-                        <a className="is-active">Home</a>
+                    <Link href={homeAddress}>
+                        {IsActiveLink(home, homeAddress)}
                     </Link>
                 </li>
-
-                <li><a href="publications">Projects & Publications</a></li>
-
-                <li><a href="teaching">Teaching & Talks</a></li>
-
-                <li><a href="fun">Just For Fun</a></li>
+                <li>
+                    <Link href={pubAddress}>
+                        {IsActiveLink(publications, pubAddress)}
+                    </Link>
+                </li>
+                <li>
+                    <Link href={teachAddress}>
+                        {IsActiveLink(teaching, teachAddress)}
+                    </Link>
+                </li>
+                <li>
+                    <Link href={funAddress}>
+                    {IsActiveLink(funStuff, funAddress)}
+                    </Link>
+                </li>
             </ul>
 
             <button className='button downloadbutton mt-6'>
