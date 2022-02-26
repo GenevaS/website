@@ -1,3 +1,24 @@
+/* ---------------------------------------------------------------
+ * PAGE LAYOUT (Nav Bar, Main Content, Footer)
+ * ---------------------------------------------------------------
+ * - "Rail" navigation on left side of page, main container takes
+ *   70% of the page body width
+ * - Footer is "stuck" to the bottom of the page so that it doesn't
+ *   "float" to the middle of the page when there is not enough
+ *   main content to fill the vertical space
+ *
+ *      --------------------------
+ *      | Nav |    Main          |
+ *      |     |   Content        |
+ *      |     |                  |
+ *      |     |                  |
+ *      |     |                  |
+ *      |     | -----------------|
+ *      |     | 'Sticky' Footer  |
+ *      --------------------------
+ * ---------------------------------------------------------------
+ */
+
 import Head from 'next/head'
 import Footer from '../components/footer'
 import NavBar from '../components/navbar'
@@ -22,6 +43,8 @@ export default function Layout({ children }) {
           <meta name="og:title" content={siteTitle} />
         </Head>
 
+        {/* Page Layout */
+        }
         <div className='container is-flex is-justify-content-center is-max-widescreen'>
           <NavBar></NavBar>
 
