@@ -1,22 +1,6 @@
 /* ---------------------------------------------------------------
  * PAGE LAYOUT (Nav Bar, Main Content, Footer)
  * ---------------------------------------------------------------
- * - "Rail" navigation on left side of page, main container takes
- *   70% of the page body width
- * - Footer is "stuck" to the bottom of the page so that it doesn't
- *   "float" to the middle of the page when there is not enough
- *   main content to fill the vertical space
- *
- *      --------------------------
- *      | Nav |    Main          |
- *      |     |   Content        |
- *      |     |                  |
- *      |     |                  |
- *      |     |                  |
- *      |     | -----------------|
- *      |     | 'Sticky' Footer  |
- *      --------------------------
- * ---------------------------------------------------------------
  */
 
 import Head from 'next/head'
@@ -43,11 +27,85 @@ export default function Layout({ children }) {
           <meta name="og:title" content={siteTitle} />
         </Head>
 
-        {/* Page Layout */}
-        <div className='container is-flex is-justify-content-center is-max-widescreen'>
-          <NavBar></NavBar>
+        {/* Page Layout for Desktop and Larger
+          * ---------------------------------------------------------------
+          * - "Rail" navigation on left side of page, main container takes
+          *   70% of the page body width
+          * - Footer is "stuck" to the bottom of the page so that it doesn't
+          *   "float" to the middle of the page when there is not enough
+          *   main content to fill the vertical space
+          *
+          *      --------------------------
+          *      | Nav |    Main          |
+          *      |     |   Content        |
+          *      |     |                  |
+          *      |     |                  |
+          *      |     |                  |
+          *      |     | -----------------|
+          *      |     | 'Sticky' Footer  |
+          *      --------------------------
+          * ---------------------------------------------------------------
+        */}
+        <div className='container is-hidden-touch
+                        is-flex is-justify-content-center
+                        is-max-widescreen'>
+          <nav className='is-flex' role="navigation" aria-label="main navigation">
+            <NavBar></NavBar>
+          </nav>
+
 
           <div className='is-width-70-percent withstickyfoot'>
+            <main className='is-flex is-flex-grow-1
+                             is-justify-content-center'>
+              {children}
+            </main>
+
+            <Footer></Footer>
+          </div>
+
+        </div>
+
+        {/* Page Layout for Tablet and Smaller
+          * ---------------------------------------------------------------
+          * - Nav bar, content, and footer are stacked in a single column
+          * - Navigation at the top of the page, hidden behind dropdown
+          *   "hamburger" button
+          * - Footer is "stuck" to the bottom of the page so that it doesn't
+          *   "float" to the middle of the page when there is not enough
+          *   main content to fill the vertical space
+          *
+          *      --------------------
+          *      |       Nav        |
+          *      |------------------|
+          *      |    Main          |
+          *      |   Content        |
+          *      |                  |
+          *      |------------------|
+          *      | 'Sticky' Footer  |
+          *      --------------------
+          * ---------------------------------------------------------------
+        */}
+        <div className='container is-hidden-desktop
+                        is-flex is-flex-direction-column is-justify-content-center'>
+          <nav role="navigation" aria-label="main navigation">
+            <div className="navbar-brand has-background-primary">
+
+              <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div className="navbar-menu navbar-dropdown">
+              <NavBar></NavBar>
+            </div>
+
+            <div className="navbar-menu is-active navbar-dropdown p-0">
+              <NavBar></NavBar>
+            </div>
+          </nav>
+
+          <div className='withstickyfoot'>
             <main className='is-flex is-flex-grow-1
                              is-justify-content-center'>
               {children}

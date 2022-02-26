@@ -66,7 +66,7 @@ function NavBar(  ) {
                 </li>
             </ul>
 
-            <button className='button downloadbutton mt-6'>
+            <button className='button downloadbutton mt-6 mb-5'>
                 Résumé:<br/> Download!
             </button>
         </div>
