@@ -37,6 +37,10 @@ $button-background-color : $grey-lighter;
     width : 70%;
 }
 
+.is-full-width {
+    width : 100%;
+}
+
 .withstickyfoot {
     display: flex !important;
     flex-direction: column;

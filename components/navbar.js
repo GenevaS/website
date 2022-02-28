@@ -9,8 +9,11 @@ import Link from 'next/link'
 const home = "Home";
 const homeAddress = "/";
 
-const publications = "Projects & Publications";
+const publications = "Publications";
 const pubAddress = "/publications";
+
+const projects = "Projects"
+const projectAddress = "/projects";
 
 const teaching = "Teaching & Talks";
 const teachAddress = "/teaching";
@@ -51,6 +54,11 @@ function NavBar(  ) {
                 <li>
                     <Link href={pubAddress}>
                         {IsActiveLink(publications, pubAddress)}
+                    </Link>
+                </li>
+                <li>
+                    <Link href={projectAddress}>
+                        {IsActiveLink(projects, projectAddress)}
                     </Link>
                 </li>
                 <li>

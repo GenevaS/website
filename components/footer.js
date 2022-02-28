@@ -33,7 +33,7 @@ const locationIcon = <FontAwesomeIcon icon={faLocationDot} alt="Location Dot Ico
 function Footer() {
 	return (
     <footer className='footer is-flex is-justify-content-center
-                       mt-6
+                       mt-4
                        has-text-grey-lighter has-background-grey-dark'>
       <div className='has-text-centered'>
         <p className='subtitle has-text-grey-lighter'>Contact Me</p>

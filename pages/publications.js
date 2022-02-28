@@ -4,10 +4,6 @@ import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import googlescholaricon from '../node_modules/academicons/svg/google-scholar-square.svg'
 import orcidicon from '../node_modules/academicons/svg/orcid-square.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-
-const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
 
 export default function Publications( ) {
     return (
@@ -16,13 +12,13 @@ export default function Publications( ) {
           <title>{siteTitle}</title>
         </Head>
 
-        <section className='pt-6'>
-          <div className='columns is-flex is-flex-direction-column px-6'>
+        <section className='is-full-width pt-6'>
+          <div className='columns px-6'>
             <div className='column'>
               <div className="card">
                 <header className="card-header">
                   <h1 className="card-header-title">
-                    Publications and Preprints (4 of 5)
+                    Publications and Preprints (4 of 6)
                   </h1>
                   <div className="pt-3 pr-1" aria-label="Link to Google Scholar Profile">
                     <a className="icon" href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'>
@@ -75,29 +71,7 @@ export default function Publications( ) {
                 </div>
               </div>
             </div>
-
-            <div className='column'>
-            <div className="card">
-                <header className="card-header">
-                  <h1 className="card-header-title">
-                    Technical and Visual Design Projects
-                  </h1>
-                  <div className="pt-3 pr-3" aria-label="Link to GitHub">
-                    <a className="" href="https://github.com/GenevaS">
-                      {githubicon}
-                    </a>
-                  </div>
-                </header>
-
-                <div className="card-content">
-                  <div className="content">
-                    <p> Hello
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
+          </div>
         </section>
       </Layout>
     )
