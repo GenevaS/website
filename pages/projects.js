@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Layout, { siteTitle } from '../components/layout'
+import InfoTile from '../components/infotile'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -61,6 +62,10 @@ export default function Projects( ) {
                             <img src="/images/smith_headshot.jpg" />
                         </figure>
                       </article>
+
+                      <InfoTile pictureOnLeft pictureSrc='/images/smith_headshot.jpg'>
+                        <p>Hello from the Tile Component!</p>
+                      </InfoTile>
 
                     </div>
                   </div>
