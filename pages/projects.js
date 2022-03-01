@@ -7,6 +7,13 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
 
+const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/website">
+                         {githubicon}
+                       </a>
+const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS741">
+                        {githubicon}
+                      </a>
+
 export default function Projects( ) {
     return (
       <Layout>
@@ -18,16 +25,14 @@ export default function Projects( ) {
           <div className='columns is-flex-direction-column px-6'>
             <div className='column'>
               <div className="card">
-                <header className="card-header">
+                <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
                     Technical Projects
                   </h1>
 
-                  <div className="pt-3 pr-4" aria-label="Link to GitHub">
-                    <a className="" href="https://github.com/GenevaS">
-                       {githubicon}
-                    </a>
-                  </div>
+                  <a className="icon pr-5" href="https://github.com/GenevaS" aria-label="Link to GitHub">
+                    {githubicon}
+                  </a>
                 </header>
               </div>
             </div>
@@ -37,34 +42,30 @@ export default function Projects( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-                      <article className="tile is-child notification is-primary px-3
-                                          is-flex is-flex-direction-row is-align-items-center">
-                        <figure className="image is-128x128 is-flex is-align-items-center">
-                            <img src="/images/smith_headshot.jpg" />
-                        </figure>
 
-                        <div className='is-flex-grow-1 is-width-70-percent pl-3'>
-                            <p className="title">Vertical...</p>
-                            <p className="subtitle">Top tile</p>
-                            This Website!
-                        </div>
-                      </article>
+                      <InfoTile pictureOnLeft
+                                tileTitle="This Website!"
+                                tileLink={websiteProjectLink}
+                                pictureSrc='/images/smith_headshot.jpg'
+                                pictureAlt="Tile Picture">
+                        <p className="title">Vertical...</p>
+                        <p className="subtitle">Top tile</p>
+                        This Website!
+                      </InfoTile>
 
-                      <article className="tile is-child notification is-primary-light px-3
-                                          is-flex is-flex-direction-row is-align-items-center">
-                        <div className='is-flex-grow-1 is-width-70-percent pr-3'>
-                            <p className="title">...tiles</p>
-                            <p className="subtitle">Bottom tile</p>
-                            Companion Cube Calculator
-                        </div>
-
-                        <figure className="image is-128x128 is-flex is-align-items-center">
-                            <img src="/images/smith_headshot.jpg" />
-                        </figure>
-                      </article>
-
-                      <InfoTile pictureOnLeft pictureSrc='/images/smith_headshot.jpg'>
-                        <p>Hello from the Tile Component!</p>
+                      <InfoTile tileTitle="Companion Cube Calculator (C&#179;)"
+                                tileLink={c3projectLink}
+                                pictureSrc='/images/c3project-square.png'
+                                pictureAlt="Tile Picture">
+                        <p>
+                          I created this tool for my doctoral project—named GLaDOS at the time—to
+                          help me test the range of a mathematical function when the domain
+                          of its variables is known. I completed it as a course project, and paid
+                          particular attention to the design process and accompanying
+                          documentation. I implemented C&#179; in C# because of its GUI Builder
+                          tool so that the finished project would be more user-friendly (and
+                          nicer to look at).
+                        </p>
                       </InfoTile>
 
                     </div>
@@ -88,18 +89,14 @@ export default function Projects( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <article className="tile is-child notification is-primary px-3
-                                          is-flex is-flex-direction-row is-align-items-center">
-                        <figure className="image is-128x128 is-flex is-align-items-center">
-                            <img src="/images/smith_headshot.jpg" />
-                        </figure>
-
-                        <div className='is-flex-grow-1 is-width-70-percent pl-3'>
-                            <p className="title">...tiles</p>
-                            <p className="subtitle">Bottom tile</p>
-                            GScalE Branding
-                        </div>
-                      </article>
+                      <InfoTile pictureOnLeft
+                                tileTitle="GScalE Logos and Business Cards"
+                                pictureSrc='/images/smith_headshot.jpg'
+                                pictureAlt="Tile Picture">
+                        <p className="title">...tiles</p>
+                        <p className="subtitle">Bottom tile</p>
+                        GScalE Branding
+                      </InfoTile>
 
                     </div>
                   </div>
