@@ -15,7 +15,7 @@ export default function Publications( ) {
         <section className='is-full-width pt-6'>
           <div className='columns px-6'>
             <div className='column'>
-              <div className="card">
+              <div className="card has-background-primary-light has-dark-grey-border">
                 <header className="card-header">
                   <h1 className="card-header-title">
                     Publications and Preprints (4 of 6)
@@ -41,20 +41,20 @@ export default function Publications( ) {
                 <div className="card-content">
                   <div className="content">
                     <p>
-                      <span className='has-background-primary-light'>Geneva M. Smith</span> and Jacques Carette. 2022.
+                      <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                       What Lies Beneath—A Survey of Affective Theory Use in Computational Models of Emotion.
                       Submitted December 8, 2021 to the <i>IEEE Transactions on Affective Computing</i>. Available
                       at <a href="https://doi.org/10.36227/techrxiv.18779315">https://doi.org/10.36227/techrxiv.18779315</a>
                     </p>
 
                     <p>
-                      <span className='has-background-primary-light'>Geneva Smith</span> and Jacques Carette. 2020.
+                      <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
                       Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
                       Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
                     </p>
 
                     <p>
-                    <span className='has-background-primary-light'>Geneva Smith</span>. 2017.
+                    <span className='is-highlighted'>Geneva Smith</span>. 2017.
                       <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                       Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
                       McMaster University, Hamilton, ON, Canada. Advisor <a href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette">Jacques Carette</a>
@@ -62,7 +62,7 @@ export default function Publications( ) {
                     </p>
 
                     <p>
-                      <span className='has-background-primary-light'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
+                      <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                       Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
                       <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
                       IEEE, New York, NY, USA, 8 pages. <a href='https://doi.org/10.1109/GEM.2015.7377209'>https://doi.org/10.1109/GEM.2015.7377209</a>

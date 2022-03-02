@@ -64,3 +64,16 @@ body {
     border-width: 0.1em;
     border-color: $grey;
 }
+
+.is-highlighted {
+    color : $primary-light !important;
+    background-color : $grey-darker !important;
+
+    padding-left : 0.2em;
+    padding-right : 0.2em;
+}
+
+.is-link {
+    color : $link !important;
+    text-decoration : none !important;
+}

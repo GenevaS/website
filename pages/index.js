@@ -62,7 +62,7 @@ const aboutMeContent = (
         <li>
           Awarded a
           2020—2021 <a href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario Graduate Scholarship (OGS)</a>,
-          a merit-based scholarships for students with an average of A- or higher
+          a merit-based scholarship for students with an average of A- or higher
         </li>
       </div>
     </div>
