@@ -18,6 +18,9 @@ const projectAddress = "/projects";
 const teaching = "Teaching & Talks";
 const teachAddress = "/teaching";
 
+const community = "Community Engagement";
+const communityAddress = "/community";
+
 const funStuff = "Just For Fun";
 const funAddress = "/fun";
 
@@ -64,6 +67,11 @@ function NavBar(  ) {
                 <li>
                     <Link href={teachAddress}>
                         {IsActiveLink(teaching, teachAddress)}
+                    </Link>
+                </li>
+                <li>
+                    <Link href={communityAddress}>
+                        {IsActiveLink(community, communityAddress)}
                     </Link>
                 </li>
                 <li>

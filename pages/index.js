@@ -42,20 +42,32 @@ const aboutMeContent = (
       Here are some academic credentials that qualify me as a cross-world ambassador:
     </p>
 
-    <div className='card m-2'>
+    <div className='card has-background-primary-light has-dark-grey-border m-2'>
       <header className='card-header'>
         <p className='has-text-weight-medium p-3'>
           Ph.D. in Software Engineering
           <br></br>
-          <i>McMaster University</i>, September 2017 to Present
+          <i>McMaster University</i>, 2017 to Present
         </p>
       </header>
       <div className='card-content'>
-        <li>Some info on that</li>
+        <li>
+          Researching and designing a software architecture for improving the believability
+          of non-player characters (NPCs), which builds on my M.A.Sc. work
+        </li>
+        <li>
+          Focusing on a rigorous design process to ensure that design decisions are well
+          informed, documented, and easy for others to understand
+        </li>
+        <li>
+          Awarded a
+          2020—2021 <a href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario Graduate Scholarship (OGS)</a>,
+          a merit-based scholarships for students with an average of A- or higher
+        </li>
       </div>
     </div>
 
-    <div className='card m-2'>
+    <div className='card has-background-primary-light has-dark-grey-border m-2'>
       <header className='card-header'>
         <p className='has-text-weight-medium p-3'>
           M.A.Sc. in Software Engineering
@@ -64,7 +76,22 @@ const aboutMeContent = (
         </p>
       </header>
       <div className='card-content'>
-        <li>Some info on that</li>
+        <li>
+          Researched and designed a software architecture for improving the believability
+          of non-player characters (NPCs) in
+          Bethesda&#39;s <a href="https://elderscrolls.bethesda.net/en/skyrim">The Elder
+          Scrolls V: Skyrim</a>
+        </li>
+        <li>
+          Implemented the architecture as a Skyrim mod, using
+          Bethesda&#39;s <a href='https://www.creationkit.com/index.php?title=Main_Page'>Creation Kit</a> and <a href="https://www.creationkit.com/index.php?title=Category:Papyrus">Papyrus</a>,
+          the companion object-oriented scripting language
+        </li>
+        <li>
+          Designed and conducted a user study to collect objective and subjective user data
+          to compare levels of player interest between the new architecture and the original
+          game
+        </li>
       </div>
     </div>
   </div>

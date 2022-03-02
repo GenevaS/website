@@ -1,16 +1,18 @@
 @charset "utf-8";
 
-$purple: #D7D2F8;
-$grey-lighter: #F0F0F0;
-$grey-darker: #393939;
+$purple : #D7D2F8;
+$purple-dark : #331467;
+$grey-lighter : #F0F0F0;
+$grey-darker : #393939;
 
-$primary: $purple;
+$primary : $purple;
+$link : $purple-dark;
 
-$menu-item-color: $grey-darker;
-$menu-item-hover-color: $grey-lighter;
-$menu-item-active-color: $grey-darker;
-$menu-item-hover-background-color: $grey-darker;
-$menu-item-active-background-color: $grey-lighter;
+$menu-item-color : $grey-darker;
+$menu-item-hover-color : $grey-lighter;
+$menu-item-active-color : $grey-darker;
+$menu-item-hover-background-color : $grey-darker;
+$menu-item-active-background-color : $grey-lighter;
 
 $button-color : $grey-darker;
 $button-background-color : $grey-lighter;
