@@ -6,7 +6,7 @@ $grey-lighter : #F0F0F0;
 $grey-darker : #393939;
 
 $primary : $purple;
-$link : $purple-dark;
+$link : $grey-darker;
 
 $menu-item-color : $grey-darker;
 $menu-item-hover-color : $grey-lighter;
@@ -38,6 +38,17 @@ $button-background-color : $grey-lighter;
     color : $grey-lighter !important;
     background-color : $grey-darker !important;
     transform : translateY(-0.5rem);
+}
+
+.is-link {
+    color : $link !important;
+    text-decoration-color : $link !important;
+    text-decoration-style : dotted !important;
+}
+
+.is-link:hover {
+    color : $link !important;
+    text-decoration-style : solid !important;
 }
 
 .is-width-70-percent {
@@ -76,14 +87,4 @@ body {
 
     padding-left : 0.2em;
     padding-right : 0.2em;
-}
-
-.is-link {
-    color : $link !important;
-    text-decoration-style : dotted !important;
-}
-
-.is-link:hover {
-    color : $link !important;
-    text-decoration-style : wavy !important;
 }

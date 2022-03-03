@@ -39,7 +39,7 @@ export default function Publications( ) {
                 </header>
 
                 <div className="card-content">
-                  <div className="content">
+                  <div>
                     <p>
                       <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                       What Lies Beneath—A Survey of Affective Theory Use in Computational Models of Emotion.
@@ -58,7 +58,7 @@ export default function Publications( ) {
                       <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                       Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
                       McMaster University, Hamilton, ON, Canada. Advisor <a href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette" aria-label="Go to Jacque Carette's website">Jacques Carette</a>
-                      . <a href='http://hdl.handle.net/11375/21369' aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
+                      . <a className='is-link' href='http://hdl.handle.net/11375/21369' aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                       Role-Playing Games">http://hdl.handle.net/11375/21369</a>
                     </p>
 
