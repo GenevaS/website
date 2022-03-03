@@ -40,10 +40,9 @@ Colours that did not meet the minimum contrast level are not used together to co
 same type of element (e.g. `$grey-darker` and `$purple-darker` are not both used to style
 text in the same content block).
 
-|                |      $purple      |       $purple-darker     |      $grey-lighter      |      $grey-darker      |
-|                |     (#D7D2F8)     |         (#331467)        |        (#F0F0F0)        |        (#393939)       |
+|                | $purple (#D7D2F8) | $purple-dark (#331467)   | $grey-lighter (#F0F0F0) | $grey-darker (#393939) |
 |----------------|:-----------------:|:------------------------:|:-----------------------:|:----------------------:|
 | $purple        |         -         |          10.06:1         |          <span style="color:red">1.27:1</span>         |         7.95:1         |
-| $purple-darker |      10.06:1      |             -            |         12.82:1         |         <span style="color:red">1.26:1</span>         |
+| $purple-dark   |      10.06:1      |             -            |         12.82:1         |         <span style="color:red">1.26:1</span>         |
 | $grey-lighter  |       <span style="color:red">1.27:1</span>      |          12.82:1         |            -            |         10.13:1        |
 | $grey-darker   |       7.95:1      |          <span style="color:red">1.26:1</span>          |         10.13:1         |            -           |
