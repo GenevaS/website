@@ -28,6 +28,11 @@ $button-background-color : $grey-lighter;
     transition : all 0.4s ease 0s;
 }
 
+.downloadbutton:focus {
+    border-style : solid !important;
+    border-color : $grey-darker !important;
+}
+
 .downloadbutton:hover {
     font-weight: bold;
     color : $grey-lighter !important;
@@ -75,5 +80,10 @@ body {
 
 .is-link {
     color : $link !important;
-    text-decoration : none !important;
+    text-decoration-style : dotted !important;
+}
+
+.is-link:hover {
+    color : $link !important;
+    text-decoration-style : wavy !important;
 }

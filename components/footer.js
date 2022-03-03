@@ -16,37 +16,35 @@ const gscaleProfile = <a className='has-text-grey-lighter' href="https://gscale.
 const office = <a className='has-text-grey-lighter' href="https://goo.gl/maps/5xhYKyw8hpYTJdp5A"> McMaster University Information Technology Building (ITB), Room 207</a>
 
 // Icons
-const emailIcon = <FontAwesomeIcon icon={faEnvelope} alt="Mail Envelope Icon"/>
-const linkedInIcon = <FontAwesomeIcon icon={faLinkedinIn} alt="LinkedIn Logo Icon"/>
+const emailIcon = <FontAwesomeIcon icon={faEnvelope} alt=""/>
+const linkedInIcon = <FontAwesomeIcon icon={faLinkedinIn} alt=""/>
 const gscaleIcon = <Image
               priority
               src="/Vector_GScalE_Logo_Icon_White.svg"
               layout='fixed'
               height={15}
               width={26}
-              alt="GScalE Icon"
+              alt=""
               aria-hidden='true'
             />
-const locationIcon = <FontAwesomeIcon icon={faLocationDot} alt="Location Dot Icon"/>
+const locationIcon = <FontAwesomeIcon icon={faLocationDot} alt=""/>
 
 // Footer Function
 function Footer() {
 	return (
     <footer className='footer is-flex is-justify-content-center
-                       mt-4
+                       mt-4 has-text-centered
                        has-text-grey-lighter has-background-grey-dark'>
-      <div className='has-text-centered'>
-        <p className='subtitle has-text-grey-lighter'>Contact Me</p>
+      <div>
+        <h1 className='subtitle has-text-grey-lighter'>Contact Me</h1>
 
-        <address>
-          {emailIcon} {email}
-          <br></br>
-          {linkedInIcon} {linkedin}
-          <br></br>
-          {gscaleIcon} {gscaleProfile}
-          <br></br>
-          {locationIcon} {office}
-        </address>
+        {emailIcon} <i>{email}</i>
+        <br></br>
+        {linkedInIcon} <i>{linkedin}</i>
+        <br></br>
+        {gscaleIcon} <i>{gscaleProfile}</i>
+        <br></br>
+        {locationIcon} <i>{office}</i>
       </div>
     </footer>
 	)

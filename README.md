@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About
 
-## Getting Started
+This website was built with the [Next.js](https://nextjs.org/) React Framwork and [Bulma](https://bulma.io/) CSS Framework.
+
+## How to Run Website Locally
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
@@ -18,17 +22,28 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## About Accessibility
+I stove to meet as many <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG 2.1 guidelines</a> as I am able, following the checklist kindly available from
+[WebAIM](https://webaim.org/standards/wcag/checklist). Should you notice anything that could be improved, do open a Git Issue.
 
-To learn more about Next.js, take a look at the following resources:
+### Alternate Text
+I've added alternate text to images (`alt=""` when they were only cosmetic) and `aria-label`
+tags to hyperlink elements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Keyboard Focus
+The `download` button has a custom CSS style, so it did not look different/like it was in
+focus. I added a custom `:hover` CSS class to fix this.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Colour Contrast
+Colours were picked and used in combination to ensure that they achieve WCAG AAA level.
+Colours that did not meet the minimum contrast level are not used together to colour the
+same type of element (e.g. `$grey-darker` and `$purple-darker` are not both used to style
+text in the same content block).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+|                |      $purple      |       $purple-darker     |      $grey-lighter      |      $grey-darker      |
+|                |     (#D7D2F8)     |         (#331467)        |        (#F0F0F0)        |        (#393939)       |
+|----------------|:-----------------:|:------------------------:|:-----------------------:|:----------------------:|
+| $purple        |         -         |          10.06:1         |          <span style="color:red">1.27:1</span>         |         7.95:1         |
+| $purple-darker |      10.06:1      |             -            |         12.82:1         |         <span style="color:red">1.26:1</span>         |
+| $grey-lighter  |       <span style="color:red">1.27:1</span>      |          12.82:1         |            -            |         10.13:1        |
+| $grey-darker   |       7.95:1      |          <span style="color:red">1.26:1</span>          |         10.13:1         |            -           |

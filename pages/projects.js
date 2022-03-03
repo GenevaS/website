@@ -7,10 +7,10 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
 
-const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/website">
+const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/website" aria-label="Go to GitHub repository for this website">
                          {githubicon}
                        </a>
-const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS741">
+const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS741" aria-label="Go to GitHub repository for the Companion Cube Calculator">
                         {githubicon}
                       </a>
 
@@ -30,7 +30,7 @@ export default function Projects( ) {
                     Technical Projects
                   </h1>
 
-                  <a className="icon pr-5" href="https://github.com/GenevaS" aria-label="Link to GitHub">
+                  <a className="icon pr-5" href="https://github.com/GenevaS" aria-label="Link to Geneva's GitHub">
                     {githubicon}
                   </a>
                 </header>
@@ -47,7 +47,7 @@ export default function Projects( ) {
                                 tileTitle="This Website!"
                                 tileLink={websiteProjectLink}
                                 pictureSrc='/images/websiteSnip.png'
-                                pictureAlt="Snippet image of this website">
+                                pictureAlt="">
                         <p>
                           It&#39;s 2022, so I decided that a personal website was an important
                           part of making myself known in academia and industry (especially because
@@ -73,7 +73,7 @@ export default function Projects( ) {
                       <InfoTile tileTitle="Companion Cube Calculator (C&#179;)"
                                 tileLink={c3projectLink}
                                 pictureSrc='/images/c3project-square.png'
-                                pictureAlt="Snippet image of C&#179;">
+                                pictureAlt="">
                         <p>
                           I created this tool for my doctoral project—named GLaDOS at the
                           time, after a character in
@@ -111,7 +111,7 @@ export default function Projects( ) {
                       <InfoTile pictureOnLeft
                                 tileTitle="GScalE Logos and Business Cards"
                                 pictureSrc='/images/smith_headshot.jpg'
-                                pictureAlt="Tile Picture">
+                                pictureAlt="">
                         <p className="title">...tiles</p>
                         <p className="subtitle">Bottom tile</p>
                         GScalE Branding

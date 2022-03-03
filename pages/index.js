@@ -13,7 +13,7 @@ const profilePicture = <Image
                           height={200}
                           width={200}
                           className="is-rounded is-square"
-                          alt="Picture of Geneva M. Smith"
+                          alt=""
                         />;
 
 const quickIntro = (

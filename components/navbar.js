@@ -81,7 +81,7 @@ function NavBar(  ) {
                 </li>
             </ul>
 
-            <button className='button downloadbutton mt-6 mb-5'>
+            <button className='button downloadbutton mt-6 mb-5' tabIndex={0}>
                 Résumé:<br/> Download!
             </button>
         </div>
