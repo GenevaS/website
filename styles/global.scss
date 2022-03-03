@@ -42,8 +42,10 @@ $button-background-color : $grey-lighter;
 
 .is-link {
     color : $link !important;
+    text-decoration-line : underline !important;
+    text-decoration-thickness : 1px !important;
     text-decoration-color : $link !important;
-    text-decoration-style : dotted !important;
+    text-decoration-style : dashed !important;
 }
 
 .is-link:hover {
