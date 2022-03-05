@@ -9,13 +9,13 @@ import Link from 'next/link'
 const home = "Home";
 const homeAddress = "/";
 
-const publications = "Publications";
+const publications = "Publications & Panels";
 const pubAddress = "/publications";
 
 const projects = "Projects"
 const projectAddress = "/projects";
 
-const teaching = "Teaching & Talks";
+const teaching = "Work & Teaching";
 const teachAddress = "/teaching";
 
 const community = "Community Engagement";

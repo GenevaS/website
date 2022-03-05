@@ -24,7 +24,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                 {tileLink}
                             </div>
                             <hr className='has-background-grey my-3'/>
-                            <article className="is-flex is-flex-direction-row
+                            <article className="is-flex is-flex-direction-column
                                                 is-flex-grow-1
                                                 is-align-items-center px-3">
                                 {children}
@@ -45,7 +45,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                 {tileLink}
                             </div>
                             <hr className='has-background-grey my-3'/>
-                            <article className="is-flex is-flex-direction-row
+                            <article className="is-flex is-flex-direction-column
                                                 is-flex-grow-1
                                                 is-align-items-center px-3">
                                 {children}
@@ -94,7 +94,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         alt={pictureAlt}/>
                                 </figure>
 
-                                <div className='is-flex-grow-1 is-width-70-percent px-3'>
+                                <div className='is-flex-grow-1 is-flex-direction-column
+                                                is-width-70-percent px-3'>
                                     {children}
                                 </div>
                             </article>
@@ -131,7 +132,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">
-                                <div className='is-flex-grow-1 is-width-70-percent px-3'>
+                                <div className='is-flex-grow-1 is-flex-direction-column
+                                                is-width-70-percent px-3'>
                                     {children}
                                 </div>
 
