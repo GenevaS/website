@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
@@ -97,7 +98,7 @@ export default function Projects( ) {
               <div className="card">
                 <header className="card-header">
                   <h1 className="card-header-title">
-                    Other Projects
+                    Non-Technical Projects
                   </h1>
                 </header>
               </div>
@@ -108,13 +109,78 @@ export default function Projects( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <InfoTile pictureOnLeft
-                                tileTitle="GScalE Logos and Business Cards"
-                                pictureSrc='/images/smith_headshot.jpg'
-                                pictureAlt="">
-                        <p className="title">...tiles</p>
-                        <p className="subtitle">Bottom tile</p>
-                        GScalE Branding
+                      <InfoTile tileTitle="GradFlix"
+                                pictureSrc={null}>
+                        <p>
+
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Three Minute Thesis (3MT)"
+                                pictureSrc={null}
+                                lighter>
+                        <p>
+
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="G-ScalE Logos and Business Cards"
+                                pictureSrc={null}>
+                        <div className='is-flex is-flex-direction-column'>
+                          <p>
+                            When we were discussing how to best market the work we do at G-ScalE, my
+                            supervisor, lab mates, and I, decided that having a logo was a good idea.
+                            We could use it on our presentations, and to visually distinguish ourselves
+                            online. You can see some of this work in the wild
+                            on <a className="is-link" href="https://twitter.com/lab_scale">G-ScalE&#39;s Twitter page</a>.
+                            We also decided to make some business cards to give out at meetings and
+                            conferences.
+                          </p>
+                          <p>
+                            This was a fun project. It let me practice my visual design skills,
+                            incorporate feedback from other members of the lab, and ensure that certain
+                            pieces could scale well if its size changed on a webpage.
+                          </p>
+
+                          <div className='is-flex is-justify-content-space-evenly is-flex-wrap-wrap
+                                          mt-4'>
+                            <Image
+                              priority
+                              src="/images/gscale_businesscard_front.png"
+                              width={150}
+                              height={294}
+                              className="py-1"
+                              alt="">
+                            </Image>
+
+                            <Image
+                              priority
+                              src="/images/gscale_businesscard_Carette.png"
+                              width={150}
+                              height={294}
+                              className="py-1"
+                              alt="">
+                            </Image>
+
+                            <Image
+                              priority
+                              src="/images/gscale_businesscard_back_Geneva.png"
+                              width={150}
+                              height={294}
+                              className="py-1"
+                              alt="">
+                            </Image>
+
+                            <Image
+                              priority
+                              src="/images/gscale_businesscard_back_Sasha.png"
+                              width={150}
+                              height={294}
+                              className="py-1"
+                              alt="">
+                            </Image>
+                          </div>
+                        </div>
                       </InfoTile>
 
                     </div>
@@ -122,8 +188,6 @@ export default function Projects( ) {
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
       </Layout>

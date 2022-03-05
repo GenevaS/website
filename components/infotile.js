@@ -9,11 +9,12 @@
 import Image from 'next/image'
 
 // Tile Function
-export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTitle, tileLink, children} ) {
+export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTitle, tileLink, children, lighter} ) {
     if(pictureSrc == null)
     {
+        if(lighter)
         return (
-            <div className='columns is-flex-direction-column'>
+                <div className='columns is-flex-direction-column'>
                     <div className='column'>
                         <div className='tile is-child notification
                                         has-background-primary-light has-dark-grey-border
@@ -32,6 +33,27 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                     </div>
                 </div>
         )
+        else
+            return (
+                <div className='columns is-flex-direction-column'>
+                    <div className='column'>
+                        <div className='tile is-child notification
+                                        has-background-primary has-dark-grey-border
+                                        px-3'>
+                            <div className='is-flex is-align-items-center'>
+                                <h2 className="title is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
+                                {tileLink}
+                            </div>
+                            <hr className='has-background-grey my-3'/>
+                            <article className="is-flex is-flex-direction-row
+                                                is-flex-grow-1
+                                                is-align-items-center px-3">
+                                {children}
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            )
     }
     else
     {
