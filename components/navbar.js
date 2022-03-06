@@ -9,7 +9,7 @@ import Link from 'next/link'
 const home = "Home";
 const homeAddress = "/";
 
-const publications = "Publications & Panels";
+const publications = "Publications & Presentations";
 const pubAddress = "/publications";
 
 const projects = "Projects"

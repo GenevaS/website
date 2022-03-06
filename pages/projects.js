@@ -126,7 +126,7 @@ export default function Projects( ) {
                           something visual and active.
                         </p>
                         <p>
-
+                          Finish me
                         </p>
                       </InfoTile>
 
@@ -165,19 +165,20 @@ export default function Projects( ) {
                           I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
                           participate in
                           their <a className="is-link" href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'>Game Design Challenge</a>.
-                          Centering on &#34;my morning routine&#34;, I focused on a challenge that I faced almost daily:
-                          escaping my apartment without one of my adorable cats making a whole in my stockings. I submitted
-                          a successful one-page pitch describing a the concept and plans for prototyping and testing it.
+                          Centering on the theme &#34;my morning routine&#34;, I focused on a challenge that I face
+                          almost daily: escaping my apartment without one of my adorable cats tearing a hole in my
+                          stockings.
                         </p>
                         <p>
                           I settled on a horror-style stealth game comparable
-                          to <a className="is-link" href='https://amnesiagame.com/#main'>Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link" href='https://www.blooberteam.com/layers-of-fear'>Bloober Team&#39;s Layers of Fear</a>,
-                          where the local feline spirits are either out to get you, or will (maybe) help you. I then
-                          created a Design Solution Presentation, outlining the intended player experience and success
-                          criteria, my inspirations for the design, the game feature itself, and how I would build a
-                          prototype in five weeks. Unfortunately, I was not invited to continue past this stage. Still, I
-                          am very pleased with the ideas I created for this and I am grateful for the opportunity to work
-                          on my game design skills.
+                          to <a className="is-link" href='https://amnesiagame.com/#main'>Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link" href='https://www.blooberteam.com/layers-of-fear'>Bloober Team&#39;s Layers of Fear</a>.
+                          I decided to play with the idea of feline spirits that are either out to get you, or
+                          will (maybe) help you. I submitted a successful one-page pitch describing a the concept and plans
+                          for prototyping and testing it. Next, I created a Design Solution Presentation, outlining the
+                          intended player experience and success criteria, my inspirations for the design, the game feature
+                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to
+                          continue past this stage. Still, I am very pleased with the ideas I created for this and I am
+                          grateful for the opportunity to work on my game design skills.
                         </p>
                       </InfoTile>
 
@@ -193,11 +194,11 @@ export default function Projects( ) {
                               lighter>
                         <p>
                           When we were discussing how to best market the work we do at G-ScalE, my
-                          supervisor, lab mates, and I, decided that having a logo was a good idea.
-                          We could use it on our presentations, and to visually distinguish ourselves
-                          online. You can see some of this work in the wild
+                          supervisor, lab mates, and I decided that having a logo was a good idea.
+                          We could put it on our presentation slides, and visually distinguish
+                          ourselves online. You can see some of this work in the wild
                           on <a className="is-link" href="https://twitter.com/lab_scale">G-ScalE&#39;s Twitter page</a>,
-                          and in the footer of this page nex to the link to my profile on the G-ScalE website.
+                          and in the footer of this page next to the link to my profile on the G-ScalE website.
                           We also decided to make some business cards to give out at meetings and
                           conferences.
                         </p>

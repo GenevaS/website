@@ -37,7 +37,7 @@ export default function Publications( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-                      <InfoTile tileTitle="Publications and Preprints (4 of 6)"
+                      <InfoTile tileTitle="Publications & Preprints (4 of 6)"
                                tileLink={academicProfileLinks}
                               pictureSrc={null}
                               pictureAlt="">
@@ -69,6 +69,34 @@ export default function Publications( ) {
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
                             <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
                             IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
+                          </p>
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Academic Presentations & Panels"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Towards Emotional
+                            Game Characters. In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:
+                            Design, Implementation, and the [Social] User Experience</i>. Panel presented at
+                            the <i>20th Annual Convention of the Media Ecology Association (MEA)</i>. June
+                            27–30, 2019, Toronto, ON, Canada.
+                          </p>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2017. GLaDOS:
+                            Integrating Emotion-Based Behaviours into Non-Player Characters in
+                            Computer Role-Playing Games. Presentation at the <i>2017 IMMERSe
+                            Network Meeting</i>. June 7–9, 2017, Ottawa, ON, Canada.
+                          </p>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2015. Ordinary
+                            People: Integrating Emotional Reactions into Non-Player Characters in
+                            Computer Role Playing Games. Presentation at the <i>2015 IMMERSe
+                            Network Meeting</i>. November 26–27, 2015, Waterloo, ON, Canada.
                           </p>
                         </div>
                       </InfoTile>
