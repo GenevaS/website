@@ -23,32 +23,32 @@ export default function Fun( ) {
                         <div>
                           <p className='block'>
                             Surely there&#39;s more to me than software design and game characters?
-                            Of course! Here&#39;s a few facts about me and opinions I have:
+                            Of course! Here&#39;s a few facts about me and my opinions:
                           </p>
                           <ol className='px-4'>
                             <li className='block'>
-                              I do not think that the number 13 is bad luck. Black cats aren&#39;t
-                              bad luck either (but they can be mischivous little gremlins!).
+
                             </li>
 
                             <li className='block'>
-                              I thrive on tea. Especially bubble tea (honey or taro milk tea with
-                              pearls please).
+                              I thrive on tea. Especially bubble tea (honey milk, rose green, or taro
+                              milk tea with pearls please).
                             </li>
 
                             <li className='block'>
-                              I read. A lot. Mostly science fiction and fantasy. Some people might
-                              say I read <em>too</em> much...obviously they&#39;re wrong.
+                              I read. A lot. Mostly science fiction and fantasy. Definitely folk and
+                              fairy tales. Some people might say I read <em>too</em> much...obviously
+                              they&#39;re wrong and should read more.
                             </li>
 
                             <li className='block'>
                               I&#39;m fairly certain that my first ever &#34;real&#34; game was
-                              Pokémon Snap. The old one, not the new one.
+                              Pokémon Snap (the old one, not the new one).
                             </li>
 
                             <li className='block'>
                               I like to sew. There&#39;s something so satisfying when you see
-                              something two dimensional on paper become three dimensional. It&#39;s
+                              a two dimensional paper drawing become three dimensional. It&#39;s
                               an engineering feat in itself. You cannot convince me otherwise.
                             </li>
 
@@ -63,7 +63,15 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
+                                Halloween is the best holiday. Who can argue with dressing in fun
+                                clothes and eating snacks all night? And then there&#39;s the
+                                pumpkins, ghosts, fall leaves, cool breeze...
+                            </li>
 
+                            <li className='block'>
+                                Winter is the best season. Listen: I know it&#39;s cold. But it&#39;s
+                                much easier to put on a sweater than to try and figure out how to live
+                                in 25°C weather...Plus, the snow is pretty.
                             </li>
 
                             <li className='block'>
@@ -79,11 +87,8 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
-
-                            </li>
-
-                            <li className='block'>
-
+                              I do not think that the number 13 is bad luck. Black cats aren&#39;t
+                              bad luck either (but they can be mischivous little gremlins!).
                             </li>
                           </ol>
                         </div>

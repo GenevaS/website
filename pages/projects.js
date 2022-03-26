@@ -4,9 +4,10 @@ import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
+const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeSquare} transform='grow-13' alt="YouTube Icon"/>
 
 const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/website" aria-label="Go to GitHub repository for this website">
                          {githubicon}
@@ -14,6 +15,10 @@ const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/
 const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS741" aria-label="Go to GitHub repository for the Companion Cube Calculator">
                         {githubicon}
                       </a>
+
+const gradflixLink = <a className='icon' href="" aria-label="Go see my GradFlix video on YouTube">
+                        {youtubeicon}
+                     </a>
 
 export default function Projects( ) {
     return (
@@ -117,6 +122,7 @@ export default function Projects( ) {
                       </div>
 
                       <InfoTile tileTitle="GradFlix"
+                                tileLink={gradflixLink}
                                 pictureSrc={null}>
                         <p>
                           This <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'>graduate student video competition</a> was
@@ -126,7 +132,9 @@ export default function Projects( ) {
                           something visual and active.
                         </p>
                         <p>
-                          Finish me
+                          With a camera, some friends, Audacity, Adobe Premiere, and Adobe After
+                          Effects, I brought my stick figure storyboard to life. You can watch it
+                          on the McMaster School of Graduate Studies YouTube channel.
                         </p>
                       </InfoTile>
 

@@ -91,14 +91,17 @@ export default function Layout({ children }) {
           <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand has-background-primary">
 
-              <a role="button" className="navbar-burger is-active" aria-label="menu" aria-expanded="false">
+              <a id="hamburger-menu-button"
+                 role="button" className="navbar-burger"
+                 aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
               </a>
             </div>
 
-            <div className="navbar-menu is-active has-shadow
+            <div id="hamburger-menu-dropdown"
+                 className="navbar-menu has-shadow
                             has-background-primary p-0">
               <NavBar></NavBar>
             </div>
