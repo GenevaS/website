@@ -3,6 +3,7 @@
  * ---------------------------------------------------------------
  */
 
+import { useState } from 'react';
 import Head from 'next/head'
 import Footer from '../components/footer'
 import NavBar from '../components/navbar'
@@ -10,6 +11,12 @@ import NavBar from '../components/navbar'
 export const siteTitle = 'Geneva M. Smith'
 
 export default function Layout({ children }) {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    function toggleMenu() {
+      setMenuOpen(!menuOpen);
+    }
+
     return (
       <div className='has-background-grey-lighter'>
         <Head>
@@ -92,18 +99,19 @@ export default function Layout({ children }) {
             <div className="navbar-brand has-background-primary">
 
               <a id="hamburger-menu-button"
-                 role="button" className="navbar-burger"
-                 data-target="hamburger-menu-dropdown"
-                 aria-label="menu" aria-expanded="false">
+                 role="button" className={menuOpen ? 'navbar-burger is-active' : 'navbar-burger'}
+                 aria-label="menu" aria-expanded="false"
+                 onClick={toggleMenu}
+              >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
               </a>
             </div>
 
-            <div id="hamburger-menu-dropdown"
-                 className="navbar-menu has-shadow
-                            has-background-primary p-0">
+            <div className={menuOpen ? 'navbar-menu has-shadow has-background-primary p-0 is-active' : 'navbar-menu has-shadow has-background-primary p-0'}
+              onClick={toggleMenu}
+            >
               <NavBar></NavBar>
             </div>
           </nav>
