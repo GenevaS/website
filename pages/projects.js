@@ -16,7 +16,7 @@ const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS74
                         {githubicon}
                       </a>
 
-const gradflixLink = <a className='icon' href="" aria-label="Go see my GradFlix video on YouTube">
+const gradflixLink = <a className='icon' href="https://youtu.be/VHo-bTDCiXs?t=722" aria-label="Go see my GradFlix video on YouTube">
                         {youtubeicon}
                      </a>
 
@@ -133,8 +133,9 @@ export default function Projects( ) {
                         </p>
                         <p>
                           With a camera, some friends, Audacity, Adobe Premiere, and Adobe After
-                          Effects, I brought my stick figure storyboard to life. You can watch it
-                          on the McMaster School of Graduate Studies YouTube channel.
+                          Effects, I brought my stick figure storyboard to life. I was honoured
+                          to be <a className='is-link' href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'>awarded Third Place and the People&#39;s Choice</a>!
+                          You can watch it on the <a className='is-link' href='https://youtu.be/VHo-bTDCiXs?t=722'>McMaster School of Graduate Studies YouTube channel</a>.
                         </p>
                       </InfoTile>
 

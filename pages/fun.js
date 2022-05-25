@@ -31,8 +31,7 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
-                              I thrive on tea. Especially bubble tea (honey milk, rose green, or taro
-                              milk tea with pearls please).
+                              I thrive on tea. Especially bubble tea (with pearls please).
                             </li>
 
                             <li className='block'>
@@ -71,7 +70,7 @@ export default function Fun( ) {
                             <li className='block'>
                                 Winter is the best season. Listen: I know it&#39;s cold. But it&#39;s
                                 much easier to put on a sweater than to try and figure out how to live
-                                in 25°C weather...Plus, the snow is pretty.
+                                in 25°C+ weather...Plus, the snow is pretty.
                             </li>
 
                             <li className='block'>

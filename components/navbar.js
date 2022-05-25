@@ -27,7 +27,7 @@ const funAddress = "/fun";
 /* ---------------------------------------------------------------
  * Function: IsActiveLink
  * ---------------------------------------------------------------
- * Simple function for changing the active nav item based on a
+ * Simple function for changing the active navbar-item based on a
  * given page with name = pagename and address=address.
  * ---------------------------------------------------------------
  */
@@ -35,10 +35,10 @@ function IsActiveLink( pagename, address ) {
     const router = useRouter();
     var item;
     if (router.asPath === address) {
-        item = <a className='is-active'>{pagename}</a>
+        item = <a className='navbar-item is-justify-content-center is-active'  href={address}>{pagename}</a>
     }
     else {
-        item = <a>{pagename}</a>
+        item = <a className='navbar-item is-justify-content-center' href={address}>{pagename}</a>
     }
 
     return item;
@@ -46,44 +46,25 @@ function IsActiveLink( pagename, address ) {
 
 function NavBar(  ) {
 	return (
-        <div className='menu has-text-centered'>
+        <div className='navbar-start is-flex-direction-column has-text-centered'>
 
-            <ul className="menu-list">
-                <li>
-                    <Link href={homeAddress}>
-                        {IsActiveLink(home, homeAddress)}
-                    </Link>
-                </li>
-                <li>
-                    <Link href={pubAddress}>
-                        {IsActiveLink(publications, pubAddress)}
-                    </Link>
-                </li>
-                <li>
-                    <Link href={projectAddress}>
-                        {IsActiveLink(projects, projectAddress)}
-                    </Link>
-                </li>
-                <li>
-                    <Link href={teachAddress}>
-                        {IsActiveLink(teaching, teachAddress)}
-                    </Link>
-                </li>
-                <li>
-                    <Link href={communityAddress}>
-                        {IsActiveLink(community, communityAddress)}
-                    </Link>
-                </li>
-                <li>
-                    <Link href={funAddress}>
-                    {IsActiveLink(funStuff, funAddress)}
-                    </Link>
-                </li>
-            </ul>
+            {IsActiveLink(home, homeAddress)}
 
-            <button className='button downloadbutton mt-6 mb-5' tabIndex={0}>
-                Résumé:<br/> Download!
-            </button>
+            {IsActiveLink(publications, pubAddress)}
+
+            {IsActiveLink(projects, projectAddress)}
+
+            {IsActiveLink(teaching, teachAddress)}
+
+            {IsActiveLink(community, communityAddress)}
+
+            {IsActiveLink(funStuff, funAddress)}
+
+            <div className='navbar-item is-justify-content-center'>
+                <a className='button downloadbutton mt-6 mb-5' tabIndex={0}>
+                    Résumé:<br/> Download!
+                </a>
+            </div>
         </div>
 	)
 }

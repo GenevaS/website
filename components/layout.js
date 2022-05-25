@@ -93,6 +93,7 @@ export default function Layout({ children }) {
 
               <a id="hamburger-menu-button"
                  role="button" className="navbar-burger"
+                 data-target="hamburger-menu-dropdown"
                  aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
