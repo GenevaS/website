@@ -107,7 +107,8 @@ export default function Community( ) {
                                 </p>
                               }
                               pictureSrc={null}
-                              pictureAlt="">
+                              pictureAlt=""
+                              lighter>
                         <div className='content'>
                           <p>
                             This student group represents the IEEE, one of the largest international, technical,
@@ -130,6 +131,51 @@ export default function Community( ) {
 
                             <li>
                               Responded to general student inquiries about branch events and services
+                            </li>
+                          </ul>
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                                  <p className='has-text-weight-medium px-3'>
+                                    IBM Future Blue Events
+                                    <br></br>
+                                    <i>IBM, Markham, ON</i>
+                                  </p>
+                              }
+                              tileLink={
+                                <p className='has-text-weight-medium px-3'>
+                                  May 2012 to August 2013
+                                </p>
+                              }
+                              pictureSrc={null}
+                              pictureAlt="">
+                        <div className='content'>
+                          <p>
+                            During my 16-month co-op at IBM, I was able to participate in many events
+                            that enriched my experience there. These included:
+                          </p>
+
+                          <ul>
+                            <li>
+                              Spending a morning in a Grade 6 classroom to help spark interest in
+                              science and engineering (I&#39;ll never forget the look on one
+                              student&#39;s face when they realized that the monitor was not the computer)
+                            </li>
+
+                            <li>
+                              Helped supervise STEM-oriented activities for Grade 8 girls
+                            </li>
+
+                            <li>
+                              Raised money for charity by offering to draw whatever my coworkers wanted on
+                              their office-door whiteboards, including one of them as Spock
+                              from <i>Star Trek</i> that their team commissioned without their knowledge
+                            </li>
+
+                            <li>
+                              Encouraged discussion and participation during the annual IBM event where current
+                              and incoming interns get to know each other through team events
                             </li>
                           </ul>
                         </div>
