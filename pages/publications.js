@@ -31,6 +31,7 @@ export default function Publications( ) {
         </Head>
 
         <section className='is-full-width pt-6'>
+
           <div className='columns px-6'>
             <div className='column'>
               <div className="tile is-ancestor">

@@ -109,9 +109,7 @@ export default function Layout({ children }) {
               </a>
             </div>
 
-            <div className={menuOpen ? 'navbar-menu has-shadow has-background-primary p-0 is-active' : 'navbar-menu has-shadow has-background-primary p-0'}
-              onClick={toggleMenu}
-            >
+            <div className={menuOpen ? 'navbar-menu has-shadow has-background-primary p-0 is-active' : 'navbar-menu has-shadow has-background-primary p-0'}>
               <NavBar></NavBar>
             </div>
           </nav>
