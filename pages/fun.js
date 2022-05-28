@@ -1,9 +1,12 @@
 /* ---------------------------------------------------------------
- * PROJECTS (Content and Layout)
+ * FUN FACTS ABOUT ME (Content and Layout)
+ * ---------------------------------------------------------------
+ * Why not?
  * ---------------------------------------------------------------
  */
 
 import Head from 'next/head'
+import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
@@ -24,7 +27,8 @@ export default function Fun( ) {
                     <div className="tile is-parent is-vertical">
 
                       <InfoTile tileTitle="13 Random Things About Me"
-                                pictureSrc={null}>
+                                pictureSrc={null}
+                                lighter>
                         <div>
                           <p className='block'>
                             Surely there&#39;s more to me than software design and game characters?
@@ -67,19 +71,21 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
-                                Halloween is the best holiday. Who can argue with dressing in fun
-                                clothes and eating snacks all night? And then there&#39;s the
-                                pumpkins, ghosts, fall leaves, cool breeze...
+                              Halloween is the best holiday. Who can argue with dressing in fun clothes and eating
+                              snacks all night? And then there&#39;s the pumpkins, ghosts, fall leaves, cool
+                              breeze...
                             </li>
 
                             <li className='block'>
-                                Winter is the best season. Listen: I know it&#39;s cold. But it&#39;s
-                                much easier to put on a sweater than to try and figure out how to live
-                                in 25°C+ weather...Plus, the snow is pretty.
+                              Winter is the best season. Listen: I know it&#39;s cold. But it&#39;s much easier to
+                              put on a sweater than to try and figure out how to live in 25°C+ weather...Plus, the
+                              snow is pretty.
                             </li>
 
                             <li className='block'>
-
+                              Even though I love winter, I cannot deny that I also love flowers and greenery. I have
+                              a garden all planned out for when I find the right spot. In the meantime, I have potted
+                              plants that I take care of indoors.
                             </li>
 
                             <li className='block'>
@@ -92,9 +98,20 @@ export default function Fun( ) {
 
                             <li className='block'>
                               I do not think that the number 13 is bad luck. Black cats aren&#39;t
-                              bad luck either (but they can be mischivous little gremlins!).
+                              bad luck either, but they can be mischivous little gremlins! I mean,
+                              look at them:
                             </li>
                           </ol>
+                          <div className='is-flex is-justify-content-center'>
+                            <Image
+                                priority
+                                src="/images/salem_xena.jpg"
+                                height={200}
+                                width={200}
+                                className="is-rounded is-square"
+                                alt="A picture of my cats, Salem and Xena"
+                              />
+                          </div>
                         </div>
                       </InfoTile>
 

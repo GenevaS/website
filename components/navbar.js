@@ -60,7 +60,7 @@ function NavBar(  ) {
             {IsActiveLink(funStuff, funAddress)}
 
             <div className='navbar-item is-justify-content-center'>
-                <a className='button downloadbutton mt-6 mb-5' tabIndex={0}>
+                <a download href="GSmith_Resume_May2022.pdf" className='button downloadbutton mt-6 mb-5' tabIndex={0}>
                     Résumé:<br/> Download!
                 </a>
             </div>
