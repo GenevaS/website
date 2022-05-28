@@ -36,7 +36,7 @@ export default function Fun( ) {
                           </p>
                           <ol className='px-4'>
                             <li className='block'>
-
+                              Why, yes! Purple <em>is</em> my favourite colour. How did you know?
                             </li>
 
                             <li className='block'>
@@ -50,14 +50,20 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
+                              I love world mythology. It&#39;s a fun way to learn about different
+                              people and perspectives. I have a particular weakness for Egyptian
+                              mythology.
+                            </li>
+
+                            <li className='block'>
                               I&#39;m fairly certain that my first ever &#34;real&#34; game was
                               Pokémon Snap (the old one, not the new one).
                             </li>
 
                             <li className='block'>
                               I like to sew. There&#39;s something so satisfying when you see
-                              a two dimensional paper drawing become three dimensional. It&#39;s
-                              an engineering feat in itself. You cannot convince me otherwise.
+                              a two dimensional drawing become three dimensional. It&#39;s an
+                              engineering feat in itself. You cannot convince me otherwise.
                             </li>
 
                             <li className='block'>
@@ -89,17 +95,15 @@ export default function Fun( ) {
                             </li>
 
                             <li className='block'>
-
-                            </li>
-
-                            <li className='block'>
-
+                              I&#39;m always listening to music. My playlists are pretty eclectic. I can go from <a className="is-link" href='https://porterrobinson.com/'>Porter Robinson</a>,
+                              to <a className="is-link" href='https://www.pinkspage.com/'>P!nk</a>,
+                              to <a className="is-link" href='http://en.tchaikovsky-research.net/pages/Main_Page'>Tchikovsky</a> in as many songs.
                             </li>
 
                             <li className='block'>
                               I do not think that the number 13 is bad luck. Black cats aren&#39;t
                               bad luck either, but they can be mischivous little gremlins! I mean,
-                              look at them:
+                              look at the cuties:
                             </li>
                           </ol>
                           <div className='is-flex is-justify-content-center'>

@@ -57,7 +57,8 @@ export default function Projects( ) {
                       <InfoTile pictureOnLeft
                                 tileTitle="This Website!"
                                 tileLink={websiteProjectLink}
-                                pictureSrc={null}>
+                                pictureSrc={null}
+                                lighter>
                         <p>
                           It&#39;s 2022, so I decided that a personal website was an important
                           part of making myself known in academia and industry (especially because
@@ -128,7 +129,8 @@ export default function Projects( ) {
 
                       <InfoTile tileTitle="GradFlix"
                                 tileLink={gradflixLink}
-                                pictureSrc={null}>
+                                pictureSrc={null}
+                                lighter>
                         <p>
                           This <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'>graduate student video competition</a> was
                           for explaning my research to a non-technical audience. In
@@ -164,8 +166,8 @@ export default function Projects( ) {
                             public speaking is one of my least favourite things to do).
                         </p>
                         <p>
-                          I did it though, and am quite pleased with how I did. Many others who know me
-                          were surprised that I could speak that loudly. I was placed third in my
+                          I did it though, and am quite pleased with how I did. Audience members who know
+                          me were surprised that I could speak that loudly. I was placed third in my
                           department, but did not place in the faculty or university-wide competitions.
                           However, I captured the attention of another student who came to work in our lab
                           the following summer. They claim that it was my 3MT that interested them in it,
@@ -174,7 +176,8 @@ export default function Projects( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle="First Ubisoft Future Women in Games Mentorship"
-                                pictureSrc={null}>
+                                pictureSrc={null}
+                                lighter>
                         <p>
                           I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
                           participate in

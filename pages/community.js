@@ -49,7 +49,8 @@ export default function Community( ) {
                         </p>
                       }
                               pictureSrc={null}
-                              pictureAlt="">
+                              pictureAlt=""
+                              lighter>
                         <div className='content'>
                           <p>
                             This is a graduate student group in the Department of Computing and Software
@@ -154,7 +155,8 @@ export default function Community( ) {
                                 </p>
                               }
                               pictureSrc={null}
-                              pictureAlt="">
+                              pictureAlt=""
+                              lighter>
                         <div className='content'>
                           <p>
                             During my 16-month co-op at IBM, I was able to participate in many events

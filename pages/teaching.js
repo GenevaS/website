@@ -29,7 +29,8 @@ export default function Teaching( ) {
                           </p>
                         }
                         pictureSrc={null}
-                        pictureAlt="">
+                        pictureAlt=""
+                        lighter>
                           <div className='content'>
                             <p>
                               I have been a teaching assistant for a number of years, which has allowed me to
@@ -151,7 +152,8 @@ export default function Teaching( ) {
                           </p>
                       }
                       pictureSrc={null}
-                      pictureAlt="">
+                      pictureAlt=""
+                      lighter>
                         <div className='content'>
                           <p>
                             DB2 Information Developer (Co-op), Markham Lab

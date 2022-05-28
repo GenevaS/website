@@ -40,7 +40,8 @@ export default function Publications( ) {
                     <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle="Publications & Preprints (4 of 6)"
                               tileLink={academicProfileLinks}
-                              pictureSrc={null}>
+                              pictureSrc={null}
+                              lighter>
                         <div className='content'>
                           <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.

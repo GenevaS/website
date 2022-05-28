@@ -113,7 +113,8 @@ export default function Home( ) {
                                             <i>McMaster University</i>, 2017 to Present
                                           </p>}
                               pictureSrc={null}
-                              pictureAlt="">
+                              pictureAlt=""
+                              lighter>
                       <p className='content'>
                         <ul className='mt-0'>
                           <li>
@@ -134,7 +135,8 @@ export default function Home( ) {
                                             <i>McMaster University</i>, 2014 to 2017
                                           </p>}
                               pictureSrc={null}
-                              pictureAlt="">
+                              pictureAlt=""
+                              lighter>
                       <p className='content'>
                         <ul className='mt-0'>
                           <li>
