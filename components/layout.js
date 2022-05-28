@@ -94,9 +94,10 @@ export default function Layout({ children }) {
           * ---------------------------------------------------------------
         */}
         <div className='container is-hidden-desktop
-                        is-flex is-flex-direction-column is-justify-content-center'>
+                        is-flex is-flex-direction-column'>
           <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div className="navbar-brand has-background-primary">
+              <span className='is-align-self-center pl-4 mb-1 subtitle'>Geneva M. Smith</span>
               <a id="hamburger-menu-button"
                  role="button" className={menuOpen ? 'navbar-burger is-active' : 'navbar-burger'}
                  aria-label="menu" aria-expanded="false"
@@ -113,7 +114,7 @@ export default function Layout({ children }) {
             </div>
           </nav>
 
-          <div className='withstickyfoot pt-5'>
+          <div className='withstickyfoot pt-6'>
             <main className='is-flex is-flex-grow-1
                              is-justify-content-center'>
               {children}

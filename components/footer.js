@@ -32,7 +32,9 @@ const locationIcon = <FontAwesomeIcon icon={faLocationDot} alt=""/>
 // Footer Function
 function Footer() {
 	return (
-    <footer className='footer is-flex is-justify-content-center
+    <footer className='footer
+                       is-flex is-flex-direction-column
+                       is-justify-content-space-between
                        mt-4 has-text-centered
                        has-text-grey-lighter has-background-grey-dark'>
       <div>
@@ -45,6 +47,10 @@ function Footer() {
         {gscaleIcon} <i>{gscaleProfile}</i>
         <br></br>
         {locationIcon} <i>{office}</i>
+      </div>
+
+      <div className='pt-6 has-text-grey-lighter'>
+        <span className='is-size-7'>Last Updated May 2022</span>
       </div>
     </footer>
 	)

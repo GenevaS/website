@@ -5,7 +5,7 @@
 
 import { useRouter } from 'next/router'
 
-const home = "Home";
+const home = "About Me";
 const homeAddress = "/";
 
 const publications = "Publications & Presentations";
