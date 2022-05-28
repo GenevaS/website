@@ -14,7 +14,7 @@ const pubAddress = "/publications";
 const projects = "Projects"
 const projectAddress = "/projects";
 
-const teaching = "Work & Teaching";
+const teaching = "Teaching, Awards, & Work";
 const teachAddress = "/teaching";
 
 const community = "Community Engagement";

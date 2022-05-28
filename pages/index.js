@@ -124,11 +124,6 @@ export default function Home( ) {
                             Focusing on a rigorous design process to ensure that design decisions are well
                             informed, documented, and easy for others to understand
                           </li>
-                          <li>
-                            Awarded a
-                            2020—2021 <a className='is-link' href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario Graduate Scholarship (OGS)</a>,
-                            a merit-based scholarship for students with an average of A- or higher
-                          </li>
                         </ul>
                       </p>
                     </InfoTile>

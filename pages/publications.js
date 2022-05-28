@@ -39,21 +39,20 @@ export default function Publications( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle="Publications & Preprints (4 of 6)"
-                               tileLink={academicProfileLinks}
-                              pictureSrc={null}
-                              pictureAlt="">
+                              tileLink={academicProfileLinks}
+                              pictureSrc={null}>
                         <div className='content'>
                           <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                             What Lies Beneath—A Survey of Affective Theory Use in Computational Models of Emotion.
                             Submitted December 8, 2021 to the <i>IEEE Transactions on Affective Computing</i>. Available
-                            at <a className='is-link' href="https://doi.org/10.36227/techrxiv.18779315" aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
+                            at <a className='is-link' href="https://doi.org/10.36227/techrxiv.18779315" style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
                           </p>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
                             Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
-                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link' href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8" aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
+                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link' href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8" style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
                           </p>
 
                           <p>
@@ -61,7 +60,7 @@ export default function Publications( ) {
                             <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
                             McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link' href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette" aria-label="Go to Jacque Carette's website">Jacques Carette</a>
-                            . <a className='is-link' href='http://hdl.handle.net/11375/21369' aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
+                            . <a className='is-link' href='http://hdl.handle.net/11375/21369' style={{wordBreak: "break-all"}} aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games">http://hdl.handle.net/11375/21369</a>
                           </p>
 
@@ -69,7 +68,7 @@ export default function Publications( ) {
                             <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
                             <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
-                            IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
+                            IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
                           </p>
                         </div>
                       </InfoTile>
@@ -78,6 +77,7 @@ export default function Publications( ) {
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
+
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2019. Towards Emotional
                             Game Characters. In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:

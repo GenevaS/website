@@ -170,7 +170,7 @@ export default function Community( ) {
                             <li>
                               Raised money for charity by offering to draw whatever my coworkers wanted on
                               their office-door whiteboards, including one of them as Spock
-                              from <i>Star Trek</i> that their team commissioned without their knowledge
+                              from <i>Star Trek</i> that their team commissioned as a surprise
                             </li>
 
                             <li>
