@@ -1,3 +1,8 @@
+/* ---------------------------------------------------------------
+ * PROJECTS (Content and Layout)
+ * ---------------------------------------------------------------
+ */
+
 import Head from 'next/head'
 
 import Layout, { siteTitle } from '../components/layout'

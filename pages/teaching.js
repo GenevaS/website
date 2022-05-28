@@ -1,3 +1,8 @@
+/* ---------------------------------------------------------------
+ * TEACHING AND WORK EXPERIENCE, AWARDS (Content and Layout)
+ * ---------------------------------------------------------------
+ */
+
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
