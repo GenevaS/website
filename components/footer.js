@@ -10,10 +10,10 @@ import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 // Contact Information
-const email = <a className='has-text-grey-lighter' href="mailto:smithgm@mcmaster.ca">smithgm@mcmaster.ca</a>
-const linkedin = <a className='has-text-grey-lighter' href="https://www.linkedin.com/in/genevamsmith/">Geneva Smith@LinkedIn (ca.linkedin.com/in/genevamsmith)</a>
-const gscaleProfile = <a className='has-text-grey-lighter' href="https://gscale.cas.mcmaster.ca/author/geneva-smith">G-ScalE Lab Profile (https://gscale.cas.mcmaster.ca/author/geneva-smith)</a>
-const office = <a className='has-text-grey-lighter' href="https://goo.gl/maps/5xhYKyw8hpYTJdp5A"> McMaster University Information Technology Building (ITB), Room 207</a>
+const email = <a className='has-text-weight-medium has-text-grey-lighter' href="mailto:smithgm@mcmaster.ca">smithgm@mcmaster.ca</a>
+const linkedin = <a className='has-text-weight-medium has-text-grey-lighter' href="https://www.linkedin.com/in/genevamsmith/">Geneva Smith@LinkedIn (ca.linkedin.com/in/genevamsmith)</a>
+const gscaleProfile = <a className='has-text-weight-medium has-text-grey-lighter' href="https://gscale.cas.mcmaster.ca/author/geneva-smith">G-ScalE Lab Profile (https://gscale.cas.mcmaster.ca/author/geneva-smith)</a>
+const office = <a className='has-text-weight-medium has-text-grey-lighter' href="https://goo.gl/maps/5xhYKyw8hpYTJdp5A"> McMaster University Information Technology Building (ITB), Room 207</a>
 
 // Icons
 const emailIcon = <FontAwesomeIcon icon={faEnvelope} alt=""/>
@@ -38,8 +38,7 @@ function Footer() {
                        mt-4 has-text-centered
                        has-text-grey-lighter has-background-grey-dark'>
       <div>
-        <h1 className='subtitle has-text-grey-lighter'>Contact Me</h1>
-
+        <h1 className='subtitle has-text-weight-medium has-text-grey-lighter'>Contact Me</h1>
         {emailIcon} <i>{email}</i>
         <br></br>
         {linkedInIcon} <i>{linkedin}</i>
@@ -50,7 +49,7 @@ function Footer() {
       </div>
 
       <div className='pt-6 has-text-grey-lighter'>
-        <span className='is-size-7'>Last Updated May 2022</span>
+        <span className='is-size-7 has-text-weight-medium'>Last Updated May 2022</span>
       </div>
     </footer>
 	)

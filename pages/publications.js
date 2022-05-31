@@ -8,7 +8,7 @@ import googlescholaricon from '../node_modules/academicons/svg/google-scholar-sq
 import orcidicon from '../node_modules/academicons/svg/orcid-square.svg'
 
 const academicProfileLinks = (
-  <div className='is-flex is-flex-direction-row is-justify-content-space-between'>
+  <div className='is-flex is-flex-direction-row is-justify-content-space-between px-3'>
       <a className="icon" href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'>
         <Image priority
                src={googlescholaricon}
@@ -32,14 +32,48 @@ export default function Publications( ) {
 
         <section className='is-full-width pt-6'>
 
-          <div className='columns px-6'>
+          <div className='columns is-flex-direction-column px-6'>
+
+            <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
+                    Academic Publications & Presentations
+                  </h1>
+
+                  {academicProfileLinks}
+                </header>
+              </div>
+            </div>
+
             <div className='column'>
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-                      <InfoTile tileTitle="Publications & Preprints (4 of 6)"
-                              tileLink={academicProfileLinks}
+
+                      <InfoTile tileTitle="Peer-Reviewed Papers"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
+                            Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
+                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link' href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8" style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
+                          </p>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
+                            Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
+                            <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
+                            IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
+                          </p>
+
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Preprints"
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
@@ -49,12 +83,13 @@ export default function Publications( ) {
                             Submitted December 8, 2021 to the <i>IEEE Transactions on Affective Computing</i>. Available
                             at <a className='is-link' href="https://doi.org/10.36227/techrxiv.18779315" style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
                           </p>
+                        </div>
+                      </InfoTile>
 
-                          <p>
-                            <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
-                            Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
-                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link' href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8" style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
-                          </p>
+                      <InfoTile tileTitle="Theses"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2017.
@@ -65,16 +100,10 @@ export default function Publications( ) {
                             Role-Playing Games">http://hdl.handle.net/11375/21369</a>
                           </p>
 
-                          <p>
-                            <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
-                            Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
-                            <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
-                            IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
-                          </p>
                         </div>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Academic Presentations & Panels"
+                      <InfoTile tileTitle="Peer-Reviewed Presentations"
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
@@ -86,6 +115,14 @@ export default function Publications( ) {
                             the <i>20th Annual Convention of the Media Ecology Association (MEA)</i>. June
                             27–30, 2019, Toronto, ON, Canada.
                           </p>
+
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Invited Talks"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2017. GLaDOS:

@@ -14,11 +14,17 @@ const pubAddress = "/publications";
 const projects = "Projects"
 const projectAddress = "/projects";
 
-const teaching = "Teaching, Awards, & Work";
+const teaching = "Teaching Experience";
 const teachAddress = "/teaching";
+
+const awards = "Awards";
+const awardsAddress = "/awards";
 
 const community = "Community Engagement";
 const communityAddress = "/community";
+
+const industry = "Industry Experience";
+const industryAddress = "/industry";
 
 const funStuff = "Just For Fun";
 const funAddress = "/fun";
@@ -55,7 +61,11 @@ function NavBar(  ) {
 
             {IsActiveLink(teaching, teachAddress)}
 
+            {IsActiveLink(awards, awardsAddress)}
+
             {IsActiveLink(community, communityAddress)}
+
+            {IsActiveLink(industry, industryAddress)}
 
             {IsActiveLink(funStuff, funAddress)}
 

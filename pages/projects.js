@@ -119,42 +119,20 @@ export default function Projects( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <div className='is-flex is-flex-grow-1 is-flex-direction-row
-                                      is-full-width
-                                      is-justify-content-center is-align-items-center'>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                        <h3 className='title is-5 m-2'>2022</h3>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                      </div>
-
-                      <InfoTile tileTitle="GradFlix"
-                                tileLink={gradflixLink}
-                                pictureSrc={null}
-                                lighter>
-                        <p>
-                          This <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'>graduate student video competition</a> was
-                          for explaning my research to a non-technical audience. In
-                          one minute or less. That&#39;s not a lot of time to cover several years of
-                          work! Fortunately, I could get creative and pair what I was saying to
-                          something visual and active.
-                        </p>
-                        <p>
-                          With a camera, some friends, Audacity, Adobe Premiere, and Adobe After
-                          Effects, I brought my stick figure storyboard to life. I was honoured
-                          to be <a className='is-link' href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'>awarded Third Place and the People&#39;s Choice</a>!
-                          You can watch it on the <a className='is-link' href='https://youtu.be/VHo-bTDCiXs?t=722'>McMaster School of Graduate Studies YouTube channel</a>.
-                        </p>
-                      </InfoTile>
-
-                      <div className='is-flex is-flex-grow-1 is-flex-direction-row
-                                      is-full-width
-                                      is-justify-content-center is-align-items-center'>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                        <h3 className='title is-5 m-2'>2019</h3>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                      </div>
-
-                      <InfoTile tileTitle="Three Minute Thesis (3MT)"
+                      <InfoTile tileTitle={
+                            <p className='has-text-weight-medium px-3'>
+                              Faculty of Engineering and McMaster University Three Minute Thesis
+                              <br></br>
+                              (3MT) Competitions
+                            </p>
+                          }
+                                tileLink={
+                                  <p className='has-text-weight-medium px-3'>
+                                    March 2019,
+                                    <br></br>
+                                    October 2018
+                                  </p>
+                                }
                                 pictureSrc={null}
                                 lighter>
                         <p>
@@ -167,15 +145,21 @@ export default function Projects( ) {
                         </p>
                         <p>
                           I did it though, and am quite pleased with how I did. Audience members who know
-                          me were surprised that I could speak that loudly. I was placed third in my
-                          department, but did not place in the faculty or university-wide competitions.
-                          However, I captured the attention of another student who came to work in our lab
-                          the following summer. They claim that it was my 3MT that interested them in it,
-                          and I can&#39;t think of a higher form of acclaim.
+                          me were surprised that I could speak that loudly. Unfortunately, I did not place
+                          in either the faculty or university-wide competitions.
                         </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="First Ubisoft Future Women in Games Mentorship"
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            First Ubisoft Future Women in Games Mentorship
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            October 2019
+                          </p>
+                        }
                                 pictureSrc={null}
                                 lighter>
                         <p>
@@ -199,28 +183,32 @@ export default function Projects( ) {
                         </p>
                       </InfoTile>
 
-                      <div className='is-flex is-flex-grow-1 is-flex-direction-row
-                                      is-full-width
-                                      is-justify-content-center is-align-items-center'>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                        <h3 className='title is-5 m-2'>2018</h3>
-                        <hr className='is-width-20-percent has-background-grey-light' />
-                      </div>
-                      <InfoTile tileTitle="G-ScalE Logos and Business Cards"
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            G-ScalE Logos and Business Cards
+                            <br></br>
+                            <i>G-ScalE Lab, McMaster University</i>
+                          </p>
+                      }
+                      tileLink={
+                        <p className='has-text-weight-medium px-3'>
+                          2018
+                        </p>
+                      }
                               pictureSrc={null}
                               lighter>
                         <p>
-                          When we were discussing how to best market the work we do at G-ScalE, my
-                          supervisor, lab mates, and I decided that having a logo was a good idea.
-                          We could put it on our presentation slides, and visually distinguish
-                          ourselves online. You can see some of this work in the wild
+                          When we were discussing how to best market the work we do at
+                          the <a className='is-link' href='https://gscale.cas.mcmaster.ca/'>Gaming Scalability Environment (G-ScalE) lab</a>,
+                          my supervisor, lab mates, and I decided that having a logo was a good idea. We could put it on our presentation
+                          slides, and visually distinguish ourselves online. You can see some of this work in the wild
                           on <a className="is-link" href="https://twitter.com/lab_scale">G-ScalE&#39;s Twitter page</a>,
                           and in the footer of this page next to the link to my profile on the G-ScalE website.
                           We also decided to make some business cards to give out at meetings and
                           conferences.
                         </p>
                         <p>
-                          This was a fun project. It let me practice my visual design skills,
+                          This was a fun project. It let me practice my visual design and Photoshop skills,
                           incorporate feedback from other members of the lab, and ensure that certain
                           pieces could scale well if its size changed on a webpage.
                         </p>
