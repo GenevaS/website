@@ -85,14 +85,14 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">
-                                <figure className="image is-128x128
-                                                   is-flex is-align-items-center">
+                                <div className="is-flex is-align-items-center">
                                     <Image
                                         priority
                                         src={pictureSrc}
-                                        layout="fill"
+                                        height={250}
+                                        width={250}
                                         alt={pictureAlt}/>
-                                </figure>
+                                </div>
 
                                 <div className='is-flex-grow-1 is-flex-direction-column
                                                 is-width-70-percent px-3'>
@@ -137,14 +137,14 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                     {children}
                                 </div>
 
-                                <figure className="image is-128x128
-                                                   is-flex is-align-items-center">
+                                <div className="is-flex is-align-items-center">
                                     <Image
                                         priority
                                         src={pictureSrc}
-                                        layout="fill"
+                                        height={250}
+                                        width={250}
                                         alt={pictureAlt}/>
-                                </figure>
+                                </div>
                             </article>
                         </div>
                     </div>

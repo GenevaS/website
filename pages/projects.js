@@ -21,10 +21,6 @@ const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS74
                         {githubicon}
                       </a>
 
-const gradflixLink = <a className='icon' href="https://youtu.be/VHo-bTDCiXs?t=722" aria-label="Go see my GradFlix video on YouTube">
-                        {youtubeicon}
-                     </a>
-
 export default function Projects( ) {
     return (
       <Layout>
@@ -72,8 +68,8 @@ export default function Projects( ) {
                         </p>
                         <p>
                           My goals are to present relevant and interesting things about myself
-                          and my work, while also creating a visually appealing and responsive
-                          website. I also aimed to make this webpage accessible by
+                          and my work, while also <span className='has-text-weight-medium'>creating a visually appealing and responsive
+                          website</span>. I also aimed to make this webpage <span className='has-text-weight-medium'>accessible</span> by
                           following <a className='is-link' href='https://www.w3.org/WAI/standards-guidelines/wcag/'>WACG</a> to
                           the best of my understanding. I&#39;m sure there are accesibility improvements to make,
                           so do feel free to open a <a className='is-link' href='https://github.com/GenevaS/website/issues'>Git Issue</a> in
@@ -91,10 +87,10 @@ export default function Projects( ) {
                           the <a className='is-link' href="https://half-life.fandom.com/wiki/Portal">Portal</a> games—to
                           help me test the range of a mathematical function when the domain
                           of its variables is known. I completed it as a course project, paying
-                          particular attention to the design process and accompanying
-                          documentation. I implemented C&#179; in C# because of its GUI Builder
-                          tool so that the finished project would be more user-friendly (and
-                          nicer to look at).
+                          particular attention to the <span className='has-text-weight-medium'>design process</span> and
+                          accompanying <span className='has-text-weight-medium'>documentation</span>. I implemented C&#179;
+                          in <span className='has-text-weight-medium'>C#</span> because of its GUI Builder tool so that the
+                          finished project would be more user-friendly (and nicer to look at).
                         </p>
                       </InfoTile>
 
@@ -138,9 +134,10 @@ export default function Projects( ) {
                         <p>
                             I
                             had <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'>three minutes and one static slide</a> to
-                            convey what I&#39;ve been working on for my Ph.D. I had to communicate the
-                            problem and what I was doing about it to a panel of judges that were not
-                            familiar with my work or field. Needless to say, it was a challenge (and
+                            convey what I&#39;ve been working on for my Ph.D. I had to
+                            <span className='has-text-weight-medium'>communicate the problem and what
+                            I was doing about it</span> to a panel of judges that were not familiar
+                            with my work or field. Needless to say, it was a challenge (and
                             public speaking is one of my least favourite things to do).
                         </p>
                         <p>
@@ -165,21 +162,23 @@ export default function Projects( ) {
                         <p>
                           I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
                           participate in
-                          their <a className="is-link" href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'>Game Design Challenge</a>.
-                          Centering on the theme &#34;my morning routine&#34;, I focused on a challenge that I face
-                          almost daily: escaping my apartment without one of my adorable cats tearing a hole in my
-                          stockings.
+                          their <a className="is-link" href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'>Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
+                          on the theme</span> &#34;my morning routine&#34;, I focused on
+                          a challenge that I face almost daily: escaping my apartment
+                          without one of my adorable cats tearing a hole in my stockings.
                         </p>
                         <p>
-                          I settled on a horror-style stealth game comparable
+                          I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
                           to <a className="is-link" href='https://amnesiagame.com/#main'>Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link" href='https://www.blooberteam.com/layers-of-fear'>Bloober Team&#39;s Layers of Fear</a>.
                           I decided to play with the idea of feline spirits that are either out to get you, or
-                          will (maybe) help you. I submitted a successful one-page pitch describing a the concept and plans
-                          for prototyping and testing it. Next, I created a Design Solution Presentation, outlining the
-                          intended player experience and success criteria, my inspirations for the design, the game feature
-                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to
-                          continue past this stage. Still, I am very pleased with the ideas I created for this and I am
-                          grateful for the opportunity to work on my game design skills.
+                          will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
+                          pitch describing a the concept and plans for prototyping and testing it</span>. Next,
+                          I <span className='has-text-weight-medium'>created a Design Solution Presentation</span>, outlining
+                          the intended player experience and success criteria, my inspirations for the design, the game feature
+                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to continue
+                          past this stage. Still, I am very pleased with the ideas I created for this and I am grateful for the
+                          opportunity to work on
+                          my <span className='has-text-weight-medium'>game design skills</span>.
                         </p>
                       </InfoTile>
 
@@ -198,19 +197,22 @@ export default function Projects( ) {
                               pictureSrc={null}
                               lighter>
                         <p>
-                          When we were discussing how to best market the work we do at
+                          When we were discussing how to best <span className='has-text-weight-medium'>market the work we do</span> at
                           the <a className='is-link' href='https://gscale.cas.mcmaster.ca/'>Gaming Scalability Environment (G-ScalE) lab</a>,
-                          my supervisor, lab mates, and I decided that having a logo was a good idea. We could put it on our presentation
-                          slides, and visually distinguish ourselves online. You can see some of this work in the wild
+                          my supervisor, lab mates, and I decided that having a <span className='has-text-weight-medium'>logo</span> was
+                          a good idea. We could put it on our presentation slides, and visually distinguish ourselves online. You can
+                          see some of this work in the wild
                           on <a className="is-link" href="https://twitter.com/lab_scale">G-ScalE&#39;s Twitter page</a>,
                           and in the footer of this page next to the link to my profile on the G-ScalE website.
                           We also decided to make some business cards to give out at meetings and
                           conferences.
                         </p>
                         <p>
-                          This was a fun project. It let me practice my visual design and Photoshop skills,
-                          incorporate feedback from other members of the lab, and ensure that certain
-                          pieces could scale well if its size changed on a webpage.
+                          This was a fun project. It let me practice
+                          my <span className='has-text-weight-medium'>visual design and Photoshop skills</span>, <span className='has-text-weight-medium'>incorporate
+                          feedback</span>  from other members of the lab, and
+                          ensure that <span className='has-text-weight-medium'>certain
+                          pieces could scale well</span> if its size changed on a webpage.
                         </p>
 
                         <div className='is-flex is-justify-content-space-evenly is-flex-wrap-wrap

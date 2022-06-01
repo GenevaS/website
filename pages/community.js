@@ -54,9 +54,10 @@ export default function Community( ) {
                         <div className='content'>
                           <p>
                             This is a graduate student group in the Department of Computing and Software
-                            at McMaster. Our goals include building a community of graduate students,
-                            faculty, and staff through social events, and to advocate for the graduate
-                            students within the department.
+                            at McMaster. Our goals include <span className='has-text-weight-medium'>building
+                            a community of graduate students, faculty, and staff</span> through social events,
+                            and to <span className='has-text-weight-medium'>advocate for the graduate
+                            students</span> within the department.
                           </p>
 
                           <p>
@@ -74,19 +75,23 @@ export default function Community( ) {
                           </p>
                           <ul>
                             <li>
-                              Filled the role of Vice President Administration (May 2019 to September 2020),
-                              which includes recording the LiCS Executive Meeting Minutes and participating
-                              in the Graduate Student Association (GSA) Clubs Meeting and follow-up in 2020
+                              Filled the role of <span className='has-text-weight-medium'>Vice President
+                              Administration</span> (May 2019 to September 2020), which includes recording
+                              the LiCS Executive Meeting Minutes and participating in the Graduate Student
+                              Association (GSA) Clubs Meeting and follow-up in 2020
                             </li>
 
                             <li>
-                              Assisted with tasks associated with the Vice President of Finance, such as
-                              recording and reimbursing LiCS members for event-related expenses
+                              <span className='has-text-weight-medium'>Assisted</span> with tasks associated
+                              with the <span className='has-text-weight-medium'>Vice President of Finance</span>,
+                              such as recording and reimbursing LiCS members for event-related expenses
                             </li>
 
                             <li>
-                              Attended the Graduate Curriculum Planning Meeting (GCPC) as the graduate
-                              student representative for the Winter 2020 term (January to April)
+                              Attended the <span className='has-text-weight-medium'>Graduate
+                              Curriculum Planning Meeting (GCPC)</span> as
+                              the <span className='has-text-weight-medium'>graduate student
+                              representative</span> for the Winter 2020 term (January to April)
                             </li>
 
                             <li>
@@ -94,7 +99,9 @@ export default function Community( ) {
                             </li>
 
                             <li>
-                              Continue to provide advice and information to new LiCS members
+                              Acted as an <span className='has-text-weight-medium'>Advisor
+                              to the Executive Core</span> where I continue to provide
+                              advice and information to new LiCS members
                             </li>
                           </ul>
                         </div>
@@ -127,11 +134,13 @@ export default function Community( ) {
                           </p>
                           <ul>
                             <li>
-                              Taught lab safety training and hands-on soldering skills
+                              Taught <span className='has-text-weight-medium'>lab safety training and
+                              hands-on soldering skills</span>
                             </li>
 
                             <li>
-                              Filled the role of Branch Secretary (September 2015 to April 2016), which
+                              Filled the role of <span className='has-text-weight-medium'>Branch
+                              Secretary</span> (September 2015 to April 2016), which
                               entailed recording and publishing the weekly Meeting Minutes
                             </li>
 
@@ -165,13 +174,16 @@ export default function Community( ) {
 
                           <ul>
                             <li>
-                              Spending a morning in a Grade 6 classroom to help spark interest in
-                              science and engineering (I&#39;ll never forget the look on one
-                              student&#39;s face when they realized that the monitor was not the computer)
+                              Spending a morning in a <span className='has-text-weight-medium'>Grade 6
+                              classroom</span> to help <span className='has-text-weight-medium'>spark
+                              interest in science and engineering</span> (I&#39;ll never forget the look
+                              on one student&#39;s face when they realized that the monitor was not the
+                              computer)
                             </li>
 
                             <li>
-                              Helped supervise STEM-oriented activities for Grade 8 girls
+                              Helped supervise <span className='has-text-weight-medium'>STEM</span>-oriented
+                              activities for <span className='has-text-weight-medium'>Grade 8 girls</span>
                             </li>
 
                             <li>
@@ -182,7 +194,8 @@ export default function Community( ) {
 
                             <li>
                               Encouraged discussion and participation during the annual IBM event where current
-                              and incoming interns get to know each other through team events
+                              and incoming interns get to know each other through <span className='has-text-weight-medium'>team
+                              events</span>
                             </li>
                           </ul>
                         </div>

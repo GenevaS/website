@@ -61,17 +61,19 @@ export default function Awards( ) {
                             pictureSrc={null}
                             lighter>
                         <p>
-                          I was awarded first place for aesthetic poster design, and tied for second place in the People&#39;s Choice
-                          with my coworker <a className='is-link' href='https://www.cas.mcmaster.ca/~sorainsm/'>Sasha Soraine</a>.
-                          Overall, I won second place.
+                          I was awarded <span className='has-text-weight-medium'>first place for aesthetic poster design</span>,
+                          and <span className='has-text-weight-medium'>tied for second place in the People&#39;s Choice</span> with
+                          my coworker <a className='is-link' href='https://www.cas.mcmaster.ca/~sorainsm/'>Sasha Soraine</a>.
+                          Overall, I won <span className='has-text-weight-medium'>second place</span>.
                         </p>
                         <p>
                           This is a poster competition for graduate students in the <a className="is-link" href="https://www.eng.mcmaster.ca/cas">Department
-                          of Computing and Software</a> to get experience with academic poster design and presentation.
+                          of Computing and Software</a> to get experience
+                          with <span className='has-text-weight-medium'>academic poster design and presentation</span>.
                         </p>
                         <p>
                           I enjoyed the challenge of squeezing years of research into a small and visually appealing product. It
-                          also let me have some Photoshop fun!
+                          also let me have some <span className='has-text-weight-medium'>Photoshop</span> fun!
                         </p>
                       </InfoTile>
 
@@ -87,19 +89,21 @@ export default function Awards( ) {
                             lighter>
                         <p>
                           I was honoured with this award
-                          for <a className='is-link' href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'>placing Third and by being voted the People&#39;s Choice</a> in
-                          McMaster&#39;s Second Annual GradFlix competitiion!
+                          for <a className='is-link has-text-weight-medium' href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'>placing Third
+                          and by being voted the People&#39;s Choice</a> in <span className='has-text-weight-medium'>McMaster&#39;s
+                          Second Annual GradFlix competitiion</span>!
                         </p>
                         <p>
                           This <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'>graduate student video competition</a> was
-                          for explaning my research to a non-technical audience. In
-                          one minute or less. That&#39;s not a lot of time to cover several years of
-                          work! Fortunately, I could get creative and pair what I was saying to
+                          for <span className='has-text-weight-medium'>explaning my research to a non-technical audience</span>.
+                          In <span className='has-text-weight-medium'>one minute or less</span>. That&#39;s not a lot of time
+                          to cover several years of work! Fortunately, I could get creative and pair what I was saying to
                           something visual and active.
                         </p>
                         <p>
-                          With a camera, some friends, Audacity, Adobe Premiere, and Adobe After
-                          Effects, I brought my stick figure storyboard to life. You can watch it on
+                          With <span className='has-text-weight-medium'>a camera, some friends, Audacity, Adobe Premiere, and Adobe After
+                          Effects</span>, I brought my stick figure <span className='has-text-weight-medium'>storyboard</span> to life.
+                          You can watch it on
                           the <a className='is-link' href='https://youtu.be/VHo-bTDCiXs?t=722'>McMaster School of Graduate Studies YouTube channel</a>.
                         </p>
                       </InfoTile>
@@ -116,20 +120,21 @@ export default function Awards( ) {
                                 lighter>
                         <p>
                             I
-                            had <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'>three minutes and one static slide</a> to
-                            convey my Ph.D. research. I had to communicate the problem and what I was doing
-                            about it to a panel of judges that were not familiar with my work or field. Needless to say, it was a
-                            challenge (and public speaking is one of my least favourite things to do).
+                            had <a className="is-link has-text-weight-medium" href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'>three
+                            minutes and one static slide</a> to convey my Ph.D. research. I had to communicate
+                            the problem and what I was doing about it to a panel of judges that were not familiar
+                            with my work or field. Needless to say, it was a challenge (and public speaking is
+                            one of my least favourite things to do).
                         </p>
                         <p>
                           I did it though, and am quite pleased with how I did. People were surprised that I could speak that
-                          loudly. That must have helped capture the attention of another student who came to work in our lab
-                          the following summer. They claim that it was my 3MT that interested them in it, and I can&#39;t think
-                          of a higher form of praise.
+                          loudly. That must have <span className='has-text-weight-medium'>helped capture the attention of another
+                          student who came to work in our lab the following summer</span>. They claim that it was my 3MT that
+                          interested them in it, and I can&#39;t think of a higher form of praise.
                         </p>
                         <p>
                             Since the focus is on <i>what</i> I wanted to say, I kept it simple and designed the slide
-                            in PowerPoint.
+                            in <span className='has-text-weight-medium'>PowerPoint</span>.
                         </p>
                       </InfoTile>
 
@@ -143,9 +148,11 @@ export default function Awards( ) {
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                            This was a fun, three-week design challenge. In teams of five, we designed a user experience
-                            and interface for a game targeted at high school students by creating personas and paper
-                            prototypes.
+                            This was a fun, three-week design challenge. In teams of five, we designed
+                            a <span className='has-text-weight-medium'>user experience and interface for
+                            a game targeted at high school students</span> by
+                            creating <span className='has-text-weight-medium'>personas</span> and <span className='has-text-weight-medium'>paper
+                            prototypes</span>.
                         </p>
                       </InfoTile>
                     </div>
@@ -197,7 +204,10 @@ export default function Awards( ) {
                                         <br></br>
                                         <i>2012</i>
                                         <ul>
-                                            <li>Awarded for being in the top 15% of the class at McMaster University</li>
+                                            <li>
+                                              Awarded for being in the <span className='has-text-weight-medium'>top 15%
+                                              of the class</span> at McMaster University
+                                            </li>
                                         </ul>
                                     </p>
 

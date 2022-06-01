@@ -91,77 +91,35 @@ export default function Home( ) {
         <section className='columns'>
           <div className='column px-6'>
             <p className='block px-5'>
-              I am interested in the research behind and design of software
-              systems (although I have been known to be interested in other
-              things too). I am especially interested
-              in <a className="is-link" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">Human-Computer Interactions (HCI)</a>
+              I am interested in the <span className='has-text-weight-medium'>research
+              behind and design of software systems</span> (although I have been known
+              to be interested in other things too). I am especially interested
+              in <a className="is-link has-text-weight-medium" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">Human-Computer Interactions (HCI)</a>
               , where I can help bridge the worlds of the people who design systems
               and the people who use them.
             </p>
 
             <p className='block px-5'>
-              Here are some academic credentials that qualify me as a cross-world ambassador:
+              Right now, <span className='has-text-weight-medium'>I am designing an engine that will
+              evaluate what emotion a computer-controlled character (Non-Player Character) should
+              experience given the current game state</span>. The aim is to
+              elevate the <span className='has-text-weight-medium'>player engagement</span>.
             </p>
 
-            <div className="tile is-ancestor px-5">
-              <div className="tile is-vertical">
-                <div className="tile">
-                  <div className="tile is-parent is-vertical">
-                    <InfoTile tileTitle={<p className='has-text-weight-medium px-3'>
-                                            Ph.D. in Software Engineering
-                                            <br></br>
-                                            <i>McMaster University</i>, 2017 to Present
-                                          </p>}
-                              pictureSrc={null}
-                              pictureAlt=""
-                              lighter>
-                      <p className='content'>
-                        <ul className='mt-0'>
-                          <li>
-                            Researching and designing a software architecture for improving the believability
-                            of non-player characters (NPCs), which builds on my M.A.Sc. work
-                          </li>
-                          <li>
-                            Focusing on a rigorous design process to ensure that design decisions are well
-                            informed, documented, and easy for others to understand
-                          </li>
-                        </ul>
-                      </p>
-                    </InfoTile>
+            <p className='block px-5'>
+              The engine must be as flexible as possible so that game designers and developers have maximal control
+              over how they use it. To this end, I am applying my software design skills to a rigorous design process
+              to ensure that decisions
+              are <span className='has-text-weight-medium'>well informed, documented, and easy for others to understand</span>.
+            </p>
 
-                    <InfoTile tileTitle={<p className='has-text-weight-medium px-3'>
-                                            M.A.Sc. in Software Engineering
-                                            <br></br>
-                                            <i>McMaster University</i>, 2014 to 2017
-                                          </p>}
-                              pictureSrc={null}
-                              pictureAlt=""
-                              lighter>
-                      <p className='content'>
-                        <ul className='mt-0'>
-                          <li>
-                            Researched and designed a software architecture for improving the believability
-                            of non-player characters (NPCs) in
-                            Bethesda&#39;s <a className="is-link" href="https://elderscrolls.bethesda.net/en/skyrim">The Elder
-                            Scrolls V: Skyrim</a>
-                          </li>
-                          <li>
-                            Implemented the architecture as a Skyrim mod, using
-                            Bethesda&#39;s <a className="is-link" href='https://www.creationkit.com/index.php?title=Main_Page'>Creation Kit</a> and <a className="is-link" href="https://www.creationkit.com/index.php?title=Category:Papyrus">Papyrus</a>,
-                            the companion object-oriented scripting language
-                          </li>
-                          <li>
-                            Designed and conducted a user study to collect objective and subjective user data
-                            to compare levels of player interest between the new architecture and the original
-                            game
-                          </li>
-                        </ul>
-                      </p>
-                    </InfoTile>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p className='block px-5'>
+              In pursuit of this emotion engine, I have
+              also <span className='has-text-weight-medium'>designed and run user studies</span>,
+              and <span className='has-text-weight-medium'>developed a mod</span> for the popular
+              game, <a className='is-link' href='https://elderscrolls.bethesda.net/en/skyrim'>Skyrim</a>.
+            </p>
+
           </div>
         </section>
       </section>

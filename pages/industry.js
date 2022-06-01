@@ -54,15 +54,20 @@ export default function Industry( ) {
                           <p>
                             <ul>
                               <li>
-                                Maintained technical documentation for the IBM DB2 for Linux, Unix, and Windows product
-                                and collaborated with developers to create new documentation and updates
+                                <span className='has-text-weight-medium'>Maintained technical
+                                documentation</span> for the IBM DB2 for Linux, Unix, and Windows product
+                                and <span className='has-text-weight-medium'>collaborated with
+                                developers</span> to create new documentation and updates
                               </li>
                               <li>
-                                Promoted discussion between teams in response to technical problems raised by customers
+                                <span className='has-text-weight-medium'>Promoted discussion between
+                                teams</span> in response to technical problems raised by customers
                               </li>
                               <li>
-                                Created documents for hosting installation requirement information and assisted with the
-                                data migration to a new platform for the DB2 for Linux, Unix, and Windows and DB2 Connect
+                                <span className='has-text-weight-medium'>Created documents</span> for hosting
+                                installation requirement information and assisted with
+                                the <span className='has-text-weight-medium'>data migration</span> to a new
+                                platform for the DB2 for Linux, Unix, and Windows and DB2 Connect
                                 products
                               </li>
                             </ul>
