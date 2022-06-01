@@ -57,27 +57,50 @@ export default function Fun( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <InfoTile tileTitle="The Nintendo 64 Got Me Started"
-                                pictureSrc={null}
+                      <InfoTile tileTitle="Player of Games"
+                                pictureSrc="/images/consoles.jpg"
+                                pictureAlt="The logos for Nintendo 64 and PlayStation"
                                 pictureOnLeft
                                 lighter>
                                   <p>
-                                  I&#39;m fairly certain that my first ever &#34;real&#34; game was
-                              Pokémon Snap (the old one, not the new one). Some of my friends refuse to play Mario Kart 64 with me. They think
-                              I&#39;m cheating. I don&#39;t even know <em>how</em> to cheat.
+                                    It goes without saying that I love my games. My first love
+                                    was the <a className='is-link' href='https://en.wikipedia.org/wiki/Nintendo_64'>Nintendo
+                                    64</a> and I&#39;m fairly certain that my first ever &#34;real&#34; game
+                                    was <a className='is-link' href='https://www.youtube.com/watch?v=L-R2L7gEy8A'>Pokémon
+                                    Snap</a> (the old one, not the new one). I also
+                                    played <em>a lot</em> of <a className='is-link' href='https://www.youtube.com/watch?v=C6IzrGGESCw'>Mario
+                                    Kart 64</a>, <a className='is-link' href='https://www.youtube.com/watch?v=V7-iRU8xLfo'>Banjo-Tooie</a>,
+                                    and <a className='is-link' href='https://www.youtube.com/watch?v=n9BewjMpmAE'>Yoshi&#39;s Story</a>.
+                                    However, it was
+                                    the <a className='is-link' href='https://en.wikipedia.org/wiki/PlayStation_2'>PlayStation
+                                    2</a> that became my true love.
                                   </p>
+
+                                  <p>
+                                    My tastes have changed over the years, and some other game
+                                    franchises have made it onto my favourites list:
+                                  </p>
+
+                                  <div className='content is-flex is-align-self-flex-start'>
+                                    <ul>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=R5pYpZPws1c'>Horizon Zero Dawn</a></li>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=4JUb947RRLI'>Shadow Hearts</a></li>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=zzNs4-kRLaE'>Assassin&#39;s Creed</a></li>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=9EkrBEoXCbA'>Final Fantasy</a></li>
+                                    </ul>
+                                    <div></div>
+                                  </div>
                       </InfoTile>
 
                       <InfoTile tileTitle="Book Dragon (Because I have a book hoard)"
                                 tileLink={bookLinks}
                                 pictureSrc="/images/magicdarkandstrange.jpg"
-                                pictureAlt="An enamel pin and a stack of library books"
+                                pictureAlt="The book, Magic Dark and Strange by Kelly Powell, in a flatlay"
                                 lighter>
                                   <p>
                                     I read. A lot. Mostly science fiction and fantasy. Definitely folk and
                                     fairy tales. Some people might say I read <em>too</em> much...obviously
-                                    they&#39;re wrong and should read more. I am also interested in world
-                                    mythology, especially Egyptian.
+                                    they&#39;re wrong and should read more.
                                   </p>
 
                                   <p>
@@ -100,24 +123,28 @@ export default function Fun( ) {
                                   </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Animal Weakness"
+                      <InfoTile tileTitle="Full-Time Cat & Plant Steward"
                                 pictureSrc="/images/salem_xena.jpg"
                                 pictureAlt="A picture of my cats, Salem and Xena"
                                 pictureOnLeft
                                 lighter>
                                   <p>
-                                    I can&#39;t help myself. They&#39;re all so cute! Salem and Xena, my cats,
-                                    are mercilessly spoiled as a result.
+                                    If my cats, Salem and Xena, ever claim to be hard done by,
+                                    don&#39;t listen. They probably haven&#39;t had their fourth
+                                    round of cat treats.
                                   </p>
 
                                   <p>
-                                    Rest assured that I will get excited no matter how many cats, dogs, birds,
-                                    horses, cows, fish, repiles, or other non-human spieces I see in any
-                                    given day.
+                                    I also have a small collection of house plants that I am fond
+                                    of. I have a
+                                    large <a className='is-link' href='https://en.wikipedia.org/wiki/Pachira_aquatica'>money
+                                    tree</a> and several smaller plants
+                                    like <a className='is-link' href='https://en.wikipedia.org/wiki/Haworthiopsis_fasciata'>hawthornia</a> and <a className='is-link' href='https://en.wikipedia.org/wiki/Dischidia_nummularia'>string
+                                    of nickels</a>.
                                   </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Sewing for Funsies"
+                      <InfoTile tileTitle="Amateur Seamstress & Plushie Maker"
                                 pictureSrc="/images/companioncube.jpg"
                                 pictureAlt="The Companion Cube plushie I made"
                                 lighter>
@@ -127,9 +154,10 @@ export default function Fun( ) {
                                     engineering feat in itself. You cannot convince me otherwise.
                                   </p>
                                   <p>
-                                    I have made clothing, cosplays, and plushies. The Companion Cube
-                                    is one of my favourites. It has a simple shape, but the details
-                                    took patience.
+                                    I have made clothing, cosplays, and plushies for 10+ years. The
+                                    Companion Cube is one of my favourites, based on a pattern adapted
+                                    from a paper craft printable. It has a simple shape, but the
+                                    details took time and patience.
                                   </p>
                       </InfoTile>
 
