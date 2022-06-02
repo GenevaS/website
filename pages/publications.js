@@ -14,7 +14,7 @@ const academicProfileLinks = (
                src={googlescholaricon}
                alt="Go to Google Scholar Profile"/>
       </a>
-      <div className='px-1'></div>
+      <div className='ml-1'></div>
       <a className="icon" href='https://orcid.org/0000-0002-6015-2589'>
         <Image priority
                src={orcidicon}

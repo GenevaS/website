@@ -15,13 +15,13 @@ const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeS
 const imageicon = <FontAwesomeIcon className='has-text-black' icon={faImage} transform='grow-7' alt="Image Icon"/>
 const pdficon = <FontAwesomeIcon className='has-text-black' icon={faFilePdf} transform='grow-7' alt="{PDF} Icon"/>
 
-const posterdownload = <a className='icon' download href="images/GSmith_CASPoster_2022.jpg" tabIndex={0}>
+const posterdownload = <a className='icon mx-1' download href="images/GSmith_CASPoster_2022.jpg" aria-label="Download a JPEG of my poster" tabIndex={0}>
                         {imageicon}
                        </a>
-const gradflixLink = <a className='icon' href="https://youtu.be/VHo-bTDCiXs?t=722" aria-label="Go see my GradFlix video on YouTube">
+const gradflixLink = <a className='icon mx-1' href="https://youtu.be/VHo-bTDCiXs?t=722" aria-label="Go see my GradFlix video on YouTube">
                         {youtubeicon}
                      </a>
-const slidedownload = <a className='icon' download href="3MT_GLaDOS_16-9.pdf" tabIndex={0}>
+const slidedownload = <a className='icon mx-1' download href="3MT_GLaDOS_16-9.pdf" aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
                         {pdficon}
                       </a>
 
@@ -52,7 +52,7 @@ export default function Awards( ) {
 
                         <InfoTile tileTitle={
                             <p className='has-text-weight-medium px-3'>
-                                Second Place in McMaster University&#39;s Department of Computing and Software Annual Poster Session
+                                Second Place in McMaster University&#39;s Fourth Graduate Computing and Software Poster & Demo Competition
                                 <br></br>
                                 <i>April 2022</i>
                             </p>
@@ -181,34 +181,37 @@ export default function Awards( ) {
                                 <div className='content'>
 
                                     <p>
-                                        <a className='is-link' href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario Graduate Scholarship (OGS)</a> 2020/2021
+                                        <a className='is-link has-text-weight-medium' href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario
+                                          Graduate Scholarship (OGS)</a>
+                                          <br></br>
+                                          <span className='has-text-weight-medium'><i>2020/2021</i></span>
                                         <ul>
                                             <li>A merit-based scholarship for students with an average of A- or higher</li>
                                         </ul>
                                     </p>
 
                                     <p>
-                                        McMaster University Dean&#39;s Honour List
-                                        <br></br>
-                                        <i>2010, 2011, 2013</i>
-                                        <ul>
-                                            <li>Awarded to students that achieve a minimum of 9.5 / 12.0 GPA in 30 course units
-                                                (approx. 10 courses)
-                                            </li>
-                                            <li>I was away on co-op for the 2012 academic year</li>
-                                        </ul>
+                                      <span className='has-text-weight-medium'>McMaster University Dean&#39;s Honour List</span>
+                                      <br></br>
+                                      <span className='has-text-weight-medium'><i>2010, 2011, 2013</i></span>
+                                      <ul>
+                                        <li>Awarded to students that achieve a minimum of 9.5 / 12.0 GPA in 30 course units
+                                            (approx. 10 courses)
+                                        </li>
+                                        <li>I was away on co-op for the 2012 academic year</li>
+                                      </ul>
                                     </p>
 
                                     <p>
-                                        Golden Key International Honour Society Member
-                                        <br></br>
-                                        <i>2012</i>
-                                        <ul>
-                                            <li>
-                                              Awarded for being in the <span className='has-text-weight-medium'>top 15%
-                                              of the class</span> at McMaster University
-                                            </li>
-                                        </ul>
+                                      <span className='has-text-weight-medium'>Golden Key International Honour Society Member</span>
+                                      <br></br>
+                                      <span className='has-text-weight-medium'><i>2012</i></span>
+                                      <ul>
+                                        <li>
+                                          Awarded for being in the <span className='has-text-weight-medium'>top 15%
+                                          of the class</span> at McMaster University
+                                        </li>
+                                      </ul>
                                     </p>
 
                                 </div>

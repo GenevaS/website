@@ -18,6 +18,16 @@ export default function Teaching( ) {
         <section className='is-full-width pt-6'>
           <div className='columns is-flex-direction-column px-6'>
 
+          <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
+                    Teaching Experience
+                  </h1>
+                </header>
+              </div>
+            </div>
+
             <div className='column'>
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
@@ -25,7 +35,7 @@ export default function Teaching( ) {
                     <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>
-                            Teaching Experience
+
                           </p>
                         }
                         pictureSrc={null}

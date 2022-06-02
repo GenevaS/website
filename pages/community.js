@@ -99,8 +99,8 @@ export default function Community( ) {
                             </li>
 
                             <li>
-                              Acted as an <span className='has-text-weight-medium'>Advisor
-                              to the Executive Core</span> where I continue to provide
+                              Acted as an <span className='has-text-weight-medium'>&#34;Advisor
+                              to the Executive Core&#34;</span> where I continue to provide
                               advice and information to new LiCS members
                             </li>
                           </ul>

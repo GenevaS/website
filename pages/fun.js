@@ -85,8 +85,9 @@ export default function Fun( ) {
                                     <ul>
                                       <li><a className='is-link' href='https://www.youtube.com/watch?v=R5pYpZPws1c'>Horizon Zero Dawn</a></li>
                                       <li><a className='is-link' href='https://www.youtube.com/watch?v=4JUb947RRLI'>Shadow Hearts</a></li>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=zzNs4-kRLaE'>Assassin&#39;s Creed</a></li>
                                       <li><a className='is-link' href='https://www.youtube.com/watch?v=9EkrBEoXCbA'>Final Fantasy</a></li>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=u1nY_5-UrY4'>Amnesia: The Dark Descent</a></li>
+                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=S6xY4fVvgHE'>Layers of Fear</a></li>
                                     </ul>
                                     <div></div>
                                   </div>
