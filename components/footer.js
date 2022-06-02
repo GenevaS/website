@@ -35,7 +35,7 @@ function Footer() {
     <footer className='footer
                        is-flex is-flex-direction-column
                        is-justify-content-space-between
-                       mt-4 has-text-centered
+                       mt-5 has-text-centered
                        has-text-grey-lighter has-background-grey-dark'>
       <div>
         <h1 className='subtitle has-text-weight-medium has-text-grey-lighter'>Contact Me</h1>

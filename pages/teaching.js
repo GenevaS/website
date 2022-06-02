@@ -33,44 +33,229 @@ export default function Teaching( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
+
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>
-
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i>Data Structures and Algorithms (COMPSCI 2C03), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2022, 2018, 2016
+                            <br></br>
+                            Winter Term (January to April)
                           </p>
                         }
                         pictureSrc={null}
                         pictureAlt=""
                         lighter>
-                          <div className='content'>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
                             <p>
-                              I have been a teaching assistant for a number of years, which has allowed me to
-                              develop my teaching skills, as well as course content and delivery. I have
-                              taught undergraduate students topics in human-computer interactions, fundamental
-                              data structures & algorithms, software requirements and testing, basic programming
-                              skills, and digital logic. This also included teaching practical skills such as
-                              experiment design and designing with the user in mind.
+                              Basic data structures: stacks, queues, hash tables, and binary trees; searching and
+                              sorting; graph representations and algorithms, including minimum spanning trees,
+                              traversals, shortest paths; introduction to algorithmic design strategies; correctness
+                              and performance analysis.
                             </p>
 
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i>Human Computer Interaction (COMPSCI/SWFRENG 4HC3), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2021, 2018, 2017, 2016, 2015, 2014
+                            <br></br>
+                            Fall Term (September to December)
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
                             <p>
-                              Some tasks that I performed as a teaching assistant, both in-person and virtually, are:
-                              <ul>
-                                <li>
-                                  Preparing and delivering tutorials and labs where I worked collaboratively with
-                                  students to develop solutions to practice and design problems
-                                </li>
-                                <li>
-                                  Collaborating with course instructors to discuss course content, and develop student
-                                  assignments and grading schemes
-                                </li>
-                                <li>
-                                  Assisted with the delivery of online course content, such as organizing online
-                                  grading rubrics and assignment dropboxes
-                                </li>
-                                <li>
-                                  Provided feedback on student work and meeting with students to review it
-                                </li>
-                              </ul>
+                              Design of user interfaces. Principles of good interface design. Human input.
+                              Displaying complex data using graphics and virtual reality. Modes and mode awareness
+                              problem. Health issues, information overload. Special purpose graphics hardware.
+                              Interface design tools; on-line help systems.
                             </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i>Software Testing (SFWRENG 3S03), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2021, 2020
+                            <br></br>
+                            Winter Term (January to April)
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Measurements. Unit testing, slicing and debugging, integration testing,
+                              regression testing, testing strategies, test coverage.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i>Digital Systems and Interfacing (SFWRENG 2DA4), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2020
+                            <br></br>
+                            Fall Term (September to December)
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Memory, binary arithmetic, hierarchical design. Hardware/software co-design
+                              and application specific processors. Interfacing to I/O devices.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+                                Prepared for weekly labs by implementing the described system in
+                                Verilog via Quartus with the DE1-SoC board as the target device
+                              </li>
+                              <li>
+                                Supervised and evaluated weekly hardware labs remotely via Microsoft
+                                Teams, assisted by an undergraduate TA
+                              </li>
+                              <li>
+                                Gave feedback and grades for submitted work via the course delivery
+                                platform (Avenue to Learn)
+                              </li>
+                              <li>
+                                Maintained student grade spreadsheet (Excel) and course delivery
+                                platform (Avenue to Learn)
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i>Software Requirements and Security Considerations (COMPSCI/SFWRENG 3RA3), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2019
+                            <br></br>
+                            Fall Term (September to December)
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Software requirements gathering. Critical systems requirements gathering. Security
+                              requirements. Traceability of requirements. Verification, validation, and
+                              documentation techniques. Software requirements quality attributes. Security policies.
+                              Measures for data confidentiality. Design principles that enhance security. Access
+                              control mechanisms.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant, McMaster University
+                            <br></br>
+                            <i>Practice and Experience: Basic Concepts (COMPSCI 1XA3)</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            February to April 2017,
+                            <br></br>
+                            January to April 2015
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Practical experience with implementing basic CS concepts such as data representation,
+                              recursion, computer architecture, concurrency. Hands-on application of CS concepts
+                              to formulating, analyzing, and solving problems.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+                                Collaborating with course instructors to discuss course content, and develop student
+                                assignments and grading schemes
+                              </li>
+
+                              <li>
+
+                              </li>
+
+                            </ul>
                           </div>
                       </InfoTile>
                     </div>
