@@ -63,7 +63,25 @@ export default function Teaching( ) {
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-
+                                Encouraged students to contribute to solution development in tutorials (in-person and virtually)
+                              </li>
+                              <li>
+                                Planned weekly tutorials with the course instructor
+                              </li>
+                              <li>
+                                Prepared and provided solutions to weekly tutorials via the course delivery
+                                platform (Avenue to Learn) based on questions
+                                from <a className='is-link'
+                                        href='http://hdl.handle.net/11375/21369'
+                                        target="_blank" rel="noopener noreferrer"
+                                        aria-label='Go to book site for Algorithms by Sedgewick and Wayne'>Algorithms
+                                   by Sedgewick and Wayne (4th Ed.)</a>
+                              </li>
+                              <li>
+                                Regularly responded to student inquiries via email, office hours, and Microsoft Teams
+                              </li>
+                              <li>
+                                Assisted with test invigilation and grading
                               </li>
                             </ul>
                           </div>
@@ -98,7 +116,17 @@ export default function Teaching( ) {
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-
+                                Ran weekly tutorials to strengthen students&#39; understanding of fundamental design
+                                concepts relevant to user interfaces, writing research papers, and user studies
+                                (in-person and virtually)
+                              </li>
+                              <li>
+                                Met with students to discuss assignment feedback and improve their understanding of
+                                course topics
+                              </li>
+                              <li>
+                                Provided constructive feedback on student work involving user interface critiques and
+                                user study design in writing and conversation
                               </li>
                             </ul>
                           </div>
@@ -131,7 +159,14 @@ export default function Teaching( ) {
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-
+                                Created and delivered interactive tutorial content for assignment review
+                                and software test planning (in-person and virtually)
+                              </li>
+                              <li>
+                                Developed grading rubrics for assignments
+                              </li>
+                              <li>
+                                Provided per-question feedback and grade breakdowns on student assignments
                               </li>
                             </ul>
                           </div>
@@ -168,8 +203,8 @@ export default function Teaching( ) {
                                 Verilog via Quartus with the DE1-SoC board as the target device
                               </li>
                               <li>
-                                Supervised and evaluated weekly hardware labs remotely via Microsoft
-                                Teams, assisted by an undergraduate TA
+                                Supervised and evaluated weekly hardware labs via Microsoft Teams,
+                                assisted by an undergraduate TA (virtually)
                               </li>
                               <li>
                                 Gave feedback and grades for submitted work via the course delivery
@@ -213,7 +248,10 @@ export default function Teaching( ) {
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-
+                                Ran tutorial sessions with hands-on activities concerning requirement elicitation
+                              </li>
+                              <li>
+                                Graded and provided feedback on student assignments
                               </li>
                             </ul>
                           </div>
@@ -247,14 +285,16 @@ export default function Teaching( ) {
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-                                Collaborating with course instructors to discuss course content, and develop student
-                                assignments and grading schemes
+                                Taught beginner programming concepts, such as data types, control structures, and file
+                                processing, to first year computer science students using Python
                               </li>
-
                               <li>
-
+                                Collaborated with the professor to create hands-on tutorials, as well as assignments and
+                                quizzes with sample solutions and grading schemes
                               </li>
-
+                              <li>
+                                Graded and returned bi-weekly student assignments within a week of the submission date
+                              </li>
                             </ul>
                           </div>
                       </InfoTile>
