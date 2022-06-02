@@ -16,11 +16,17 @@ import { faInstagramSquare, faGoodreads } from '@fortawesome/free-brands-svg-ico
 const instagramicon = <FontAwesomeIcon className='has-text-black' icon={faInstagramSquare} transform='grow-13' alt="Instagram Icon"/>
 const goodreadsicon = <FontAwesomeIcon className='has-text-black' icon={faGoodreads} transform='grow-13' alt="GoodReads Icon"/>
 
-const instagramLink = <a className='icon' href="https://www.instagram.com/geneva.s/" aria-label="Go to Geneva's Instagram">
+const instagramLink = <a className='icon'
+                         href="https://www.instagram.com/geneva.s/"
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="Go to Geneva's Instagram">
                          {instagramicon}
                        </a>
 
-const goodreadsLink = <a className='icon' href="https://www.goodreads.com/viatr1x" aria-label="Go to Geneva's GoodReads">
+const goodreadsLink = <a className='icon'
+                         href="https://www.goodreads.com/viatr1x"
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="Go to Geneva's GoodReads">
                          {goodreadsicon}
                        </a>
 
@@ -64,15 +70,27 @@ export default function Fun( ) {
                                 lighter>
                                   <p>
                                     It goes without saying that I love my games. My first love
-                                    was the <a className='is-link' href='https://en.wikipedia.org/wiki/Nintendo_64'>Nintendo
+                                    was the <a className='is-link'
+                                               href='https://en.wikipedia.org/wiki/Nintendo_64'
+                                               target="_blank" rel="noopener noreferrer">Nintendo
                                     64</a> and I&#39;m fairly certain that my first ever &#34;real&#34; game
-                                    was <a className='is-link' href='https://www.youtube.com/watch?v=L-R2L7gEy8A'>Pokémon
+                                    was <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=L-R2L7gEy8A'
+                                           target="_blank" rel="noopener noreferrer">Pokémon
                                     Snap</a> (the old one, not the new one). I also
-                                    played <em>a lot</em> of <a className='is-link' href='https://www.youtube.com/watch?v=C6IzrGGESCw'>Mario
-                                    Kart 64</a>, <a className='is-link' href='https://www.youtube.com/watch?v=V7-iRU8xLfo'>Banjo-Tooie</a>,
-                                    and <a className='is-link' href='https://www.youtube.com/watch?v=n9BewjMpmAE'>Yoshi&#39;s Story</a>.
+                                    played <em>a lot</em> of <a className='is-link'
+                                                                href='https://www.youtube.com/watch?v=C6IzrGGESCw'
+                                                                target="_blank" rel="noopener noreferrer">Mario
+                                    Kart 64</a>, <a className='is-link'
+                                                    href='https://www.youtube.com/watch?v=V7-iRU8xLfo'
+                                                    target="_blank" rel="noopener noreferrer">Banjo-Tooie</a>,
+                                    and <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=n9BewjMpmAE'
+                                           target="_blank" rel="noopener noreferrer">Yoshi&#39;s Story</a>.
                                     However, it was
-                                    the <a className='is-link' href='https://en.wikipedia.org/wiki/PlayStation_2'>PlayStation
+                                    the <a className='is-link'
+                                           href='https://en.wikipedia.org/wiki/PlayStation_2'
+                                           target="_blank" rel="noopener noreferrer">PlayStation
                                     2</a> that became my true love.
                                   </p>
 
@@ -83,11 +101,31 @@ export default function Fun( ) {
 
                                   <div className='content is-flex is-align-self-flex-start'>
                                     <ul>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=R5pYpZPws1c'>Horizon Zero Dawn</a></li>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=4JUb947RRLI'>Shadow Hearts</a></li>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=9EkrBEoXCbA'>Final Fantasy</a></li>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=u1nY_5-UrY4'>Amnesia: The Dark Descent</a></li>
-                                      <li><a className='is-link' href='https://www.youtube.com/watch?v=S6xY4fVvgHE'>Layers of Fear</a></li>
+                                      <li>
+                                        <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=R5pYpZPws1c'
+                                           target="_blank" rel="noopener noreferrer">Horizon Zero Dawn</a>
+                                      </li>
+                                      <li>
+                                        <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=4JUb947RRLI'
+                                           target="_blank" rel="noopener noreferrer">Shadow Hearts</a>
+                                      </li>
+                                      <li>
+                                        <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=9EkrBEoXCbA'
+                                           target="_blank" rel="noopener noreferrer">Final Fantasy</a>
+                                      </li>
+                                      <li>
+                                        <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=u1nY_5-UrY4'
+                                           target="_blank" rel="noopener noreferrer">Amnesia</a>
+                                      </li>
+                                      <li>
+                                        <a className='is-link'
+                                           href='https://www.youtube.com/watch?v=S6xY4fVvgHE'
+                                           target="_blank" rel="noopener noreferrer">Layers of Fear</a>
+                                      </li>
                                     </ul>
                                     <div></div>
                                   </div>
@@ -107,19 +145,29 @@ export default function Fun( ) {
                                   <p>
                                     I tend to gravitate towards stories with ghosts, lost cities, and mysterious
                                     happenings. Some of my favourite authors
-                                    are <a className='is-link' href='https://joannaruthmeyer.com/'>Joanna Ruth
-                                    Meyer</a>, <a className='is-link' href='http://www.lainitaylor.com/'>Laini
-                                    Taylor</a>, <a className='is-link' href='http://www.lainitaylor.com/'>Shea
+                                    are <a className='is-link'
+                                           href='https://joannaruthmeyer.com/'
+                                           target="_blank" rel="noopener noreferrer">Joanna Ruth
+                                    Meyer</a>, <a className='is-link'
+                                                  href='http://www.lainitaylor.com/'
+                                                  target="_blank" rel="noopener noreferrer">Laini
+                                    Taylor</a>, <a className='is-link'
+                                                   href='http://www.lainitaylor.com/'
+                                                   target="_blank" rel="noopener noreferrer">Shea
                                     Ernshaw</a>,
-                                    and <a className='is-link' href='https://margaretrogerson.com/'>Margaret
+                                    and <a className='is-link'
+                                           href='https://margaretrogerson.com/'
+                                           target="_blank" rel="noopener noreferrer">Margaret
                                     Rogerson</a>.
                                   </p>
 
                                   <p>
                                     If you are interested, you can check
-                                    out <a className='is-link' href='https://www.instagram.com/geneva.s/'>my
+                                    out <a className='is-link'
+                                           href='https://www.instagram.com/geneva.s/'
+                                           target="_blank" rel="noopener noreferrer">my
                                     Instagram</a>. I occassionaly post what I&#39;ve been reading and what
-                                    I think everyone should read (and the occassional plant and mourning
+                                    I think everyone should read (and the occassional cat, plant, and mourning
                                     dove).
                                   </p>
                       </InfoTile>
@@ -138,9 +186,15 @@ export default function Fun( ) {
                                   <p>
                                     I also have a small collection of house plants that I am fond
                                     of. I have a
-                                    large <a className='is-link' href='https://en.wikipedia.org/wiki/Pachira_aquatica'>money
+                                    large <a className='is-link'
+                                             href='https://en.wikipedia.org/wiki/Pachira_aquatica'
+                                             target="_blank" rel="noopener noreferrer">money
                                     tree</a> and several smaller plants
-                                    like <a className='is-link' href='https://en.wikipedia.org/wiki/Haworthiopsis_fasciata'>hawthornia</a> and <a className='is-link' href='https://en.wikipedia.org/wiki/Dischidia_nummularia'>string
+                                    like <a className='is-link'
+                                            href='https://en.wikipedia.org/wiki/Haworthiopsis_fasciata'
+                                            target="_blank" rel="noopener noreferrer">hawthornia</a> and <a className='is-link'
+                                                                                                            href='https://en.wikipedia.org/wiki/Dischidia_nummularia'
+                                                                                                            target="_blank" rel="noopener noreferrer">string
                                     of nickels</a>.
                                   </p>
                       </InfoTile>

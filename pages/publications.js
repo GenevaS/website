@@ -1,3 +1,8 @@
+/* ---------------------------------------------------------------
+ * PUBLICATIONS AND PRESENTATIONS (Content and Layout)
+ * ---------------------------------------------------------------
+ */
+
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -9,13 +14,17 @@ import orcidicon from '../node_modules/academicons/svg/orcid-square.svg'
 
 const academicProfileLinks = (
   <div className='is-flex is-flex-direction-row is-justify-content-space-between px-3'>
-      <a className="icon" href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'>
+      <a className="icon"
+         href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'
+         target="_blank" rel="noopener noreferrer">
         <Image priority
                src={googlescholaricon}
                alt="Go to Google Scholar Profile"/>
       </a>
       <div className='ml-1'></div>
-      <a className="icon" href='https://orcid.org/0000-0002-6015-2589'>
+      <a className="icon"
+         href='https://orcid.org/0000-0002-6015-2589'
+         target="_blank" rel="noopener noreferrer">
         <Image priority
                src={orcidicon}
                alt="Go to Orcid Profile"/>
@@ -60,14 +69,20 @@ export default function Publications( ) {
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
                             Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
-                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link' href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8" style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
+                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link'
+                                                                            href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8"
+                                                                            target="_blank" rel="noopener noreferrer"
+                                                                            style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
                           </p>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
                             <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
-                            IEEE, New York, NY, USA, 8 pages. <a className='is-link' href='https://doi.org/10.1109/GEM.2015.7377209' style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
+                            IEEE, New York, NY, USA, 8 pages. <a className='is-link'
+                                                                 href='https://doi.org/10.1109/GEM.2015.7377209'
+                                                                 target="_blank" rel="noopener noreferrer"
+                                                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
                           </p>
 
                         </div>
@@ -81,7 +96,10 @@ export default function Publications( ) {
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                             What Lies Beneath—A Survey of Affective Theory Use in Computational Models of Emotion.
                             Submitted December 8, 2021 to the <i>IEEE Transactions on Affective Computing</i>. Available
-                            at <a className='is-link' href="https://doi.org/10.36227/techrxiv.18779315" style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
+                            at <a className='is-link'
+                                  href="https://doi.org/10.36227/techrxiv.18779315"
+                                  target="_blank" rel="noopener noreferrer"
+                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
                           </p>
                         </div>
                       </InfoTile>
@@ -95,8 +113,14 @@ export default function Publications( ) {
                             <span className='is-highlighted'>Geneva Smith</span>. 2017.
                             <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
-                            McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link' href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette" aria-label="Go to Jacque Carette's website">Jacques Carette</a>
-                            . <a className='is-link' href='http://hdl.handle.net/11375/21369' style={{wordBreak: "break-all"}} aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
+                            McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
+                                                                                  href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette"
+                                                                                  target="_blank" rel="noopener noreferrer"
+                                                                                  aria-label="Go to Dr. Jacque Carette's website">Dr. Jacques Carette</a>
+                            . <a className='is-link'
+                                 href='http://hdl.handle.net/11375/21369'
+                                 target="_blank" rel="noopener noreferrer"
+                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games">http://hdl.handle.net/11375/21369</a>
                           </p>
 

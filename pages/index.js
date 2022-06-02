@@ -23,7 +23,9 @@ const quickIntro = (
     <p className='title'>Hi!</p>
 
     <p className='subtitle'>I&#39;m Geneva, a Ph.D. candidate in
-      the <a className="is-link" href="https://www.eng.mcmaster.ca/cas">Department of Computing and
+      the <a className="is-link"
+             href="https://www.eng.mcmaster.ca/cas"
+             target="_blank" rel="noopener noreferrer">Department of Computing and
       Software at McMaster University</a>.
     </p>
 
@@ -94,7 +96,9 @@ export default function Home( ) {
               I am interested in the <span className='has-text-weight-medium'>research
               behind and design of software systems</span> (although I have been known
               to be interested in other things too). I am especially interested
-              in <a className="is-link has-text-weight-medium" href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">Human-Computer Interactions (HCI)</a>
+              in <a className="is-link has-text-weight-medium"
+                    href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"
+                    target="_blank" rel="noopener noreferrer">Human-Computer Interactions (HCI)</a>
               , where I can help bridge the worlds of the people who design systems
               and the people who use them.
             </p>
@@ -117,7 +121,9 @@ export default function Home( ) {
               In pursuit of this emotion engine, I have
               also <span className='has-text-weight-medium'>designed and run user studies</span>,
               and <span className='has-text-weight-medium'>developed a mod</span> for the popular
-              game, <a className='is-link' href='https://elderscrolls.bethesda.net/en/skyrim'>Skyrim</a>.
+              game, <a className='is-link'
+                       href='https://elderscrolls.bethesda.net/en/skyrim'
+                       target="_blank" rel="noopener noreferrer">Skyrim</a>.
             </p>
 
           </div>

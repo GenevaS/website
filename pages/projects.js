@@ -14,10 +14,16 @@ import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-ic
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
 const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeSquare} transform='grow-13' alt="YouTube Icon"/>
 
-const websiteProjectLink = <a className='icon' href="https://github.com/GenevaS/website" aria-label="Go to GitHub repository for this website">
+const websiteProjectLink = <a className='icon'
+                              href="https://github.com/GenevaS/website"
+                              target="_blank" rel="noopener noreferrer"
+                              aria-label="Go to GitHub repository for this website">
                          {githubicon}
                        </a>
-const c3projectLink = <a className='icon' href="https://github.com/GenevaS/CAS741" aria-label="Go to GitHub repository for the Companion Cube Calculator">
+const c3projectLink = <a className='icon'
+                         href="https://github.com/GenevaS/CAS741"
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="Go to GitHub repository for the Companion Cube Calculator">
                         {githubicon}
                       </a>
 
@@ -37,7 +43,10 @@ export default function Projects( ) {
                     Technical Projects
                   </h1>
 
-                  <a className="icon pr-5" href="https://github.com/GenevaS" aria-label="Link to Geneva's GitHub">
+                  <a className="icon pr-5"
+                     href="https://github.com/GenevaS"
+                     target="_blank" rel="noopener noreferrer"
+                     aria-label="Link to Geneva's GitHub">
                     {githubicon}
                   </a>
                 </header>
@@ -63,16 +72,28 @@ export default function Projects( ) {
                         <p>
                           Web development is new to me, so this was also an opportunity to learn
                           new things. This is why I chose to use
-                          the <a className='is-link' href='https://nextjs.org/'>Next.js React Framework</a> and <a className='is-link' href='https://bulma.io/'>Bulma CSS Framework</a> instead
-                          of something like <a className='is-link' href='https://wordpress.com/'>WordPress</a> or <a className='is-link' href='https://jekyllrb.com/'>Jekyll</a>.
+                          the <a className='is-link'
+                                 href='https://nextjs.org/'
+                                 target="_blank" rel="noopener noreferrer">Next.js React Framework</a> and <a className='is-link'
+                                                                                                              href='https://bulma.io/'
+                                                                                                              target="_blank" rel="noopener noreferrer">Bulma CSS
+                          Framework</a> instead of something like <a className='is-link'
+                                                                     href='https://wordpress.com/'
+                                                                     target="_blank" rel="noopener noreferrer">WordPress</a> or <a className='is-link'
+                                                                                                                                   href='https://jekyllrb.com/'
+                                                                                                                                   target="_blank" rel="noopener noreferrer">Jekyll</a>.
                         </p>
                         <p>
                           My goals are to present relevant and interesting things about myself
                           and my work, while also <span className='has-text-weight-medium'>creating a visually appealing and responsive
                           website</span>. I also aimed to make this webpage <span className='has-text-weight-medium'>accessible</span> by
-                          following <a className='is-link' href='https://www.w3.org/WAI/standards-guidelines/wcag/'>WACG</a> to
+                          following <a className='is-link'
+                                       href='https://www.w3.org/WAI/standards-guidelines/wcag/'
+                                       target="_blank" rel="noopener noreferrer">WACG</a> to
                           the best of my understanding. I&#39;m sure there are accesibility improvements to make,
-                          so do feel free to open a <a className='is-link' href='https://github.com/GenevaS/website/issues'>Git Issue</a> in
+                          so do feel free to open a <a className='is-link'
+                                                       href='https://github.com/GenevaS/website/issues'
+                                                       target="_blank" rel="noopener noreferrer">Git Issue</a> in
                           this webpage&#39;s repository.
                         </p>
                       </InfoTile>
@@ -84,7 +105,9 @@ export default function Projects( ) {
                         <p>
                           I created this tool for my doctoral project—named GLaDOS at the
                           time, after a character in
-                          the <a className='is-link' href="https://half-life.fandom.com/wiki/Portal">Portal</a> games—to
+                          the <a className='is-link'
+                                 href="https://half-life.fandom.com/wiki/Portal"
+                                 target="_blank" rel="noopener noreferrer">Portal</a> games—to
                           help me test the range of a mathematical function when the domain
                           of its variables is known. I completed it as a course project, paying
                           particular attention to the <span className='has-text-weight-medium'>design process</span> and
@@ -133,7 +156,9 @@ export default function Projects( ) {
                                 lighter>
                         <p>
                             I
-                            had <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'>three minutes and one static slide</a> to
+                            had <a className="is-link"
+                                   href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
+                                   target="_blank" rel="noopener noreferrer">three minutes and one static slide</a> to
                             convey what I&#39;ve been working on for my Ph.D. I had to
                             <span className='has-text-weight-medium'>communicate the problem and what
                             I was doing about it</span> to a panel of judges that were not familiar
@@ -162,14 +187,21 @@ export default function Projects( ) {
                         <p>
                           I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
                           participate in
-                          their <a className="is-link" href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'>Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
+                          their <a className="is-link"
+                                   href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'
+                                   target="_blank" rel="noopener noreferrer">Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
                           on the theme</span> &#34;my morning routine&#34;, I focused on
                           a challenge that I face almost daily: escaping my apartment
                           without one of my adorable cats tearing a hole in my stockings.
                         </p>
                         <p>
                           I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
-                          to <a className="is-link" href='https://amnesiagame.com/#main'>Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link" href='https://www.blooberteam.com/layers-of-fear'>Bloober Team&#39;s Layers of Fear</a>.
+                          to <a className="is-link"
+                                href='https://amnesiagame.com/#main'
+                                target="_blank" rel="noopener noreferrer">Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link"
+                                                                                                                                     href='https://www.blooberteam.com/layers-of-fear'
+                                                                                                                                     target="_blank" rel="noopener noreferrer">Bloober
+                                                                                                                                     Team&#39;s Layers of Fear</a>.
                           I decided to play with the idea of feline spirits that are either out to get you, or
                           will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
                           pitch describing a the concept and plans for prototyping and testing it</span>. Next,
@@ -198,11 +230,15 @@ export default function Projects( ) {
                               lighter>
                         <p>
                           When we were discussing how to best <span className='has-text-weight-medium'>market the work we do</span> at
-                          the <a className='is-link' href='https://gscale.cas.mcmaster.ca/'>Gaming Scalability Environment (G-ScalE) lab</a>,
+                          the <a className='is-link'
+                                 href='https://gscale.cas.mcmaster.ca/'
+                                 target="_blank" rel="noopener noreferrer">Gaming Scalability Environment (G-ScalE) lab</a>,
                           my supervisor, lab mates, and I decided that having a <span className='has-text-weight-medium'>logo</span> was
                           a good idea. We could put it on our presentation slides, and visually distinguish ourselves online. You can
                           see some of this work in the wild
-                          on <a className="is-link" href="https://twitter.com/lab_scale">G-ScalE&#39;s Twitter page</a>,
+                          on <a className="is-link"
+                                href="https://twitter.com/lab_scale"
+                                target="_blank" rel="noopener noreferrer">G-ScalE&#39;s Twitter page</a>,
                           and in the footer of this page next to the link to my profile on the G-ScalE website.
                           We also decided to make some business cards to give out at meetings and
                           conferences.

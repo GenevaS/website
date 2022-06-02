@@ -18,7 +18,9 @@ const pdficon = <FontAwesomeIcon className='has-text-black' icon={faFilePdf} tra
 const posterdownload = <a className='icon mx-1' download href="images/GSmith_CASPoster_2022.jpg" aria-label="Download a JPEG of my poster" tabIndex={0}>
                         {imageicon}
                        </a>
-const gradflixLink = <a className='icon mx-1' href="https://youtu.be/VHo-bTDCiXs?t=722" aria-label="Go see my GradFlix video on YouTube">
+const gradflixLink = <a className='icon mx-1' href="https://youtu.be/VHo-bTDCiXs?t=722"
+                        target="_blank" rel="noopener noreferrer"
+                        aria-label="Go see my GradFlix video on YouTube">
                         {youtubeicon}
                      </a>
 const slidedownload = <a className='icon mx-1' download href="3MT_GLaDOS_16-9.pdf" aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
@@ -63,11 +65,15 @@ export default function Awards( ) {
                         <p>
                           I was awarded <span className='has-text-weight-medium'>first place for aesthetic poster design</span>,
                           and <span className='has-text-weight-medium'>tied for second place in the People&#39;s Choice</span> with
-                          my coworker <a className='is-link' href='https://www.cas.mcmaster.ca/~sorainsm/'>Sasha Soraine</a>.
+                          my coworker <a className='is-link'
+                                         href='https://www.cas.mcmaster.ca/~sorainsm/'
+                                         target="_blank" rel="noopener noreferrer">Sasha Soraine</a>.
                           Overall, I won <span className='has-text-weight-medium'>second place</span>.
                         </p>
                         <p>
-                          This is a poster competition for graduate students in the <a className="is-link" href="https://www.eng.mcmaster.ca/cas">Department
+                          This is a poster competition for graduate students in the <a className="is-link"
+                                                                                       href="https://www.eng.mcmaster.ca/cas"
+                                                                                       target="_blank" rel="noopener noreferrer">Department
                           of Computing and Software</a> to get experience
                           with <span className='has-text-weight-medium'>academic poster design and presentation</span>.
                         </p>
@@ -89,12 +95,16 @@ export default function Awards( ) {
                             lighter>
                         <p>
                           I was honoured with this award
-                          for <a className='is-link has-text-weight-medium' href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'>placing Third
+                          for <a className='is-link has-text-weight-medium'
+                                 href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'
+                                 target="_blank" rel="noopener noreferrer">placing Third
                           and by being voted the People&#39;s Choice</a> in <span className='has-text-weight-medium'>McMaster&#39;s
                           Second Annual GradFlix competitiion</span>!
                         </p>
                         <p>
-                          This <a className="is-link" href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'>graduate student video competition</a> was
+                          This <a className="is-link"
+                                  href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'
+                                  target="_blank" rel="noopener noreferrer">graduate student video competition</a> was
                           for <span className='has-text-weight-medium'>explaning my research to a non-technical audience</span>.
                           In <span className='has-text-weight-medium'>one minute or less</span>. That&#39;s not a lot of time
                           to cover several years of work! Fortunately, I could get creative and pair what I was saying to
@@ -104,7 +114,9 @@ export default function Awards( ) {
                           With <span className='has-text-weight-medium'>a camera, some friends, Audacity, Adobe Premiere, and Adobe After
                           Effects</span>, I brought my stick figure <span className='has-text-weight-medium'>storyboard</span> to life.
                           You can watch it on
-                          the <a className='is-link' href='https://youtu.be/VHo-bTDCiXs?t=722'>McMaster School of Graduate Studies YouTube channel</a>.
+                          the <a className='is-link'
+                                 href='https://youtu.be/VHo-bTDCiXs?t=722'
+                                 target="_blank" rel="noopener noreferrer">McMaster School of Graduate Studies YouTube channel</a>.
                         </p>
                       </InfoTile>
 
@@ -120,7 +132,9 @@ export default function Awards( ) {
                                 lighter>
                         <p>
                             I
-                            had <a className="is-link has-text-weight-medium" href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'>three
+                            had <a className="is-link has-text-weight-medium"
+                                 href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
+                                 target="_blank" rel="noopener noreferrer">three
                             minutes and one static slide</a> to convey my Ph.D. research. I had to communicate
                             the problem and what I was doing about it to a panel of judges that were not familiar
                             with my work or field. Needless to say, it was a challenge (and public speaking is
@@ -181,7 +195,9 @@ export default function Awards( ) {
                                 <div className='content'>
 
                                     <p>
-                                        <a className='is-link has-text-weight-medium' href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'>Ontario
+                                        <a className='is-link has-text-weight-medium'
+                                           href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'
+                                           target="_blank" rel="noopener noreferrer">Ontario
                                           Graduate Scholarship (OGS)</a>
                                           <br></br>
                                           <span className='has-text-weight-medium'><i>2020/2021</i></span>

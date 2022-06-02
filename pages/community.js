@@ -4,8 +4,9 @@
  */
 
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Image from 'next/image'
 
+import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
 
 export default function Community( ) {
@@ -44,21 +45,60 @@ export default function Community( ) {
                       tileLink={
                         <p className='has-text-weight-medium px-3'>
                           May 2022 to Present,
-                            <br></br>
-                            May 2018 to September 2020
+                          <br></br>
+                          May 2018 to September 2020
                         </p>
                       }
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
                         <div className='content'>
-                          <p>
-                            This is a graduate student group in the Department of Computing and Software
-                            at McMaster. Our goals include <span className='has-text-weight-medium'>building
-                            a community of graduate students, faculty, and staff</span> through social events,
-                            and to <span className='has-text-weight-medium'>advocate for the graduate
-                            students</span> within the department.
-                          </p>
+
+                          <div className='is-flex is-flex-direction-column
+                                          is-justify-content-center is-hidden-tablet'>
+                            <div className='is-align-self-center'>
+                              <Image
+                              priority
+                              src="/lambda-logo-icon.svg"
+                              layout="fixed"
+                              height={150}
+                              width={150}
+                              alt="LiCS Logo"/>
+                            </div>
+
+
+                            <p>
+                              This is a graduate student group in the Department of Computing and Software
+                              at McMaster. Our goals include <span className='has-text-weight-medium'>building
+                              a community of graduate students, faculty, and staff</span> through social events,
+                              and to <span className='has-text-weight-medium'>advocate for the graduate
+                              students</span> within the department.
+                            </p>
+                          </div>
+
+                          <div className='is-flex is-justify-content-center is-hidden-mobile'>
+                            <div className='mx-3'>
+                              <Image
+                              priority
+                              src="/lambda-logo-icon.svg"
+                              layout="fixed"
+                              height={150}
+                              width={150}
+                              alt="LiCS Logo"/>
+                            </div>
+
+
+                              <p className='is-align-self-center ml-3'>
+                                This is a graduate student group in the <a className="is-link"
+                                                                           href="https://www.eng.mcmaster.ca/cas"
+                                                                           target="_blank" rel="noopener noreferrer">Department
+                                of Computing and Software</a> at McMaster. Our goals
+                                include <span className='has-text-weight-medium'>building a community of graduate
+                                students, faculty, and staff</span> through social events, and
+                                to <span className='has-text-weight-medium'>advocate for the graduate
+                                students</span> within the department.
+                              </p>
+                          </div>
 
                           <p>
                             To this end, we strive to run weekly coffee houses, biweekly board game nights,
@@ -124,7 +164,10 @@ export default function Community( ) {
                               lighter>
                         <div className='content'>
                           <p>
-                            This student group represents the IEEE, one of the largest international, technical,
+                            This student group represents the <a className="is-link has-text-weight-medium"
+                                                                 href="https://www.ieee.org/"
+                                                                 target="_blank" rel="noopener noreferrer">IEEE</a>,
+                            one of the largest international, technical,
                             and professional associations. They offer practical skills training, as well as
                             services for building and testing circuit boards.
                           </p>
