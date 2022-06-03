@@ -7,10 +7,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
+import imgLoader from "../lib/imageloader"
+
 import genevaHeadshot from "../public/images/smith_headshot.jpg"
 
 const profilePicture = <Image
                           priority
+                          loader={imgLoader}
                           src={genevaHeadshot}
                           height={200}
                           width={200}

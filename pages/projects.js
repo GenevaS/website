@@ -8,6 +8,7 @@ import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
+import imgLoader from "../lib/imageloader"
 
 import gscaleCard from "../public/images/gscale_businesscard_front.png"
 import genevaCard from "../public/images/gscale_businesscard_back_Geneva.png"
@@ -262,6 +263,7 @@ export default function Projects( ) {
                                         mt-4'>
                           <Image
                             priority
+                            loader={imgLoader}
                             src={gscaleCard}
                             width={150}
                             height={294}
@@ -271,6 +273,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
+                            loader={imgLoader}
                             src={caretteCard}
                             width={150}
                             height={294}
@@ -280,6 +283,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
+                            loader={imgLoader}
                             src={genevaCard}
                             width={150}
                             height={294}
@@ -289,6 +293,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
+                            loader={imgLoader}
                             src={sashaCard}
                             width={150}
                             height={294}

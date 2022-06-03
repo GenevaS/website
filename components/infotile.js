@@ -7,6 +7,7 @@
  */
 
 import Image from 'next/image'
+import imgLoader from "../lib/imageloader"
 
 // Tile Function
 export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTitle, tileLink, children, lighter} ) {
@@ -89,6 +90,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                     <div className="is-flex is-align-items-center">
                                         <Image
                                             priority
+                                            loader={imgLoader}
                                             src={pictureSrc}
                                             height={250}
                                             width={250}
@@ -108,6 +110,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                     <div className="is-flex is-justify-content-center mb-3">
                                         <Image
                                             priority
+                                            loader={imgLoader}
                                             src={pictureSrc}
                                             height={250}
                                             width={250}
@@ -165,6 +168,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                     <div className="is-flex is-align-items-center">
                                         <Image
                                             priority
+                                            loader={imgLoader}
                                             src={pictureSrc}
                                             height={250}
                                             width={250}
@@ -180,6 +184,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                     <div className="is-flex is-justify-content-center mb-3">
                                         <Image
                                             priority
+                                            loader={imgLoader}
                                             src={pictureSrc}
                                             height={250}
                                             width={250}

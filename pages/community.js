@@ -8,11 +8,13 @@ import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
+import imgLoader from "../lib/imageloader"
 
 import licsLogo from "../public/lambda-logo-icon.svg"
 
 const licsLogoPicture = <Image
                           priority
+                          loader={imgLoader}
                           src={licsLogo}
                           layout="fixed"
                           height={100}
