@@ -8,6 +8,7 @@ import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
+import imgLoader from "../lib/imageloader"
 
 import googlescholaricon from '../node_modules/academicons/svg/google-scholar-square.svg'
 import orcidicon from '../node_modules/academicons/svg/orcid-square.svg'
@@ -18,6 +19,7 @@ const academicProfileLinks = (
          href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'
          target="_blank" rel="noopener noreferrer">
         <Image priority
+               loader={imgLoader}
                src={googlescholaricon}
                alt="Go to Google Scholar Profile"/>
       </a>
@@ -26,6 +28,7 @@ const academicProfileLinks = (
          href='https://orcid.org/0000-0002-6015-2589'
          target="_blank" rel="noopener noreferrer">
         <Image priority
+               loader={imgLoader}
                src={orcidicon}
                alt="Go to Orcid Profile"/>
       </a>

@@ -5,6 +5,8 @@
 
 import Image from 'next/image'
 
+import imgLoader from "../lib/imageloader"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -26,6 +28,7 @@ const emailIcon = <FontAwesomeIcon icon={faEnvelope} alt=""/>
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedinIn} alt=""/>
 const gscaleIcon = <Image
               priority
+              loader={imgLoader}
               src="/Vector_GScalE_Logo_Icon_White.svg"
               layout='fixed'
               height={15}
