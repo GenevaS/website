@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
             loader: "custom",
           },
+  basePath: "/~smithgm",
 }
 
 module.exports = nextConfig

@@ -3,6 +3,7 @@
  * ---------------------------------------------------------------
  */
 
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const home = "About Me";
@@ -40,10 +41,14 @@ function IsActiveLink( pagename, address ) {
     const router = useRouter();
     var item;
     if (router.asPath === address) {
-        item = <a className='navbar-item is-justify-content-center is-active'  href={address}>{pagename}</a>
+        item = <Link href={address}>
+                <a className='navbar-item is-justify-content-center is-active'>{pagename}</a>
+               </Link>
     }
     else {
-        item = <a className='navbar-item is-justify-content-center' href={address}>{pagename}</a>
+        item = <Link href={address}>
+                    <a className='navbar-item is-justify-content-center'>{pagename}</a>
+               </Link>
     }
 
     return item;
