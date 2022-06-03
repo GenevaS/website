@@ -157,7 +157,7 @@ export default function Fun( ) {
                                                   href='http://www.lainitaylor.com/'
                                                   target="_blank" rel="noopener noreferrer">Laini
                                     Taylor</a>, <a className='is-link'
-                                                   href='http://www.lainitaylor.com/'
+                                                   href='https://www.sheaernshaw.com/'
                                                    target="_blank" rel="noopener noreferrer">Shea
                                     Ernshaw</a>,
                                     and <a className='is-link'
