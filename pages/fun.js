@@ -10,6 +10,11 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
 
+import consolePicture from "../public/images/consoles.jpg"
+import bookPicture from "../public/images/magicdarkandstrange.jpg"
+import catPicture from "../public/images/salem_xena.jpg"
+import plushiePicture from "../public/images/companioncube.jpg"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagramSquare, faGoodreads } from '@fortawesome/free-brands-svg-icons'
 
@@ -64,7 +69,7 @@ export default function Fun( ) {
                     <div className="tile is-parent is-vertical">
 
                       <InfoTile tileTitle="Player of Games"
-                                pictureSrc="/images/consoles.jpg"
+                                pictureSrc={consolePicture}
                                 pictureAlt="The logos for Nintendo 64 and PlayStation"
                                 pictureOnLeft
                                 lighter>
@@ -133,7 +138,7 @@ export default function Fun( ) {
 
                       <InfoTile tileTitle="Book Dragon (Because I have a book hoard)"
                                 tileLink={bookLinks}
-                                pictureSrc="/images/magicdarkandstrange.jpg"
+                                pictureSrc={bookPicture}
                                 pictureAlt="The book, Magic Dark and Strange by Kelly Powell, in a flatlay"
                                 lighter>
                                   <p>
@@ -173,7 +178,7 @@ export default function Fun( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle="Full-Time Cat & Plant Steward"
-                                pictureSrc="/images/salem_xena.jpg"
+                                pictureSrc={catPicture}
                                 pictureAlt="A picture of my cats, Salem and Xena"
                                 pictureOnLeft
                                 lighter>
@@ -200,7 +205,7 @@ export default function Fun( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle="Amateur Seamstress & Plushie Maker"
-                                pictureSrc="/images/companioncube.jpg"
+                                pictureSrc={plushiePicture}
                                 pictureAlt="The Companion Cube plushie I made"
                                 lighter>
                                   <p>

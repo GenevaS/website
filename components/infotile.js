@@ -20,7 +20,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         has-background-primary-light has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
+                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
                                 {tileLink}
                             </div>
                             <hr className='has-background-grey my-3'/>
@@ -41,7 +41,7 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         has-background-primary has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
+                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
                                 {tileLink}
                             </div>
                             <hr className='has-background-grey my-3'/>
@@ -85,19 +85,41 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">
-                                <div className="is-flex is-align-items-center">
-                                    <Image
-                                        priority
-                                        src={pictureSrc}
-                                        height={250}
-                                        width={250}
-                                        alt={pictureAlt}/>
+                                <div className='is-flex is-hidden-mobile'>
+                                    <div className="is-flex is-align-items-center">
+                                        <Image
+                                            priority
+                                            src={pictureSrc}
+                                            height={250}
+                                            width={250}
+                                            alt={pictureAlt}/>
+                                    </div>
+
+                                    <div className='is-flex is-flex-grow-1 is-flex-direction-column
+                                                    is-justify-content-center
+                                                    is-width-70-percent px-3'>
+                                        {children}
+                                    </div>
                                 </div>
 
-                                <div className='is-flex-grow-1 is-flex-direction-column
-                                                is-width-70-percent px-3'>
-                                    {children}
+                                <div className='is-flex is-flex-direction-column
+                                                is-align-content-center
+                                                is-hidden-tablet'>
+                                    <div className="is-flex is-justify-content-center mb-3">
+                                        <Image
+                                            priority
+                                            src={pictureSrc}
+                                            height={250}
+                                            width={250}
+                                            alt={pictureAlt}/>
+                                    </div>
+
+                                    <div className='is-flex is-flex-grow-1 is-flex-direction-column
+                                                    px-3'>
+                                        {children}
+                                    </div>
                                 </div>
+
                             </article>
                         </div>
                     </div>
@@ -132,19 +154,45 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">
-                                <div className='is-flex-grow-1 is-flex-direction-column
-                                                is-width-70-percent px-3'>
-                                    {children}
+                                <div className='is-flex is-hidden-mobile'>
+
+                                    <div className='is-flex is-flex-grow-1 is-flex-direction-column
+                                                    is-justify-content-center
+                                                    is-width-70-percent px-3'>
+                                        {children}
+                                    </div>
+
+                                    <div className="is-flex is-align-items-center">
+                                        <Image
+                                            priority
+                                            src={pictureSrc}
+                                            height={250}
+                                            width={250}
+                                            alt={pictureAlt}/>
+                                    </div>
+
                                 </div>
 
-                                <div className="is-flex is-align-items-center">
-                                    <Image
-                                        priority
-                                        src={pictureSrc}
-                                        height={250}
-                                        width={250}
-                                        alt={pictureAlt}/>
+                                <div className='is-flex is-flex-direction-column
+                                                is-align-content-center
+                                                is-hidden-tablet'>
+
+                                    <div className="is-flex is-justify-content-center mb-3">
+                                        <Image
+                                            priority
+                                            src={pictureSrc}
+                                            height={250}
+                                            width={250}
+                                            alt={pictureAlt}/>
+                                    </div>
+
+                                    <div className='is-flex is-flex-grow-1 is-flex-direction-column
+                                                    px-3'>
+                                        {children}
+                                    </div>
+
                                 </div>
+
                             </article>
                         </div>
                     </div>

@@ -8,6 +8,12 @@ import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
+
+import gscaleCard from "../public/images/gscale_businesscard_front.png"
+import genevaCard from "../public/images/gscale_businesscard_back_Geneva.png"
+import sashaCard from "../public/images/gscale_businesscard_back_Sasha.png"
+import caretteCard from "../public/images/gscale_businesscard_Carette.png"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -256,7 +262,7 @@ export default function Projects( ) {
                                         mt-4'>
                           <Image
                             priority
-                            src="/images/gscale_businesscard_front.png"
+                            src={gscaleCard}
                             width={150}
                             height={294}
                             className="py-1"
@@ -265,7 +271,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
-                            src="/images/gscale_businesscard_Carette.png"
+                            src={caretteCard}
                             width={150}
                             height={294}
                             className="py-1"
@@ -274,7 +280,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
-                            src="/images/gscale_businesscard_back_Geneva.png"
+                            src={genevaCard}
                             width={150}
                             height={294}
                             className="py-1"
@@ -283,7 +289,7 @@ export default function Projects( ) {
 
                           <Image
                             priority
-                            src="/images/gscale_businesscard_back_Sasha.png"
+                            src={sashaCard}
                             width={150}
                             height={294}
                             className="py-1"

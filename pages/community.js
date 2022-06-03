@@ -9,6 +9,27 @@ import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
 
+import licsLogo from "../public/lambda-logo-icon.svg"
+
+const licsLogoPicture = <Image
+                          priority
+                          src={licsLogo}
+                          layout="fixed"
+                          height={100}
+                          width={100}
+                          alt="LiCS Logo"/>;
+
+const licsDescription = <span>
+                          This is a graduate student group in the <a className="is-link"
+                                                                     href="https://www.eng.mcmaster.ca/cas"
+                                                                     target="_blank" rel="noopener noreferrer">Department
+                          of Computing and Software</a> at McMaster. Our goals
+                          include <span className='has-text-weight-medium'>building a community of graduate
+                          students, faculty, and staff</span> through social events, and
+                          to <span className='has-text-weight-medium'>advocate for the graduate
+                          students</span> within the department.
+                        </span>;
+
 export default function Community( ) {
     return (
       <Layout>
@@ -57,46 +78,21 @@ export default function Community( ) {
                           <div className='is-flex is-flex-direction-column
                                           is-justify-content-center is-hidden-tablet'>
                             <div className='is-align-self-center'>
-                              <Image
-                              priority
-                              src="/lambda-logo-icon.svg"
-                              layout="fixed"
-                              height={150}
-                              width={150}
-                              alt="LiCS Logo"/>
+                              {licsLogoPicture}
                             </div>
 
+                            <p>{licsDescription}</p>
 
-                            <p>
-                              This is a graduate student group in the Department of Computing and Software
-                              at McMaster. Our goals include <span className='has-text-weight-medium'>building
-                              a community of graduate students, faculty, and staff</span> through social events,
-                              and to <span className='has-text-weight-medium'>advocate for the graduate
-                              students</span> within the department.
-                            </p>
                           </div>
 
                           <div className='is-flex is-justify-content-center is-hidden-mobile'>
                             <div className='mx-3'>
-                              <Image
-                              priority
-                              src="/lambda-logo-icon.svg"
-                              layout="fixed"
-                              height={150}
-                              width={150}
-                              alt="LiCS Logo"/>
+                              {licsLogoPicture}
                             </div>
 
 
                               <p className='is-align-self-center ml-3'>
-                                This is a graduate student group in the <a className="is-link"
-                                                                           href="https://www.eng.mcmaster.ca/cas"
-                                                                           target="_blank" rel="noopener noreferrer">Department
-                                of Computing and Software</a> at McMaster. Our goals
-                                include <span className='has-text-weight-medium'>building a community of graduate
-                                students, faculty, and staff</span> through social events, and
-                                to <span className='has-text-weight-medium'>advocate for the graduate
-                                students</span> within the department.
+                                {licsDescription}
                               </p>
                           </div>
 

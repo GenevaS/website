@@ -7,11 +7,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
-import InfoTile from '../components/infotile'
+import genevaHeadshot from "../public/images/smith_headshot.jpg"
 
 const profilePicture = <Image
                           priority
-                          src="/images/smith_headshot.jpg"
+                          src={genevaHeadshot}
                           height={200}
                           width={200}
                           className="is-rounded is-square"
