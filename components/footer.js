@@ -29,7 +29,7 @@ const linkedInIcon = <FontAwesomeIcon icon={faLinkedinIn} alt=""/>
 const gscaleIcon = <Image
               priority
               loader={imgLoader}
-              src="/Vector_GScalE_Logo_Icon_White.svg"
+              src="/images/Vector_GScalE_Logo_Icon_White.svg"
               layout='fixed'
               height={15}
               width={26}

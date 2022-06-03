@@ -23,7 +23,7 @@ const gradflixLink = <a className='icon mx-1' href="https://youtu.be/VHo-bTDCiXs
                         aria-label="Go see my GradFlix video on YouTube">
                         {youtubeicon}
                      </a>
-const slidedownload = <a className='icon mx-1' download href="3MT_GLaDOS_16-9.pdf" aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
+const slidedownload = <a className='icon mx-1' download href="/assets/3MT_GLaDOS_16-9.pdf" aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
                         {pdficon}
                       </a>
 
