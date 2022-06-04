@@ -40,7 +40,14 @@ const funAddress = "/fun";
 function IsActiveLink( pagename, address ) {
     const router = useRouter();
     var item;
-    if (router.asPath === address) {
+    // Remove trailing slashes if present before comparison if not home page
+    const currentPath = router.asPath;
+    if ((currentPath.length > 1) && router.asPath.endsWith('/'))
+    {
+        currentPath.slice(0, -1);
+    }
+
+    if (currentPath === address) {
         item = <Link href={address}>
                 <a className='navbar-item is-justify-content-center is-active'>{pagename}</a>
                </Link>
