@@ -72,7 +72,7 @@ export default function Teaching( ) {
                                 Prepared and provided solutions to weekly tutorials via the course delivery
                                 platform (Avenue to Learn) based on questions
                                 from <a className='is-link'
-                                        href='http://hdl.handle.net/11375/21369'
+                                        href='https://algs4.cs.princeton.edu/home/'
                                         target="_blank" rel="noopener noreferrer"
                                         aria-label='Go to book site for Algorithms by Sedgewick and Wayne'>Algorithms
                                    by Sedgewick and Wayne (4th Ed.)</a>
