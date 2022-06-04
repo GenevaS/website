@@ -4,6 +4,7 @@
  */
 
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
@@ -15,17 +16,27 @@ const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeS
 const imageicon = <FontAwesomeIcon className='has-text-black' icon={faImage} transform='grow-7' alt="Image Icon"/>
 const pdficon = <FontAwesomeIcon className='has-text-black' icon={faFilePdf} transform='grow-7' alt="{PDF} Icon"/>
 
-const posterdownload = <a className='icon mx-1' download href="images/GSmith_CASPoster_2022.jpg" aria-label="Download a JPEG of my poster" tabIndex={0}>
-                        {imageicon}
-                       </a>
+const posterdownload = <Link href="images/GSmith_CASPoster_2022.jpg">
+                        <a className='icon mx-1' download
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="Download a JPEG of my poster" tabIndex={0}>
+                            {imageicon}
+                        </a>
+                       </Link>
+
 const gradflixLink = <a className='icon mx-1' href="https://youtu.be/VHo-bTDCiXs?t=722"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="Go see my GradFlix video on YouTube">
                         {youtubeicon}
                      </a>
-const slidedownload = <a className='icon mx-1' download href="/assets/3MT_GLaDOS_16-9.pdf" aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
-                        {pdficon}
-                      </a>
+const slidedownload = <Link href="/assets/3MT_GLaDOS_16-9.pdf">
+                        <a className='icon mx-1' download
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="Download PDF of my 3MT Slide" tabIndex={0}>
+                          {pdficon}
+                        </a>
+                      </Link>
+
 
 export default function Awards( ) {
     return (
