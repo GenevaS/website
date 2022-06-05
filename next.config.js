@@ -8,7 +8,7 @@ const nextConfig = {
 
   trailingSlash : true,
 
-  //basePath: "/~smithgm",
+  basePath: "/~smithgm",
 
   // From https://gist.github.com/lukebussey/8387bb038629dccc01a62487614f44df
   // For handling SVGs

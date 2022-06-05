@@ -11,13 +11,13 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 const email = <a className='has-text-weight-medium has-text-grey-lighter' href="mailto:smithgm@mcmaster.ca">smithgm@mcmaster.ca</a>
 const linkedin = <a className='has-text-weight-medium has-text-grey-lighter'
                     href="https://www.linkedin.com/in/genevamsmith/"
-                    target="_blank" rel="noopener noreferrer">Geneva Smith @LinkedIn</a>
+                    target="_blank" rel="noopener noreferrer">Geneva M. Smith @LinkedIn</a>
 const gscaleProfile = <a className='has-text-weight-medium has-text-grey-lighter'
                          href="https://gscale.cas.mcmaster.ca/author/geneva-smith"
-                         target="_blank" rel="noopener noreferrer">G-ScalE Lab Profile</a>
+                         target="_blank" rel="noopener noreferrer">Geneva Smith @G-ScalE</a>
 const office = <a className='has-text-weight-medium has-text-grey-lighter'
                   href="https://goo.gl/maps/5xhYKyw8hpYTJdp5A"
-                  target="_blank" rel="noopener noreferrer">Office @McMaster</a>
+                  target="_blank" rel="noopener noreferrer">Geneva&#39;s Office @McMaster</a>
 
 // Icons
 import GScaleLogo from '../public/images/Vector_GScalE_Logo_Icon_White.svg';
