@@ -1,6 +1,6 @@
 # About
 
-This website was built with the [Next.js](https://nextjs.org/) React Framwork and [Bulma](https://bulma.io/) CSS Framework. You can see the website live at [[www.cas](https://www.cas.mcmaster.ca/~smithgm/)](https://www.cas.mcmaster.ca/~smithgm/).
+This website was built with the [Next.js](https://nextjs.org/) React Framwork and [Bulma](https://bulma.io/) CSS Framework. You can see the website live at [https://www.cas.mcmaster.ca/~smithgm/](https://www.cas.mcmaster.ca/~smithgm/).
 
 ## How to Run Website Locally
 
