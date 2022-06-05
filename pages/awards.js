@@ -16,7 +16,7 @@ const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeS
 const imageicon = <FontAwesomeIcon className='has-text-black' icon={faImage} transform='grow-7' alt="Image Icon"/>
 const pdficon = <FontAwesomeIcon className='has-text-black' icon={faFilePdf} transform='grow-7' alt="{PDF} Icon"/>
 
-const posterdownload = <Link href="images/GSmith_CASPoster_2022.jpg">
+const posterdownload = <Link href="/images/GSmith_CASPoster_2022.jpg">
                         <a className='icon mx-1' download
                            target="_blank" rel="noopener noreferrer"
                            aria-label="Download a JPEG of my poster" tabIndex={0}>

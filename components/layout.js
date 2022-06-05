@@ -20,7 +20,7 @@ export default function Layout({ children }) {
     return (
       <div className='has-background-grey-lighter'>
         <Head>
-          <link rel="icon" href="/images/puzzle-piece-solid.svg" />
+          <link rel="icon" href='images/puzzle-piece-solid.png'></link>
           <meta
             name="description"
             content="Personal website for Geneva M. Smith"
