@@ -41,10 +41,10 @@ function IsActiveLink( pagename, address ) {
     const router = useRouter();
     var item;
     // Remove trailing slashes if present before comparison if not home page
-    const currentPath = router.asPath;
-    if ((currentPath.length > 1) && router.asPath.endsWith('/'))
+    var currentPath = router.asPath;
+    if ((currentPath !== homeAddress) && currentPath.endsWith('/'))
     {
-        currentPath.slice(0, -1);
+        currentPath = currentPath.slice(0, -1);
     }
 
     if (currentPath === address) {

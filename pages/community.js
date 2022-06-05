@@ -6,22 +6,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Layout, { siteTitle } from '../components/layout'
-import InfoTile from '../components/infotile'
 import imgLoader from "../lib/imageloader"
 
-import licsLogo from "../public/images/lambda-logo-icon.svg"
+import Layout, { siteTitle } from '../components/layout'
+import InfoTile from '../components/infotile'
+
+import licsLogo from "../public/images/lambda-logo-icon.png"
 
 const licsLogoPicture = <Image
                           priority
                           loader={imgLoader}
                           src={licsLogo}
-                          layout="fixed"
-                          height={100}
-                          width={100}
+                          height={150}
+                          width={150}
                           alt="LiCS Logo"/>;
 
-const licsDescription = <span>
+const licsDescription = <p>
                           This is a graduate student group in the <a className="is-link"
                                                                      href="https://www.eng.mcmaster.ca/cas"
                                                                      target="_blank" rel="noopener noreferrer">Department
@@ -30,7 +30,7 @@ const licsDescription = <span>
                           students, faculty, and staff</span> through social events, and
                           to <span className='has-text-weight-medium'>advocate for the graduate
                           students</span> within the department.
-                        </span>;
+                        </p>;
 
 export default function Community( ) {
     return (
@@ -78,24 +78,27 @@ export default function Community( ) {
                         <div className='content'>
 
                           <div className='is-flex is-flex-direction-column
-                                          is-justify-content-center is-hidden-tablet'>
+                                          is-justify-content-center is-align-items-center
+                                          is-hidden-tablet'>
                             <div className='is-align-self-center'>
                               {licsLogoPicture}
                             </div>
 
-                            <p>{licsDescription}</p>
+                            {licsDescription}
 
                           </div>
 
-                          <div className='is-flex is-justify-content-center is-hidden-mobile'>
-                            <div className='mx-3'>
+                          <div className='is-flex is-justify-content-center
+                                          is-align-items-center is-align-self-center
+                                          is-hidden-mobile'>
+                            <div className='is-flex-grow-5 mx-3'>
                               {licsLogoPicture}
                             </div>
 
+                            <div className='is-flex-shrink-5 ml-3'>
+                              {licsDescription}
+                            </div>
 
-                              <p className='is-align-self-center ml-3'>
-                                {licsDescription}
-                              </p>
                           </div>
 
                           <p>

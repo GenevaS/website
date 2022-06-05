@@ -3,10 +3,6 @@
  * ---------------------------------------------------------------
  */
 
-import Image from 'next/image'
-
-import imgLoader from "../lib/imageloader"
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -15,27 +11,18 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 const email = <a className='has-text-weight-medium has-text-grey-lighter' href="mailto:smithgm@mcmaster.ca">smithgm@mcmaster.ca</a>
 const linkedin = <a className='has-text-weight-medium has-text-grey-lighter'
                     href="https://www.linkedin.com/in/genevamsmith/"
-                    target="_blank" rel="noopener noreferrer">Geneva Smith@LinkedIn (ca.linkedin.com/in/genevamsmith)</a>
+                    target="_blank" rel="noopener noreferrer">Geneva Smith @LinkedIn</a>
 const gscaleProfile = <a className='has-text-weight-medium has-text-grey-lighter'
                          href="https://gscale.cas.mcmaster.ca/author/geneva-smith"
-                         target="_blank" rel="noopener noreferrer">G-ScalE Lab Profile (https://gscale.cas.mcmaster.ca/author/geneva-smith)</a>
+                         target="_blank" rel="noopener noreferrer">G-ScalE Lab Profile</a>
 const office = <a className='has-text-weight-medium has-text-grey-lighter'
                   href="https://goo.gl/maps/5xhYKyw8hpYTJdp5A"
-                  target="_blank" rel="noopener noreferrer"> McMaster University Information Technology Building (ITB), Room 207</a>
+                  target="_blank" rel="noopener noreferrer">Office @McMaster</a>
 
 // Icons
+import GScaleLogo from '../public/images/Vector_GScalE_Logo_Icon_White.svg';
 const emailIcon = <FontAwesomeIcon icon={faEnvelope} alt=""/>
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedinIn} alt=""/>
-const gscaleIcon = <Image
-              priority
-              loader={imgLoader}
-              src="/images/Vector_GScalE_Logo_Icon_White.svg"
-              layout='fixed'
-              height={15}
-              width={26}
-              alt=""
-              aria-hidden='true'
-            />
 const locationIcon = <FontAwesomeIcon icon={faLocationDot} alt=""/>
 
 // Footer Function
@@ -48,13 +35,10 @@ function Footer() {
                        has-text-grey-lighter has-background-grey-dark'>
       <div>
         <h1 className='subtitle has-text-weight-medium has-text-grey-lighter'>Contact Me</h1>
-        {emailIcon} <i>{email}</i>
-        <br></br>
-        {linkedInIcon} <i>{linkedin}</i>
-        <br></br>
-        {gscaleIcon} <i>{gscaleProfile}</i>
-        <br></br>
-        {locationIcon} <i>{office}</i>
+        <div><span className='icon'>{emailIcon}</span> <i>{email}</i></div>
+        <div><span className='icon'>{linkedInIcon}</span> <i>{linkedin}</i></div>
+        <div><span className='icon'><GScaleLogo /></span> <i>{gscaleProfile}</i></div>
+        <div><span className='icon'>{locationIcon}</span> <i>{office}</i></div>
       </div>
 
       <div className='pt-6 has-text-grey-lighter'>

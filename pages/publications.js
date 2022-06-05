@@ -4,33 +4,25 @@
  */
 
 import Head from 'next/head'
-import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
-import imgLoader from "../lib/imageloader"
 
-import googlescholaricon from '../node_modules/academicons/svg/google-scholar-square.svg'
-import orcidicon from '../node_modules/academicons/svg/orcid-square.svg'
+import GoogleScholarIcon from '../node_modules/academicons/svg/google-scholar-square.svg'
+import OrcidIcon from '../node_modules/academicons/svg/orcid-square.svg'
 
 const academicProfileLinks = (
   <div className='is-flex is-flex-direction-row is-justify-content-space-between px-3'>
       <a className="icon"
          href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'
          target="_blank" rel="noopener noreferrer">
-        <Image priority
-               loader={imgLoader}
-               src={googlescholaricon}
-               alt="Go to Google Scholar Profile"/>
+        <GoogleScholarIcon />
       </a>
       <div className='ml-1'></div>
       <a className="icon"
          href='https://orcid.org/0000-0002-6015-2589'
          target="_blank" rel="noopener noreferrer">
-        <Image priority
-               loader={imgLoader}
-               src={orcidicon}
-               alt="Go to Orcid Profile"/>
+        <OrcidIcon />
       </a>
   </div>
 );

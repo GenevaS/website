@@ -24,6 +24,7 @@
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
     "bulma": "^0.9.3",
     "eslint": "8.9.0",
     "eslint-config-next": "12.1.0",
