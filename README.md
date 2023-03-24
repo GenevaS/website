@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## About Accessibility
-I stove to meet as many <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG 2.1 guidelines</a> as I am able, following the checklist kindly available from
+I strove to meet as many <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG 2.1 guidelines</a> as I am able, following the checklist kindly available from
 [WebAIM](https://webaim.org/standards/wcag/checklist). Should you notice anything that could be improved, do open a Git Issue.
 
 ### Alternate Text
