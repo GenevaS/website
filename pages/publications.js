@@ -64,8 +64,8 @@ export default function Publications( ) {
                         <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                             What Lies Beneath—A Survey of Affective Theory Use in Computational Models of 
-                            Emotion. <i>IEEE Transactions on Affective Computing</i> 13, 4 (Oct.—Dec. 2022), 
-                            1793—1812. <a className='is-link'
+                            Emotion. <i>IEEE Transactions on Affective Computing</i> 13, 4 (Oct.–Dec. 2022), 
+                            1793–1812. <a className='is-link'
                                   href="https://doi.org/10.1109/TAFFC.2022.3197456"
                                   target="_blank" rel="noopener noreferrer"
                                   style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.1109/TAFFC.2022.3197456</a>
@@ -74,7 +74,7 @@ export default function Publications( ) {
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2019.
                             Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
-                            Game Culture</i> 10, 1 (2019), 109—140. <a className='is-link'
+                            Game Culture</i> 10, 1 (2019), 109–140. <a className='is-link'
                                                                             href="https://doi.org/10.7557/23.6175"
                                                                             target="_blank" rel="noopener noreferrer"
                                                                             style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://doi.org/10.7557/23.6175</a>
@@ -83,8 +83,8 @@ export default function Publications( ) {
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
-                            <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14—16, 2015, Toronto, ON, Canada.
-                            IEEE, New York, NY, USA, 8 pages. <a className='is-link'
+                            <i> Proceedings of the 2015 IEEE Games Entertainment Media Conference (GEM 2015)</i>. October 14–16, 2015, Toronto, ON, Canada.
+                            IEEE, New York, NY, USA, 130–137 (8 pages). <a className='is-link'
                                                                  href='https://doi.org/10.1109/GEM.2015.7377209'
                                                                  target="_blank" rel="noopener noreferrer"
                                                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays">https://doi.org/10.1109/GEM.2015.7377209</a>
@@ -129,9 +129,9 @@ export default function Publications( ) {
                             <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
                             McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
-                                                                                  href="https://www.eng.mcmaster.ca/cas/people/faculty/jacques-carette"
+                                                                                  href="https://www.eng.mcmaster.ca/faculty/jacques-carette/"
                                                                                   target="_blank" rel="noopener noreferrer"
-                                                                                  aria-label="Go to Dr. Jacque Carette's website">Dr. Jacques Carette</a>
+                                                                                  aria-label="Go to Dr. Jacque Carette's profile on McMaster University's website">Dr. Jacques Carette</a>
                             . <a className='is-link'
                                  href='http://hdl.handle.net/11375/21369'
                                  target="_blank" rel="noopener noreferrer"

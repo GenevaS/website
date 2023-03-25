@@ -3,7 +3,6 @@
  * ---------------------------------------------------------------
  */
 
-import Link from 'next/link'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
@@ -17,6 +16,61 @@ export default function Teaching( ) {
 
         <section className='is-full-width pt-6'>
           <div className='columns is-flex-direction-column px-6'>
+
+          <div className='column'>
+              <div className="card">
+                <header className="card-header">
+                  <h1 className="card-header-title">
+                    Supervising Experience
+                  </h1>
+                </header>
+              </div>
+            </div>
+            <div className='column'>
+              <div className="tile is-ancestor">
+                <div className="tile is-vertical">
+                  <div className="tile">
+                    <div className="tile is-parent is-vertical">
+
+                      <InfoTile tileTitle={
+                            <p className='has-text-weight-medium px-3'>
+                              <a className='is-link'
+                               href="https://gscale.cas.mcmaster.ca/author/brendan-fallon/"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="Go to Brendan Fallon's profile on G-ScalE's website">Brendan Fallon</a>, Masters Student 
+                              <br></br>
+                              Co-supervised with <a className='is-link'
+                                                  href="https://gscale.cas.mcmaster.ca/author/jacques-carette/"
+                                                  target="_blank" rel="noopener noreferrer"
+                                                  aria-label="Go to Dr. Jacque Carette's profile on G-ScalE's website">Dr. Jacques Carette</a>
+                            </p>
+                          }
+                                tileLink={
+                                  <p className='has-text-weight-medium px-3'>
+                                    September 2020 to Present
+                                  </p>
+                                }
+                                pictureSrc={null}
+                                lighter>
+                        <p>
+                            Brendan is part of the EMgine (Emotion Engine) project. He is developing an interface so that EMgine can communicate
+                            with the <a className='is-link'
+                                      href="https://unity.com/"
+                                      target="_blank" rel="noopener noreferrer"
+                                      aria-label="Go to Unity's website">Unity game development platform</a>.
+                        </p>
+
+                        <p>
+                          For this work, Brendan developed a process and rubric for evaluating game engines with respect to their Non-Player
+                          Character (NPC) capabilities and is building a module in Unity for EMgine to interface with to guage how much 
+                          effort a developer might exert to use EMgine in their game projects.
+                        </p>
+                      </InfoTile>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           <div className='column'>
               <div className="card">
