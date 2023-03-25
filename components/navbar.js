@@ -81,13 +81,13 @@ function NavBar(  ) {
 
             {IsActiveLink(funStuff, funAddress)}
 
-            <div className='navbar-item is-justify-content-center'>
+            {/* <div className='navbar-item is-justify-content-center'>
                 <Link href="/assets/GMSmith_Resume_Web.pdf">
                     <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-5' tabIndex={0}>
                         Résumé:<br/> Download!
                     </a>
                 </Link>
-            </div>
+            </div> */}
         </div>
 	)
 }

@@ -108,9 +108,9 @@ export default function Home( ) {
 
             <p className='block px-5'>
               Right now, <span className='has-text-weight-medium'>I am designing an engine that will
-              evaluate what emotion a computer-controlled character (Non-Player Character) should
-              experience given the current game state</span>. The aim is to
-              elevate the <span className='has-text-weight-medium'>player engagement</span>.
+              evaluate what emotion a computer-controlled game character (Non-Player Character) should
+              experience given the current game state</span>. The aim is to 
+              enhance <span className='has-text-weight-medium'>player engagement</span>.
             </p>
 
             <p className='block px-5'>
@@ -118,6 +118,9 @@ export default function Home( ) {
               over how they use it. To this end, I am applying my software design skills to a rigorous design process
               to ensure that decisions
               are <span className='has-text-weight-medium'>well informed, documented, and easy for others to understand</span>.
+              You can check out my progress on EMgine (Emotion Engine) on <a className="is-link has-text-weight-medium"
+                    href="https://github.com/GenevaS/EMgine"
+                    target="_blank" rel="noopener noreferrer" aria-label="Go to the EMgine GitHub">GitHub</a>.
             </p>
 
             <p className='block px-5'>

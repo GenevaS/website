@@ -61,13 +61,23 @@ export default function Publications( ) {
                               lighter>
                         <div className='content'>
 
+                        <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
+                            What Lies Beneath—A Survey of Affective Theory Use in Computational Models of 
+                            Emotion. <i>IEEE Transactions on Affective Computing</i> 13, 4 (Oct.—Dec. 2022), 
+                            1793—1812. <a className='is-link'
+                                  href="https://doi.org/10.1109/TAFFC.2022.3197456"
+                                  target="_blank" rel="noopener noreferrer"
+                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.1109/TAFFC.2022.3197456</a>
+                          </p>
+
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2020.
+                            <span className='is-highlighted'>Geneva Smith</span> and Jacques Carette. 2019.
                             Design Foundations for Emotional Game Characters. <i>Eludamos: Journal for Computer
-                            Game Culture</i> 10, 1 (Apr. 2020), 109—140. <a className='is-link'
-                                                                            href="https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8"
+                            Game Culture</i> 10, 1 (2019), 109—140. <a className='is-link'
+                                                                            href="https://doi.org/10.7557/23.6175"
                                                                             target="_blank" rel="noopener noreferrer"
-                                                                            style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://www.eludamos.org/index.php/eludamos/article/view/vol10no1-8/10-1-8</a>
+                                                                            style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://doi.org/10.7557/23.6175</a>
                           </p>
 
                           <p>
@@ -87,14 +97,24 @@ export default function Publications( ) {
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
+
                           <p>
-                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
-                            What Lies Beneath—A Survey of Affective Theory Use in Computational Models of Emotion.
-                            Submitted December 8, 2021 to the <i>IEEE Transactions on Affective Computing</i>. Available
+                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
+                            Building Test Cases for Video Game-Focused Computational Models of Emotion. Available
                             at <a className='is-link'
-                                  href="https://doi.org/10.36227/techrxiv.18779315"
+                                  href="http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf"
                                   target="_blank" rel="noopener noreferrer"
-                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for What Lies Beneath">https://doi.org/10.36227/techrxiv.18779315</a>
+                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for Building Test Cases">http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf</a>
+                          </p>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
+                            Start Your EMgine—A Methodology for Choosing Emotion Theories for Computational Models 
+                            of Emotion. Submitted January 11, 2023 to <i>Entertainment Computing</i>. Available
+                            at <a className='is-link'
+                                  href="https://doi.org/10.2139/ssrn.4327741"
+                                  target="_blank" rel="noopener noreferrer"
+                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for Start Your EMgine">https://doi.org/10.2139/ssrn.4327741</a>
                           </p>
                         </div>
                       </InfoTile>

@@ -34,6 +34,50 @@ export default function Teaching( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
+                    <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
+                            <i> Game Design (SFWRENG 3GB3), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            January to April 2023
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Game concepts. Creative and expressive play. Storytelling and narratives. User interfaces for 
+                              games. Gameplay. Core mechanics. Game Balancing. Software architecture of games. Level design. 
+                              Genres. Physics Engines.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+                                Co-designed course with course instructor <a className='is-link'
+                                        href='https://www.cas.mcmaster.ca/~sorainsm/'
+                                        target="_blank" rel="noopener noreferrer"
+                                        aria-label='Go to Sasha Soraines website'>Sasha Soraine</a>, 
+                                including curriculum development and assignment planning
+                              </li>
+                              <li>
+                                Lead bi-weekly tutorials which included one-hour lecture and one-hour of student work for
+                                assessment
+                              </li>
+                              <li>
+                                Supervised eight teams of five students during a term-long game design and Unity development
+                                project
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>
                             Graduate Teaching Assistant
@@ -77,12 +121,6 @@ export default function Teaching( ) {
                                         aria-label='Go to book site for Algorithms by Sedgewick and Wayne'>Algorithms
                                    by Sedgewick and Wayne (4th Ed.)</a>
                               </li>
-                              <li>
-                                Regularly responded to student inquiries via email, office hours, and Microsoft Teams
-                              </li>
-                              <li>
-                                Assisted with test invigilation and grading
-                              </li>
                             </ul>
                           </div>
                       </InfoTile>
@@ -117,8 +155,8 @@ export default function Teaching( ) {
                             <ul>
                               <li>
                                 Ran weekly tutorials to strengthen students&#39; understanding of fundamental design
-                                concepts relevant to user interfaces, writing research papers, and user studies
-                                (in-person and virtually)
+                                concepts relevant to user interfaces, writing research papers, and user study design
+                                and execution (in-person and virtually)
                               </li>
                               <li>
                                 Met with students to discuss assignment feedback and improve their understanding of
@@ -141,9 +179,9 @@ export default function Teaching( ) {
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            2021, 2020
+                            January to April 2021,
                             <br></br>
-                            Winter Term (January to April)
+                            January to April 2020
                           </p>
                         }
                         pictureSrc={null}
@@ -181,9 +219,7 @@ export default function Teaching( ) {
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            2020
-                            <br></br>
-                            Fall Term (September to December)
+                            September to December 2020
                           </p>
                         }
                         pictureSrc={null}
@@ -203,12 +239,8 @@ export default function Teaching( ) {
                                 Verilog via Quartus with the DE1-SoC board as the target device
                               </li>
                               <li>
-                                Supervised and evaluated weekly hardware labs via Microsoft Teams,
-                                assisted by an undergraduate TA (virtually)
-                              </li>
-                              <li>
-                                Gave feedback and grades for submitted work via the course delivery
-                                platform (Avenue to Learn)
+                                Supervised and evaluated weekly hardware labs via Microsoft Teams 
+                                with an undergraduate TA (virtually)
                               </li>
                               <li>
                                 Maintained student grade spreadsheet (Excel) and course delivery
@@ -227,9 +259,7 @@ export default function Teaching( ) {
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            2019
-                            <br></br>
-                            Fall Term (September to December)
+                            September to December 2019
                           </p>
                         }
                         pictureSrc={null}
