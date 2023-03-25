@@ -136,7 +136,7 @@ export default function Fun( ) {
                                   </div>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Book Dragon (Because I have a book hoard)"
+                      <InfoTile tileTitle="Book Wyrm (Because I have a book hoard)"
                                 tileLink={bookLinks}
                                 pictureSrc={bookPicture}
                                 pictureAlt="The book, Magic Dark and Strange by Kelly Powell, in a flatlay"
