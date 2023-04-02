@@ -21,7 +21,7 @@ const teachAddress = "/teaching";
 const awards = "Awards";
 const awardsAddress = "/awards";
 
-const community = "Community Engagement";
+const community = "Community Service";
 const communityAddress = "/community";
 
 const industry = "Industry Experience";
@@ -88,6 +88,14 @@ function NavBar(  ) {
                     </a>
                 </Link>
             </div> */}
+
+            {<div className='navbar-item is-justify-content-center'>
+                <Link href="/assets/GMSmith_CV_Web.pdf">
+                    <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-5' tabIndex={0}>
+                        CV:<br/> Download!
+                    </a>
+                </Link>
+            </div>}
         </div>
 	)
 }

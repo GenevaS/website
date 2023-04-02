@@ -125,11 +125,12 @@ export default function Home( ) {
 
             <p className='block px-5'>
               In pursuit of this emotion engine, I have
-              also <span className='has-text-weight-medium'>designed and run user studies</span>,
-              and <span className='has-text-weight-medium'>developed a mod</span> for the popular
+              also <span className='has-text-weight-medium'>developed a mod</span> for the popular
               game, <a className='is-link'
                        href='https://elderscrolls.bethesda.net/en/skyrim'
-                       target="_blank" rel="noopener noreferrer">Skyrim</a>.
+                       target="_blank" rel="noopener noreferrer">Skyrim</a>. For this mod, I 
+              have <span className='has-text-weight-medium'>designed and run user studies</span> to get a 
+              preliminary evaluation of NPC believability and player interest.
             </p>
 
           </div>

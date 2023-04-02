@@ -110,7 +110,7 @@ export default function Awards( ) {
                                  href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'
                                  target="_blank" rel="noopener noreferrer">placing Third
                           and by being voted the People&#39;s Choice</a> in <span className='has-text-weight-medium'>McMaster&#39;s
-                          Second Annual GradFlix competitiion</span>!
+                          Second Annual GradFlix competition</span>!
                         </p>
                         <p>
                           This <a className="is-link"
@@ -211,7 +211,7 @@ export default function Awards( ) {
                                            target="_blank" rel="noopener noreferrer">Ontario
                                           Graduate Scholarship (OGS)</a>
                                           <br></br>
-                                          <span className='has-text-weight-medium'><i>2020/2021</i></span>
+                                          <span className='has-text-weight-medium'><i>2020</i></span>
                                         <ul>
                                             <li>A merit-based scholarship for students with an average of A- or higher</li>
                                         </ul>
@@ -237,6 +237,17 @@ export default function Awards( ) {
                                         <li>
                                           Awarded for being in the <span className='has-text-weight-medium'>top 15%
                                           of the class</span> at McMaster University
+                                        </li>
+                                      </ul>
+                                    </p>
+
+                                    <p>
+                                      <span className='has-text-weight-medium'>The McMaster Honour Award, Level 2</span>
+                                      <br></br>
+                                      <span className='has-text-weight-medium'><i>2009</i></span>
+                                      <ul>
+                                        <li>
+                                          Awarded for having an admission average in the 85–89.99% range
                                         </li>
                                       </ul>
                                     </p>

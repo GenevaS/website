@@ -47,7 +47,85 @@ export default function Community( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Community Engagement
+                    Service to the Academic Community
+                  </h1>
+                </header>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="tile is-ancestor">
+                <div className="tile is-vertical">
+                  <div className="tile">
+                    <div className="tile is-parent is-vertical">
+                      <InfoTile tileTitle={
+                                  <p className='has-text-weight-medium px-3'>
+                                    Peer Reviewer
+                                  </p>
+                              }
+                              tileLink={
+                                <span></span>
+                              }
+                              pictureSrc={null}
+                              pictureAlt=""
+                              lighter>
+                          <table className='column is-full p-0'>
+                            <tr className='column is-full p-0'>
+                              <td className='pr-3'>2022, 2023</td>
+                              <td className='pr-3'><a className="is-link"
+                                                      href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=5165369"
+                                                      target="_blank" rel="noopener noreferrer"><i>IEEE Transactions on Affective Computing</i></a></td>
+                              <td className='pr-3'>2 Articles</td>
+                            </tr>
+                          </table>
+                      </InfoTile>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
+                    Service to the Department of Computing and Software, McMaster University
+                  </h1>
+                </header>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className='tile is-child notification
+                              has-background-primary-light has-dark-grey-border
+                              px-3'>
+                <article className="is-flex is-flex-direction-column
+                                    is-flex-grow-1
+                                    is-align-items-center px-3">                    
+                    <table className='column is-full p-0'>
+
+                      <tr className='columns is-full m-0 px-0 py-2'>
+                        <td className='column is-one-fifth p-0'>2021–2022</td>
+                        <td className='column is-two-fifths p-0'>Hiring Committee</td>
+                        <td className='column is-two-fifths p-0'>Graduate Student Representative</td>
+                      </tr>
+
+                      <tr className='columns is-full m-0 px-0 py-2'>
+                        <td className='column is-one-fifth p-0'>Jan.–Apr. 2020</td>
+                        <td className='column is-two-fifths p-0'>Graduate Curriculum Planning Meeting</td>
+                        <td className='column is-two-fifths p-0'>Graduate Student Representative</td>
+                      </tr>
+
+                    </table>
+                </article>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
+                    Community Involvement
                   </h1>
                 </header>
               </div>
