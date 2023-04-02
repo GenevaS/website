@@ -57,23 +57,23 @@ export default function Home( ) {
         * ---------------------------------------------------------------
         */}
       <section>
-          <div className='columns is-hidden-touch pt-6 px-6'>
-            <div className='column is-centered'>
-              <div className='columns is-justify-content-center is-align-items-center'>
+        <div className='columns is-hidden-touch pt-6 px-6'>
+          <div className='column is-centered'>
+            <div className='columns is-justify-content-center is-align-items-center'>
 
-                <section className='column is-narrow has-text-right'>
-                  <div className='image'>
-                    {profilePicture}
-                  </div>
-                </section>
+              <section className='column is-narrow has-text-right'>
+                <div className='image'>
+                  {profilePicture}
+                </div>
+              </section>
 
-                <section className='column content is-6 has-text-left pr-3'>
-                  {quickIntro}
-                </section>
+              <section className='column content is-6 has-text-left pr-3'>
+                {quickIntro}
+              </section>
 
-              </div>
             </div>
           </div>
+        </div>
 
         <div className='columns is-hidden-desktop is-flex-direction-column is-centered pt-6 px-6'>
           <div className='column'>
@@ -134,6 +134,7 @@ export default function Home( ) {
             </p>
 
           </div>
+
         </section>
       </section>
     </Layout>

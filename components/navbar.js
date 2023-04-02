@@ -24,7 +24,7 @@ const awardsAddress = "/awards";
 const community = "Community Service";
 const communityAddress = "/community";
 
-const industry = "Industry Experience";
+const industry = "Education & Industry Experience";
 const industryAddress = "/industry";
 
 const funStuff = "Just For Fun";
@@ -81,20 +81,22 @@ function NavBar(  ) {
 
             {IsActiveLink(funStuff, funAddress)}
 
-            {/* <div className='navbar-item is-justify-content-center'>
-                <Link href="/assets/GMSmith_Resume_Web.pdf">
-                    <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-5' tabIndex={0}>
-                        Résumé:<br/> Download!
-                    </a>
-                </Link>
-            </div> */}
+            {<div className='navbar-item is-flex-direction-column is-justify-content-center my-3'>
 
-            {<div className='navbar-item is-justify-content-center'>
                 <Link href="/assets/GMSmith_CV_Web.pdf">
-                    <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-5' tabIndex={0}>
+                    <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-2' tabIndex={0}>
                         CV:<br/> Download!
                     </a>
                 </Link>
+
+                <br></br>
+
+                <Link href="/assets/GMSmith_Resume_Web.pdf">
+                    <a download target="_blank" rel="noopener noreferrer" className='button downloadbutton my-2' tabIndex={0}>
+                        Résumé:<br/> Download!
+                    </a>
+                </Link>
+            
             </div>}
         </div>
 	)
