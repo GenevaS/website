@@ -16,10 +16,13 @@ import sashaCard from "../public/images/gscale_businesscard_back_Sasha.png"
 import caretteCard from "../public/images/gscale_businesscard_Carette.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFileZipper } from '@fortawesome/free-solid-svg-icons'
+
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
-const youtubeicon = <FontAwesomeIcon className='has-text-black' icon={faYoutubeSquare} transform='grow-13' alt="YouTube Icon"/>
+const zipicon = <FontAwesomeIcon className='has-text-black' icon={faFileZipper} transform='grow-7' alt="ZIP File Icon"/>
+
 
 const websiteProjectLink = <a className='icon'
                               href="https://github.com/GenevaS/website"
@@ -32,6 +35,20 @@ const c3projectLink = <a className='icon'
                          target="_blank" rel="noopener noreferrer"
                          aria-label="Go to GitHub repository for the Companion Cube Calculator">
                         {githubicon}
+                      </a>
+
+const emgineprojectLink = <a className='icon'
+                         href="https://github.com/GenevaS/EMgine"
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="Go to GitHub repository for the EMgine Project">
+                        {githubicon}
+                      </a>
+
+const skyrimmodprojectLink = <a className='icon'
+                         href="https://macsphere.mcmaster.ca/bitstream/11375/21369/3/Smith_Geneva_M_2017April_MAScSoftwareEngineering_GLaDOS.zip"
+                         target="_blank" rel="noopener noreferrer"
+                         aria-label="Get ZIP file for the Skyrim Mod from MacSphere">
+                        {zipicon}
                       </a>
 
 export default function Projects( ) {
@@ -65,6 +82,15 @@ export default function Projects( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
+
+                    <InfoTile tileTitle="EMgine"
+                                tileLink={emgineprojectLink}
+                                pictureSrc={null}
+                                lighter>
+                        <p>
+                          .
+                        </p>
+                      </InfoTile>
 
                       <InfoTile pictureOnLeft
                                 tileTitle="This Website!"
@@ -124,6 +150,15 @@ export default function Projects( ) {
                         </p>
                       </InfoTile>
 
+                      <InfoTile tileTitle="Skyrim Mod"
+                                tileLink={skyrimmodprojectLink}
+                                pictureSrc={null}
+                                lighter>
+                        <p>
+                          .
+                        </p>
+                      </InfoTile>
+
                     </div>
                   </div>
                 </div>
@@ -144,82 +179,6 @@ export default function Projects( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-
-                      <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
-                              Faculty of Engineering and McMaster University Three Minute Thesis
-                              <br></br>
-                              (3MT) Competitions
-                            </p>
-                          }
-                                tileLink={
-                                  <p className='has-text-weight-medium px-3'>
-                                    March 2019,
-                                    <br></br>
-                                    October 2018
-                                  </p>
-                                }
-                                pictureSrc={null}
-                                lighter>
-                        <p>
-                            I
-                            had <a className="is-link"
-                                   href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
-                                   target="_blank" rel="noopener noreferrer">three minutes and one static slide</a> to
-                            convey what I&#39;ve been working on for my Ph.D. I had to
-                            <span className='has-text-weight-medium'>communicate the problem and what
-                            I was doing about it</span> to a panel of judges that were not familiar
-                            with my work or field. Needless to say, it was a challenge (and
-                            public speaking is one of my least favourite things to do).
-                        </p>
-                        <p>
-                          I did it though, and am quite pleased with how I did. Audience members who know
-                          me were surprised that I could speak that loudly. Unfortunately, I did not place
-                          in either the faculty or university-wide competitions.
-                        </p>
-                      </InfoTile>
-
-                      <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            First Ubisoft Future Women in Games Mentorship
-                          </p>
-                        }
-                        tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            October 2019
-                          </p>
-                        }
-                                pictureSrc={null}
-                                lighter>
-                        <p>
-                          I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
-                          participate in
-                          their <a className="is-link"
-                                   href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'
-                                   target="_blank" rel="noopener noreferrer">Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
-                          on the theme</span> &#34;my morning routine&#34;, I focused on
-                          a challenge that I face almost daily: escaping my apartment
-                          without one of my adorable cats tearing a hole in my stockings.
-                        </p>
-                        <p>
-                          I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
-                          to <a className="is-link"
-                                href='https://amnesiagame.com/#main'
-                                target="_blank" rel="noopener noreferrer">Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link"
-                                                                                                                                     href='https://www.blooberteam.com/layers-of-fear'
-                                                                                                                                     target="_blank" rel="noopener noreferrer">Bloober
-                                                                                                                                     Team&#39;s Layers of Fear</a>.
-                          I decided to play with the idea of feline spirits that are either out to get you, or
-                          will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
-                          pitch describing a the concept and plans for prototyping and testing it</span>. Next,
-                          I <span className='has-text-weight-medium'>created a Design Solution Presentation</span>, outlining
-                          the intended player experience and success criteria, my inspirations for the design, the game feature
-                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to continue
-                          past this stage. Still, I am very pleased with the ideas I created for this and I am grateful for the
-                          opportunity to work on
-                          my <span className='has-text-weight-medium'>game design skills</span>.
-                        </p>
-                      </InfoTile>
 
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>

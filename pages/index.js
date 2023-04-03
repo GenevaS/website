@@ -97,8 +97,9 @@ export default function Home( ) {
           <div className='column px-6'>
             <p className='block px-5'>
               I am interested in the <span className='has-text-weight-medium'>research
-              behind and design of software systems</span> (although I have been known
-              to be interested in other things too). I am especially interested
+              behind and design of software systems, especially in the context of game 
+              design and affective computing</span> (although I have been known to be 
+              interested in other things too). I am especially interested
               in <a className="is-link has-text-weight-medium"
                     href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"
                     target="_blank" rel="noopener noreferrer">Human-Computer Interactions (HCI)</a>

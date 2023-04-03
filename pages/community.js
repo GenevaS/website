@@ -125,6 +125,56 @@ export default function Community( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
+                    Service to the G-ScalE Lab, Department of Computing and Software, McMaster University
+                  </h1>
+                </header>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="tile is-ancestor">
+                <div className="tile is-vertical">
+                  <div className="tile">
+                    <div className="tile is-parent is-vertical">
+
+                      <InfoTile tileTitle={
+                                  <p className='has-text-weight-medium px-3'>
+                                    <a className='is-link'
+                                       href="https://gscale.cas.mcmaster.ca/"
+                                       target="_blank" rel="noopener noreferrer">G-ScalE Website</a> Designer & Developer
+                                  </p>
+                              }
+                              tileLink={
+                                <p className='has-text-weight-medium px-3'>
+                                  May 2022 to Present
+                                </p>
+                              }
+                              pictureSrc={null}
+                              pictureAlt=""
+                              lighter>
+                        <div className='content'>
+                          <p>
+                            :
+                          </p>
+
+                          <ul>
+                            <li>
+                              .
+                            </li>
+                          </ul>
+                        </div>
+                      </InfoTile>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
                     Community Involvement
                   </h1>
                 </header>
@@ -194,7 +244,7 @@ export default function Community( ) {
                           </p>
                           <ul>
                             <li>
-                              Filled the role of <span className='has-text-weight-medium'>Vice President
+                              Was the <span className='has-text-weight-medium'>Vice President
                               Administration</span> (May 2019 to September 2020), which includes recording
                               the LiCS Executive Meeting Minutes and participating in the Graduate Student
                               Association (GSA) Clubs Meeting and follow-up in 2020
@@ -261,14 +311,11 @@ export default function Community( ) {
                             </li>
 
                             <li>
-                              Filled the role of <span className='has-text-weight-medium'>Branch
+                              Was the <span className='has-text-weight-medium'>Branch
                               Secretary</span> (September 2015 to April 2016), which
                               entailed recording and publishing the weekly Meeting Minutes
                             </li>
-
-                            <li>
-                              Responded to general student inquiries about branch events and services
-                            </li>
+                            
                           </ul>
                         </div>
                       </InfoTile>

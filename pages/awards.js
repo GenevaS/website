@@ -51,7 +51,7 @@ export default function Awards( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Competition Awards
+                    Competitions & Competition-based Awards
                   </h1>
                 </header>
               </div>
@@ -132,6 +132,45 @@ export default function Awards( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            First Ubisoft Future Women in Games Mentorship
+                            <br></br>
+                            <i>October 2019</i>
+                          </p>
+                        }
+                          pictureSrc={null}
+                          lighter>
+                        <p>
+                          I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
+                          participate in
+                          their <a className="is-link"
+                                   href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'
+                                   target="_blank" rel="noopener noreferrer">Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
+                          on the theme</span> &#34;my morning routine&#34;, I focused on
+                          a challenge that I face almost daily: escaping my apartment
+                          without one of my adorable cats tearing a hole in my stockings.
+                        </p>
+                        <p>
+                          I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
+                          to <a className="is-link"
+                                href='https://amnesiagame.com/#main'
+                                target="_blank" rel="noopener noreferrer">Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link"
+                                                                                                                                     href='https://www.blooberteam.com/layers-of-fear'
+                                                                                                                                     target="_blank" rel="noopener noreferrer">Bloober
+                                                                                                                                     Team&#39;s Layers of Fear</a>.
+                          I decided to play with the idea of feline spirits that are either out to get you, or
+                          will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
+                          pitch describing a the concept and plans for prototyping and testing it</span>. Next,
+                          I <span className='has-text-weight-medium'>created a Design Solution Presentation</span>, outlining
+                          the intended player experience and success criteria, my inspirations for the design, the game feature
+                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to continue
+                          past this stage. Still, I am very pleased with the ideas I created for this and I am grateful for the
+                          opportunity to work on
+                          my <span className='has-text-weight-medium'>game design skills</span>.
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
                             <p className='has-text-weight-medium px-3'>
                                 Third Place in McMaster University&#39;s Department of Computing and Software Three Minute Thesis (3MT)
                                 <br></br>
@@ -165,6 +204,33 @@ export default function Awards( ) {
 
                       <InfoTile tileTitle={
                             <p className='has-text-weight-medium px-3'>
+                              Faculty of Engineering & McMaster University Three Minute Thesis (3MT) Competitions
+                              <br></br>
+                              <i>March 2019 & October 2018</i>
+                            </p>
+                          }
+                            pictureSrc={null}
+                            lighter>
+                        <p>
+                            I
+                            had <a className="is-link"
+                                   href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
+                                   target="_blank" rel="noopener noreferrer">three minutes and one static slide</a> to
+                            convey what I&#39;ve been working on for my Ph.D. I had to
+                            <span className='has-text-weight-medium'>communicate the problem and what
+                            I was doing about it</span> to a panel of judges that were not familiar
+                            with my work or field. Needless to say, it was a challenge (and
+                            public speaking is one of my least favourite things to do).
+                        </p>
+                        <p>
+                          I did it though, and am quite pleased with how I did. Audience members who know
+                          me were surprised that I could speak that loudly. Unfortunately, I did not place
+                          in either the faculty or university-wide competitions.
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                            <p className='has-text-weight-medium px-3'>
                                 Third Place in the IBM Canada Markham Lab TechChallenge
                                 <br></br>
                                 <i>April 2013</i>
@@ -190,7 +256,7 @@ export default function Awards( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Academic Achievements
+                    Academic Awards
                   </h1>
                 </header>
               </div>

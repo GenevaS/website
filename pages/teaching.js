@@ -21,7 +21,7 @@ export default function Teaching( ) {
               <div className="card">
                 <header className="card-header">
                   <h1 className="card-header-title">
-                    Supervising Experience
+                    Research Supervision Experience
                   </h1>
                 </header>
               </div>
@@ -136,12 +136,57 @@ export default function Teaching( ) {
                           <p className='has-text-weight-medium px-3'>
                             Graduate Teaching Assistant
                             <br></br>
+                            <i>Human Computer Interaction (COMPSCI/SFWRENG 4HC3), McMaster University</i>
+                          </p>
+                        }
+                        tileLink={
+                          <p className='has-text-weight-medium px-3'>
+                            2021, 2018, 2017, 2016, 2015, 2014
+                            <br></br>
+                            Fall Term (September to December)
+                          </p>
+                        }
+                        pictureSrc={null}
+                        pictureAlt=""
+                        lighter>
+                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
+                            <span className='has-text-weight-medium'>Course Description</span>
+                            <p>
+                              Design of user interfaces. Principles of good interface design. Human input.
+                              Displaying complex data using graphics and virtual reality. Modes and mode awareness
+                              problem. Health issues, information overload. Special purpose graphics hardware.
+                              Interface design tools; on-line help systems.
+                            </p>
+
+                            <span className='has-text-weight-medium'>Duties & Tasks</span>
+                            <ul>
+                              <li>
+                                Ran weekly tutorials to strengthen students&#39; understanding of fundamental design
+                                concepts relevant to user interfaces, writing research papers, and user study design
+                                and execution (in-person and virtually)
+                              </li>
+                              <li>
+                                Met with students to discuss assignment feedback and improve their understanding of
+                                course topics
+                              </li>
+                              <li>
+                                Provided constructive feedback on student work involving user interface critiques and
+                                user study design in writing and conversation
+                              </li>
+                            </ul>
+                          </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                          <p className='has-text-weight-medium px-3'>
+                            Graduate Teaching Assistant
+                            <br></br>
                             <i>Data Structures and Algorithms (COMPSCI 2C03), McMaster University</i>
                           </p>
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            2022, 2018, 2016
+                            2022, 2017, 2016
                             <br></br>
                             Winter Term (January to April)
                           </p>
@@ -181,16 +226,16 @@ export default function Teaching( ) {
 
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
+                            Graduate Teaching Assistant, McMaster University
                             <br></br>
-                            <i>Human Computer Interaction (COMPSCI/SWFRENG 4HC3), McMaster University</i>
+                            <i>Practice and Experience: Basic Concepts (COMPSCI 1XA3)</i>
                           </p>
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            2021, 2018, 2017, 2016, 2015, 2014
+                            2019, 2018, 2015
                             <br></br>
-                            Fall Term (September to December)
+                            Winter Term (January to April)
                           </p>
                         }
                         pictureSrc={null}
@@ -199,26 +244,23 @@ export default function Teaching( ) {
                           <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
                             <span className='has-text-weight-medium'>Course Description</span>
                             <p>
-                              Design of user interfaces. Principles of good interface design. Human input.
-                              Displaying complex data using graphics and virtual reality. Modes and mode awareness
-                              problem. Health issues, information overload. Special purpose graphics hardware.
-                              Interface design tools; on-line help systems.
+                              Practical experience with implementing basic CS concepts such as data representation,
+                              recursion, computer architecture, concurrency. Hands-on application of CS concepts
+                              to formulating, analyzing, and solving problems.
                             </p>
 
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-                                Ran weekly tutorials to strengthen students&#39; understanding of fundamental design
-                                concepts relevant to user interfaces, writing research papers, and user study design
-                                and execution (in-person and virtually)
+                                Taught beginner programming concepts, such as data types, control structures, and file
+                                processing, to first year computer science students using Python
                               </li>
                               <li>
-                                Met with students to discuss assignment feedback and improve their understanding of
-                                course topics
+                                Collaborated with the professor to create hands-on tutorials, as well as assignments and
+                                quizzes with sample solutions and grading schemes
                               </li>
                               <li>
-                                Provided constructive feedback on student work involving user interface critiques and
-                                user study design in writing and conversation
+                                Graded and returned bi-weekly student assignments within a week of the submission date
                               </li>
                             </ul>
                           </div>
@@ -268,46 +310,6 @@ export default function Teaching( ) {
                           <p className='has-text-weight-medium px-3'>
                             Graduate Teaching Assistant
                             <br></br>
-                            <i>Digital Systems and Interfacing (SFWRENG 2DA4), McMaster University</i>
-                          </p>
-                        }
-                        tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            September to December 2020
-                          </p>
-                        }
-                        pictureSrc={null}
-                        pictureAlt=""
-                        lighter>
-                          <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
-                            <span className='has-text-weight-medium'>Course Description</span>
-                            <p>
-                              Memory, binary arithmetic, hierarchical design. Hardware/software co-design
-                              and application specific processors. Interfacing to I/O devices.
-                            </p>
-
-                            <span className='has-text-weight-medium'>Duties & Tasks</span>
-                            <ul>
-                              <li>
-                                Prepared for weekly labs by implementing the described system in
-                                Verilog via Quartus with the DE1-SoC board as the target device
-                              </li>
-                              <li>
-                                Supervised and evaluated weekly hardware labs via Microsoft Teams 
-                                with an undergraduate TA (virtually)
-                              </li>
-                              <li>
-                                Maintained student grade spreadsheet (Excel) and course delivery
-                                platform (Avenue to Learn)
-                              </li>
-                            </ul>
-                          </div>
-                      </InfoTile>
-
-                      <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
                             <i>Software Requirements and Security Considerations (COMPSCI/SFWRENG 3RA3), McMaster University</i>
                           </p>
                         }
@@ -343,16 +345,14 @@ export default function Teaching( ) {
 
                       <InfoTile tileTitle={
                           <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant, McMaster University
+                            Graduate Teaching Assistant
                             <br></br>
-                            <i>Practice and Experience: Basic Concepts (COMPSCI 1XA3)</i>
+                            <i>Digital Systems and Interfacing (SFWRENG 2DA4), McMaster University</i>
                           </p>
                         }
                         tileLink={
                           <p className='has-text-weight-medium px-3'>
-                            February to April 2017,
-                            <br></br>
-                            January to April 2015
+                            September to December 2020
                           </p>
                         }
                         pictureSrc={null}
@@ -361,23 +361,23 @@ export default function Teaching( ) {
                           <div className='content is-flex is-flex-direction-column is-align-self-flex-start'>
                             <span className='has-text-weight-medium'>Course Description</span>
                             <p>
-                              Practical experience with implementing basic CS concepts such as data representation,
-                              recursion, computer architecture, concurrency. Hands-on application of CS concepts
-                              to formulating, analyzing, and solving problems.
+                              Memory, binary arithmetic, hierarchical design. Hardware/software co-design
+                              and application specific processors. Interfacing to I/O devices.
                             </p>
 
                             <span className='has-text-weight-medium'>Duties & Tasks</span>
                             <ul>
                               <li>
-                                Taught beginner programming concepts, such as data types, control structures, and file
-                                processing, to first year computer science students using Python
+                                Prepared for weekly labs by implementing the described system in
+                                Verilog via Quartus with the DE1-SoC board as the target device
                               </li>
                               <li>
-                                Collaborated with the professor to create hands-on tutorials, as well as assignments and
-                                quizzes with sample solutions and grading schemes
+                                Supervised and evaluated weekly hardware labs via Microsoft Teams 
+                                with an undergraduate TA (virtually)
                               </li>
                               <li>
-                                Graded and returned bi-weekly student assignments within a week of the submission date
+                                Maintained student grade spreadsheet (Excel) and course delivery
+                                platform (Avenue to Learn)
                               </li>
                             </ul>
                           </div>

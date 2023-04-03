@@ -61,7 +61,7 @@ export default function Publications( ) {
                               lighter>
                         <div className='content'>
 
-                        <p>
+                          <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2022.
                             What Lies Beneath—A Survey of Affective Theory Use in Computational Models of 
                             Emotion. <i>IEEE Transactions on Affective Computing</i> 13, 4 (Oct.–Dec. 2022), 
@@ -100,8 +100,11 @@ export default function Publications( ) {
 
                           <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
-                            Building Test Cases for Video Game-Focused Computational Models of Emotion. Available
-                            at <a className='is-link'
+                            Building Test Cases for Video Game-Focused Computational Models of Emotion. <u>To 
+                            appear</u> in the <i>Proceedings of the Interdisciplinary Design of Emotion Sensitive 
+                            Agents (IDEA) International Workshop</i>. May 30, 2023. Co-located with the 22nd 
+                            International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023), 
+                            May 29–June 2, 2023, London, England. Preprint available at <a className='is-link'
                                   href="http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf"
                                   target="_blank" rel="noopener noreferrer"
                                   style={{wordBreak: "break-all"}} aria-label="Go to official page for Building Test Cases">http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf</a>
@@ -116,28 +119,6 @@ export default function Publications( ) {
                                   target="_blank" rel="noopener noreferrer"
                                   style={{wordBreak: "break-all"}} aria-label="Go to official page for Start Your EMgine">https://doi.org/10.2139/ssrn.4327741</a>
                           </p>
-                        </div>
-                      </InfoTile>
-
-                      <InfoTile tileTitle="Theses"
-                              pictureSrc={null}
-                              lighter>
-                        <div className='content'>
-
-                          <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2017.
-                            <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
-                            Role-Playing Games.</i> Masters Thesis. Department of Computing and Software,
-                            McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
-                                                                                  href="https://www.eng.mcmaster.ca/faculty/jacques-carette/"
-                                                                                  target="_blank" rel="noopener noreferrer"
-                                                                                  aria-label="Go to Dr. Jacque Carette's profile on McMaster University's website">Dr. Jacques Carette</a>
-                            . <a className='is-link'
-                                 href='http://hdl.handle.net/11375/21369'
-                                 target="_blank" rel="noopener noreferrer"
-                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
-                            Role-Playing Games">http://hdl.handle.net/11375/21369</a>
-                          </p>
 
                         </div>
                       </InfoTile>
@@ -146,6 +127,13 @@ export default function Publications( ) {
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023 (<u>Upcoming</u>). Creating 
+                            Believable Stories with NPCs. In <i>Conversations with Games:  Emergent Narratives 
+                            and Gameplay Experience</i>. Panel to be presented at the <i>2023 International
+                            Conference on Games and Narrative (ICGaN)</i>. May 15–19, 2023, Online.
+                          </p>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2019. Towards Emotional
@@ -164,6 +152,13 @@ export default function Publications( ) {
                         <div className='content'>
 
                           <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Problems That 
+                            You've Solved in Video Games: The Agent Assignment Problem. Presentation 
+                            for the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, 
+                            ON, Canada.
+                          </p>
+
+                          <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2017. GLaDOS:
                             Integrating Emotion-Based Behaviours into Non-Player Characters in
                             Computer Role-Playing Games. Presentation at the <i>2017 IMMERSe
@@ -176,6 +171,40 @@ export default function Publications( ) {
                             Computer Role Playing Games. Presentation at the <i>2015 IMMERSe
                             Network Meeting</i>. November 26–27, 2015, Waterloo, ON, Canada.
                           </p>
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Theses"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023. 
+                            <i> Start Your EM(otion En)gine: Towards Computational Models of Emotion for Improving 
+                            the Believability of Video Game Non-Player Characters</i>. Ph.D. Thesis. Department of Computing and Software,
+                            McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
+                                                                                  href="https://www.eng.mcmaster.ca/faculty/jacques-carette/"
+                                                                                  target="_blank" rel="noopener noreferrer"
+                                                                                  aria-label="Go to Dr. Jacque Carette's profile on McMaster University's website">Dr. Jacques Carette</a>
+                            . In preparation.
+                          </p>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2017.
+                            <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
+                            Role-Playing Games</i>. Masters Thesis. Department of Computing and Software,
+                            McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
+                                                                                  href="https://www.eng.mcmaster.ca/faculty/jacques-carette/"
+                                                                                  target="_blank" rel="noopener noreferrer"
+                                                                                  aria-label="Go to Dr. Jacque Carette's profile on McMaster University's website">Dr. Jacques Carette</a>
+                            . <a className='is-link'
+                                 href='http://hdl.handle.net/11375/21369'
+                                 target="_blank" rel="noopener noreferrer"
+                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
+                            Role-Playing Games">http://hdl.handle.net/11375/21369</a>
+                          </p>
+
                         </div>
                       </InfoTile>
                     </div>
