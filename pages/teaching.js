@@ -21,7 +21,7 @@ export default function Teaching( ) {
               <div className="card">
                 <header className="card-header">
                   <h1 className="card-header-title">
-                    Research Supervision Experience
+                    Student Research Supervision
                   </h1>
                 </header>
               </div>
@@ -33,38 +33,45 @@ export default function Teaching( ) {
                     <div className="tile is-parent is-vertical">
 
                       <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
+                            <p>
                               <a className='is-link'
                                href="https://gscale.cas.mcmaster.ca/author/brendan-fallon/"
                                target="_blank" rel="noopener noreferrer"
-                               aria-label="Go to Brendan Fallon's profile on G-ScalE's website">Brendan Fallon</a>, Masters Student 
-                              <br></br>
-                              Co-supervised with <a className='is-link'
-                                                  href="https://gscale.cas.mcmaster.ca/author/jacques-carette/"
-                                                  target="_blank" rel="noopener noreferrer"
-                                                  aria-label="Go to Dr. Jacque Carette's profile on G-ScalE's website">Dr. Jacques Carette</a>
+                               aria-label="Go to Brendan Fallon's profile on G-ScalE's website">Brendan Fallon</a>, Masters of Engineering (M.Eng.) Student 
+                              <br className='my-1'></br>
+                              <i className='has-text-weight-medium'>September 2020 to Present</i>
                             </p>
                           }
                                 tileLink={
-                                  <p className='has-text-weight-medium px-3'>
-                                    September 2020 to Present
-                                  </p>
+                                  <span></span>
                                 }
                                 pictureSrc={null}
                                 lighter>
-                        <p>
+                        <span className='is-align-items-start'>
+                          <p>
                             Brendan is part of the EMgine (Emotion Engine) project. He is developing an interface so that EMgine can communicate
                             with the <a className='is-link'
                                       href="https://unity.com/"
                                       target="_blank" rel="noopener noreferrer"
                                       aria-label="Go to Unity's website">Unity game development platform</a>.
-                        </p>
+                          </p>
 
-                        <p>
-                          For this work, Brendan developed a process and rubric for evaluating game engines with respect to their Non-Player
-                          Character (NPC) capabilities and is building a module in Unity for EMgine to interface with to guage how much 
-                          effort a developer might exert to use EMgine in their game projects.
-                        </p>
+                          <p>
+                            For this work, Brendan developed a process and rubric for evaluating game engines with respect to their Non-Player
+                            Character (NPC) capabilities and is building a module in Unity for EMgine to interface with to guage how much 
+                            effort a developer might exert to use EMgine in their game projects.
+                          </p>
+                              
+                          <p>
+                            Co-supervised with <a className='is-link'
+                                                  href="https://gscale.cas.mcmaster.ca/author/jacques-carette/"
+                                                  target="_blank" rel="noopener noreferrer"
+                                                  aria-label="Go to Dr. Jacque Carette's profile on G-ScalE's website">
+                                                  Dr. Jacques Carette
+                                                </a>
+                          </p>
+                        </span>
+                        
                       </InfoTile>
                     </div>
                   </div>
@@ -76,7 +83,7 @@ export default function Teaching( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Teaching Experience
+                    McMaster University—Teaching Assistant
                   </h1>
                 </header>
               </div>
@@ -89,16 +96,14 @@ export default function Teaching( ) {
                     <div className="tile is-parent is-vertical">
 
                     <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i> Game Design (SFWRENG 3GB3), McMaster University</i>
+                          <p>
+                            Game Design (SFWRENG 3GB3)
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>Winter Term (January to April)—2023</i>
                           </p>
                         }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            January to April 2023
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""
@@ -133,18 +138,14 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i>Human Computer Interaction (COMPSCI/SFWRENG 4HC3), McMaster University</i>
-                          </p>
-                        }
+                            <p>
+                              Human Computer Interaction (COMPSCI/SFWRENG 4HC3)
+                              <br className='my-1'></br>
+                              <i className='has-text-weight-medium'>Fall Term (September to December)—2021, 2018, 2017, 2016, 2015, 2014</i>
+                            </p>
+                          }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            2021, 2018, 2017, 2016, 2015, 2014
-                            <br></br>
-                            Fall Term (September to December)
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""
@@ -178,19 +179,15 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i>Data Structures and Algorithms (COMPSCI 2C03), McMaster University</i>
-                          </p>
-                        }
-                        tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            2022, 2017, 2016
-                            <br></br>
-                            Winter Term (January to April)
-                          </p>
-                        }
+                          <p>
+                            Data Structures and Algorithms (COMPSCI 2C03)
+                          <br className='my-1'></br>
+                          <i className='has-text-weight-medium'>Winter Term (January to April)—2022, 2017, 2016</i>
+                        </p>
+                      }
+                    tileLink={
+                      <span></span>
+                    }
                         pictureSrc={null}
                         pictureAlt=""
                         lighter>
@@ -225,18 +222,14 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant, McMaster University
-                            <br></br>
-                            <i>Practice and Experience: Basic Concepts (COMPSCI 1XA3)</i>
+                          <p>
+                            Practice and Experience: Basic Concepts (COMPSCI 1XA3)
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>Winter Term (January to April)—2019, 2018, 2015</i>
                           </p>
                         }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            2019, 2018, 2015
-                            <br></br>
-                            Winter Term (January to April)
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""
@@ -267,18 +260,14 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i>Software Testing (SFWRENG 3S03), McMaster University</i>
+                          <p>
+                            Software Testing (SFWRENG 3S03)
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>Winter Term (January to April)—2021, 2020</i>
                           </p>
                         }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            January to April 2021,
-                            <br></br>
-                            January to April 2020
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""
@@ -307,16 +296,14 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i>Software Requirements and Security Considerations (COMPSCI/SFWRENG 3RA3), McMaster University</i>
+                          <p>
+                            Software Requirements and Security Considerations (COMPSCI/SFWRENG 3RA3)
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>Fall Term (September to December)—2019</i>
                           </p>
                         }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            September to December 2019
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""
@@ -344,16 +331,14 @@ export default function Teaching( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            Graduate Teaching Assistant
-                            <br></br>
-                            <i>Digital Systems and Interfacing (SFWRENG 2DA4), McMaster University</i>
+                          <p>
+                            Digital Systems and Interfacing (SFWRENG 2DA4)
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>Fall Term (September to December)—2020</i>
                           </p>
                         }
                         tileLink={
-                          <p className='has-text-weight-medium px-3'>
-                            September to December 2020
-                          </p>
+                          <span></span>
                         }
                         pictureSrc={null}
                         pictureAlt=""

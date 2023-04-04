@@ -4,16 +4,9 @@
  */
 
 import Head from 'next/head'
-import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
-import imgLoader from "../lib/imageloader"
-
-import gscaleCard from "../public/images/gscale_businesscard_front.png"
-import genevaCard from "../public/images/gscale_businesscard_back_Geneva.png"
-import sashaCard from "../public/images/gscale_businesscard_back_Sasha.png"
-import caretteCard from "../public/images/gscale_businesscard_Carette.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
@@ -28,8 +21,8 @@ const websiteProjectLink = <a className='icon'
                               href="https://github.com/GenevaS/website"
                               target="_blank" rel="noopener noreferrer"
                               aria-label="Go to GitHub repository for this website">
-                         {githubicon}
-                       </a>
+                              {githubicon}
+                            </a>
 const c3projectLink = <a className='icon'
                          href="https://github.com/GenevaS/CAS741"
                          target="_blank" rel="noopener noreferrer"
@@ -38,11 +31,11 @@ const c3projectLink = <a className='icon'
                       </a>
 
 const emgineprojectLink = <a className='icon'
-                         href="https://github.com/GenevaS/EMgine"
-                         target="_blank" rel="noopener noreferrer"
-                         aria-label="Go to GitHub repository for the EMgine Project">
-                        {githubicon}
-                      </a>
+                            href="https://github.com/GenevaS/EMgine"
+                            target="_blank" rel="noopener noreferrer"
+                            aria-label="Go to GitHub repository for the EMgine Project">
+                            {githubicon}
+                          </a>
 
 const skyrimmodprojectLink = <a className='icon'
                          href="https://macsphere.mcmaster.ca/bitstream/11375/21369/3/Smith_Geneva_M_2017April_MAScSoftwareEngineering_GLaDOS.zip"
@@ -64,15 +57,15 @@ export default function Projects( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Technical Projects
+                    Technical & Design Projects
                   </h1>
 
-                  <a className="icon pr-5"
+{/*                   <a className="icon pr-5"
                      href="https://github.com/GenevaS"
                      target="_blank" rel="noopener noreferrer"
                      aria-label="Link to Geneva's GitHub">
                     {githubicon}
-                  </a>
+                  </a> */}
                 </header>
               </div>
             </div>
@@ -83,7 +76,13 @@ export default function Projects( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                    <InfoTile tileTitle="EMgine"
+                    <InfoTile tileTitle={
+                                  <p>
+                                    EMgine C# Software Library
+                                    <br className='my-1'></br>
+                                    <i className='has-text-weight-medium'>October 2022 to Present</i>
+                                  </p>
+                              }
                                 tileLink={emgineprojectLink}
                                 pictureSrc={null}
                                 lighter>
@@ -93,12 +92,18 @@ export default function Projects( ) {
                       </InfoTile>
 
                       <InfoTile pictureOnLeft
-                                tileTitle="This Website!"
+                                tileTitle={
+                                  <p>
+                                    This Website!
+                                    <br className='my-1'></br>
+                                    <i className='has-text-weight-medium'>February 2022 to Present</i>
+                                  </p>
+                              }
                                 tileLink={websiteProjectLink}
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          It&#39;s 2022, so I decided that a personal website was an important
+                          It was 2022, so I decided that a personal website was an important
                           part of making myself known in academia and industry (especially because
                           I&#39;m trained to do software engineering...). And here we are!
                         </p>
@@ -131,7 +136,55 @@ export default function Projects( ) {
                         </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Companion Cube Calculator (C&#179;)"
+                      <InfoTile tileTitle={
+                          <p>
+                            First Ubisoft Future Women in Games Mentorship
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>October 2019</i>
+                          </p>
+                        }
+                        tileLink={
+                          <span></span>                       
+                        }
+                          pictureSrc={null}
+                          lighter>
+                        <p>
+                          I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
+                          participate in
+                          their <a className="is-link"
+                                   href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'
+                                   target="_blank" rel="noopener noreferrer">Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
+                          on the theme</span> &#34;my morning routine&#34;, I focused on
+                          a challenge that I face almost daily: escaping my apartment
+                          without one of my adorable cats tearing a hole in my stockings.
+                        </p>
+                        <p>
+                          I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
+                          to <a className="is-link"
+                                href='https://amnesiagame.com/#main'
+                                target="_blank" rel="noopener noreferrer">Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link"
+                                                                                                                                     href='https://www.blooberteam.com/layers-of-fear'
+                                                                                                                                     target="_blank" rel="noopener noreferrer">Bloober
+                                                                                                                                     Team&#39;s Layers of Fear</a>.
+                          I decided to play with the idea of feline spirits that are either out to get you, or
+                          will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
+                          pitch describing a the concept and plans for prototyping and testing it</span>. Next,
+                          I <span className='has-text-weight-medium'>created a Design Solution Presentation</span>, outlining
+                          the intended player experience and success criteria, my inspirations for the design, the game feature
+                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to continue
+                          past this stage. Still, I am very pleased with the ideas I created for this and I am grateful for the
+                          opportunity to work on
+                          my <span className='has-text-weight-medium'>game design skills</span>.
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                                            <p>
+                                              Companion Cube Calculator (C&#179;)
+                                              <br className='my-1'></br>
+                                              <i className='has-text-weight-medium'>September to December 2017</i>
+                                            </p>
+                                          }
                                 tileLink={c3projectLink}
                                 pictureSrc={null}
                                 lighter>
@@ -150,7 +203,15 @@ export default function Projects( ) {
                         </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Skyrim Mod"
+                      <InfoTile tileTitle={
+                                            <p>
+                                              Bethesda's <a className='is-link'
+                                                            href='https://elderscrolls.bethesda.net/en/skyrim'
+                                                            target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a> "GLaDOS" Mod
+                                              <br className='my-1'></br>
+                                              <i className='has-text-weight-medium'>September to December 2017</i>
+                                            </p>
+                                          }
                                 tileLink={skyrimmodprojectLink}
                                 pictureSrc={null}
                                 lighter>
@@ -164,108 +225,7 @@ export default function Projects( ) {
                 </div>
               </div>
             </div>
-
-            <div className='column'>
-              <div className="card">
-                <header className="card-header">
-                  <h1 className="card-header-title">
-                    Non-Technical Projects
-                  </h1>
-                </header>
-              </div>
-            </div>
-            <div className='column'>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-
-                      <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            G-ScalE Logos and Business Cards
-                            <br></br>
-                            <i>G-ScalE Lab, McMaster University</i>
-                          </p>
-                      }
-                      tileLink={
-                        <p className='has-text-weight-medium px-3'>
-                          2018
-                        </p>
-                      }
-                              pictureSrc={null}
-                              lighter>
-                        <p>
-                          When we were discussing how to best <span className='has-text-weight-medium'>market the work we do</span> at
-                          the <a className='is-link'
-                                 href='https://gscale.cas.mcmaster.ca/'
-                                 target="_blank" rel="noopener noreferrer">Gaming Scalability Environment (G-ScalE) lab</a>,
-                          my supervisor, lab mates, and I decided that having a <span className='has-text-weight-medium'>logo</span> was
-                          a good idea. We could put it on our presentation slides, and visually distinguish ourselves online. You can
-                          see some of this work in the wild
-                          on <a className="is-link"
-                                href="https://twitter.com/lab_scale"
-                                target="_blank" rel="noopener noreferrer">G-ScalE&#39;s Twitter page</a>,
-                          and in the footer of this page next to the link to my profile on the G-ScalE website.
-                          We also decided to make some business cards to give out at meetings and
-                          conferences.
-                        </p>
-                        <p>
-                          This was a fun project. It let me practice
-                          my <span className='has-text-weight-medium'>visual design and Photoshop skills</span>, <span className='has-text-weight-medium'>incorporate
-                          feedback</span>  from other members of the lab, and
-                          ensure that <span className='has-text-weight-medium'>certain
-                          pieces could scale well</span> if its size changed on a webpage.
-                        </p>
-
-                        <div className='is-flex is-justify-content-space-evenly is-flex-wrap-wrap
-                                        is-full-width
-                                        mt-4'>
-                          <Image
-                            priority
-                            loader={imgLoader}
-                            src={gscaleCard}
-                            width={150}
-                            height={294}
-                            className="py-1"
-                            alt="">
-                          </Image>
-
-                          <Image
-                            priority
-                            loader={imgLoader}
-                            src={caretteCard}
-                            width={150}
-                            height={294}
-                            className="py-1"
-                            alt="">
-                          </Image>
-
-                          <Image
-                            priority
-                            loader={imgLoader}
-                            src={genevaCard}
-                            width={150}
-                            height={294}
-                            className="py-1"
-                            alt="">
-                          </Image>
-
-                          <Image
-                            priority
-                            loader={imgLoader}
-                            src={sashaCard}
-                            width={150}
-                            height={294}
-                            className="py-1"
-                            alt="">
-                          </Image>
-                        </div>
-                      </InfoTile>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </section>
       </Layout>

@@ -10,20 +10,35 @@ import InfoTile from '../components/infotile'
 
 import GoogleScholarIcon from '../node_modules/academicons/svg/google-scholar-square.svg'
 import OrcidIcon from '../node_modules/academicons/svg/orcid-square.svg'
+import DBLPIcon from '../node_modules/academicons/svg/dblp-square.svg'
+import ResearchGateIcon from '../node_modules/academicons/svg/researchgate-square.svg'
 
 const academicProfileLinks = (
   <div className='is-flex is-flex-direction-row is-justify-content-space-between px-3'>
+      <a className="icon"
+         href='https://orcid.org/0000-0002-6015-2589'
+         target="_blank" rel="noopener noreferrer">
+        <OrcidIcon />
+      </a>
+      <span className='px-1'></span>
+      <a className="icon"
+         href='https://dblp.org/pid/165/9646.html'
+         target="_blank" rel="noopener noreferrer">
+        <DBLPIcon />
+      </a>
+      <span className='px-1'></span>
+      <a className="icon"
+         href='https://www.researchgate.net/profile/Geneva-Smith-4'
+         target="_blank" rel="noopener noreferrer">
+        <ResearchGateIcon />
+      </a>
+      <span className='px-1'></span>
       <a className="icon"
          href='https://scholar.google.com/citations?user=4CobK4kAAAAJ&hl=en'
          target="_blank" rel="noopener noreferrer">
         <GoogleScholarIcon />
       </a>
       <div className='ml-1'></div>
-      <a className="icon"
-         href='https://orcid.org/0000-0002-6015-2589'
-         target="_blank" rel="noopener noreferrer">
-        <OrcidIcon />
-      </a>
   </div>
 );
 
@@ -42,7 +57,7 @@ export default function Publications( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Academic Publications & Presentations
+                    Publications & Presentations
                   </h1>
 
                   {academicProfileLinks}
@@ -56,7 +71,7 @@ export default function Publications( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <InfoTile tileTitle="Peer-Reviewed Papers"
+                      <InfoTile tileTitle="Refereed Journal Papers"
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
@@ -80,6 +95,26 @@ export default function Publications( ) {
                                                                             style={{wordBreak: "break-all"}} aria-label="Go to official page for Design Foundations for Emotional Game Characters">https://doi.org/10.7557/23.6175</a>
                           </p>
 
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Refereed Conference Papers"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
+
+                        <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
+                            Building Test Cases for Video Game-Focused Computational Models of Emotion. <u>To 
+                            appear</u> in the <i>Proceedings of the Interdisciplinary Design of Emotion Sensitive 
+                            Agents (IDEA) International Workshop</i>. May 30, 2023. Co-located with the 22nd 
+                            International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023), 
+                            May 29–June 2, 2023, London, England. Preprint available at <a className='is-link'
+                                  href="http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf"
+                                  target="_blank" rel="noopener noreferrer"
+                                  style={{wordBreak: "break-all"}} aria-label="Go to preprint for Building Test Cases">http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf</a>
+                          </p>
+
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
@@ -100,18 +135,6 @@ export default function Publications( ) {
 
                           <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
-                            Building Test Cases for Video Game-Focused Computational Models of Emotion. <u>To 
-                            appear</u> in the <i>Proceedings of the Interdisciplinary Design of Emotion Sensitive 
-                            Agents (IDEA) International Workshop</i>. May 30, 2023. Co-located with the 22nd 
-                            International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023), 
-                            May 29–June 2, 2023, London, England. Preprint available at <a className='is-link'
-                                  href="http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf"
-                                  target="_blank" rel="noopener noreferrer"
-                                  style={{wordBreak: "break-all"}} aria-label="Go to official page for Building Test Cases">http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf</a>
-                          </p>
-
-                          <p>
-                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
                             Start Your EMgine—A Methodology for Choosing Emotion Theories for Computational Models 
                             of Emotion. Submitted January 11, 2023 to <i>Entertainment Computing</i>. Available
                             at <a className='is-link'
@@ -123,7 +146,7 @@ export default function Publications( ) {
                         </div>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Peer-Reviewed Presentations"
+                      <InfoTile tileTitle="Panel Presentations"
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
@@ -146,17 +169,10 @@ export default function Publications( ) {
                         </div>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Invited Talks"
+                      <InfoTile tileTitle="Research Talks"
                               pictureSrc={null}
                               lighter>
                         <div className='content'>
-
-                          <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Problems That 
-                            You've Solved in Video Games: The Agent Assignment Problem. Presentation 
-                            for the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, 
-                            ON, Canada.
-                          </p>
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2017. GLaDOS:
@@ -170,6 +186,20 @@ export default function Publications( ) {
                             People: Integrating Emotional Reactions into Non-Player Characters in
                             Computer Role Playing Games. Presentation at the <i>2015 IMMERSe
                             Network Meeting</i>. November 26–27, 2015, Waterloo, ON, Canada.
+                          </p>
+                        </div>
+                      </InfoTile>
+
+                      <InfoTile tileTitle="Technical Talks"
+                              pictureSrc={null}
+                              lighter>
+                        <div className='content'>
+
+                          <p>
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Problems That 
+                            You've Solved in Video Games: The Agent Assignment Problem. Presentation 
+                            for the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, 
+                            ON, Canada.
                           </p>
                         </div>
                       </InfoTile>

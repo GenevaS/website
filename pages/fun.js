@@ -37,9 +37,8 @@ const goodreadsLink = <a className='icon'
 
 const bookLinks = <div className='is-flex is-flex-direction-row is-justify-content-space-between'>
                     {goodreadsLink}
-                    <div className='pl-1'>
-                      {instagramLink}
-                    </div>
+                    <span className='px-1'></span>
+                    {instagramLink}
                   </div>
 
 export default function Fun( ) {
@@ -68,7 +67,11 @@ export default function Fun( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                      <InfoTile tileTitle="Player of Games"
+                      <InfoTile tileTitle={
+                                            <p>
+                                              Player of Games
+                                            </p>
+                                          }
                                 pictureSrc={consolePicture}
                                 pictureAlt="The logos for Nintendo 64 and PlayStation"
                                 pictureOnLeft
@@ -204,7 +207,11 @@ export default function Fun( ) {
                                   </p>
                       </InfoTile>
 
-                      <InfoTile tileTitle="Amateur Seamstress & Plushie Maker"
+                      <InfoTile tileTitle={
+                                            <p>
+                                              Amateur Seamstress & Plushie Maker
+                                            </p>
+                                          }
                                 pictureSrc={plushiePicture}
                                 pictureAlt="The Companion Cube plushie I made"
                                 lighter>

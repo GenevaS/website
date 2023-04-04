@@ -21,8 +21,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         has-background-primary-light has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
-                                {tileLink}
+                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0 px-3">{tileTitle}</h2>
+                                <span className='pr-3'>{tileLink}</span>
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-column
@@ -42,8 +42,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         has-background-primary has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
-                                {tileLink}
+                                <h2 className="title is-flex is-flex-grow-1 is-6 mb-0 px-3">{tileTitle}</h2>
+                                <span className='pr-3'>{tileLink}</span>
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-column
@@ -81,8 +81,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         is-primary has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
-                                {tileLink}
+                                <h2 className="title is-flex-grow-1 is-6 mb-0 px-3">{tileTitle}</h2>
+                                <span className='pr-3'>{tileLink}</span>
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">
@@ -152,8 +152,8 @@ export default function InfoTile( {pictureOnLeft, pictureSrc, pictureAlt, tileTi
                                         has-background-primary-light has-dark-grey-border
                                         px-3'>
                             <div className='is-flex is-align-items-center'>
-                                <h2 className="title is-flex-grow-1 is-6 mb-0">{tileTitle}</h2>
-                                {tileLink}
+                                <h2 className="title is-flex-grow-1 is-6 mb-0 px-3">{tileTitle}</h2>
+                                <span className='pr-3'>{tileLink}</span>
                             </div>
                             <hr className='has-background-grey my-3'/>
                             <article className="is-flex is-flex-direction-row is-align-items-center">

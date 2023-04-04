@@ -6,12 +6,20 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import imgLoader from "../lib/imageloader"
-
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
+import imgLoader from "../lib/imageloader"
 
+import gscaleCard from "../public/images/gscale_businesscard_front.png"
+import genevaCard from "../public/images/gscale_businesscard_back_Geneva.png"
+import sashaCard from "../public/images/gscale_businesscard_back_Sasha.png"
+import caretteCard from "../public/images/gscale_businesscard_Carette.png"
 import licsLogo from "../public/images/lambda-logo-icon.png"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
+
+const worldIcon = <FontAwesomeIcon className='has-text-black' icon={faGlobeAmericas} transform='grow-7' alt="World Wide Web Icon"/>
 
 const licsLogoPicture = <Image
                           priority
@@ -31,6 +39,13 @@ const licsDescription = <p>
                           to <span className='has-text-weight-medium'>advocate for the graduate
                           students</span> within the department.
                         </p>;
+
+const gscaleWebsiteLink = <a className="icon"
+                             href="https://gscale.cas.mcmaster.ca/"
+                             target="_blank" rel="noopener noreferrer"
+                             aria-label="Go to G-ScalE Website">
+                              {worldIcon}
+                          </a>
 
 export default function Community( ) {
     return (
@@ -59,7 +74,7 @@ export default function Community( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle={
-                                  <p className='has-text-weight-medium px-3'>
+                                  <p>
                                     Peer Reviewer
                                   </p>
                               }
@@ -69,13 +84,13 @@ export default function Community( ) {
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
-                          <table className='column is-full p-0'>
-                            <tr className='column is-full p-0'>
-                              <td className='pr-3'>2022, 2023</td>
-                              <td className='pr-3'><a className="is-link"
+                          <table className='column is-full px-3 py-0'>
+                            <tr className='columns is-full px-0 py-2'>
+                              <td className='column is-one-fifth p-0'>2022, 2023</td>
+                              <td className='column is-three-fifths p-0'><a className="is-link"
                                                       href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=5165369"
                                                       target="_blank" rel="noopener noreferrer"><i>IEEE Transactions on Affective Computing</i></a></td>
-                              <td className='pr-3'>2 Articles</td>
+                              <td className='column is-one-fifth p-0'>2 Articles</td>
                             </tr>
                           </table>
                       </InfoTile>
@@ -136,35 +151,117 @@ export default function Community( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
-
                       <InfoTile tileTitle={
-                                  <p className='has-text-weight-medium px-3'>
-                                    <a className='is-link'
-                                       href="https://gscale.cas.mcmaster.ca/"
-                                       target="_blank" rel="noopener noreferrer">G-ScalE Website</a> Designer & Developer
+                                  <p>
+                                    G-Scale Website
                                   </p>
                               }
-                              tileLink={
-                                <p className='has-text-weight-medium px-3'>
-                                  May 2022 to Present
-                                </p>
-                              }
+                              tileLink={gscaleWebsiteLink}
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
-                        <div className='content'>
-                          <p>
-                            :
-                          </p>
+                          <table className='column is-full px-3 py-0'>
 
-                          <ul>
-                            <li>
-                              .
-                            </li>
-                          </ul>
+                            <tr className='columns is-full px-0 py-2'>
+                              <td className='column is-one-quarter p-0 has-text-left'>May 2022–Present</td>
+                              <td className='column is-three-quarters p-0 has-text-left'>Webmaster</td>
+                            </tr>
+
+                            <tr className='columns is-full px-0 py-2'>
+                              <td className='column is-one-quarter p-0 has-text-left'>2022</td>
+                              <td className='column is-three-quarters p-0 has-text-left'>Web Designer & Developer</td>
+                            </tr>
+
+                          </table>
+                      </InfoTile>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="tile is-ancestor">
+                <div className="tile is-vertical">
+                  <div className="tile">
+                    <div className="tile is-parent is-vertical">
+                    <InfoTile tileTitle={
+                                            <p>
+                                              G-ScalE Logos and Business Cards
+                                              <br className='my-1'></br>
+                                              <i className='has-text-weight-medium'>2018</i>
+                                            </p>
+                                          }
+                              tileLink={<span></span>}
+                              pictureSrc={null}
+                              lighter>
+                        <p>
+                          When we were discussing how to best <span className='has-text-weight-medium'>market the work we do</span> at
+                          the <a className='is-link'
+                                 href='https://gscale.cas.mcmaster.ca/'
+                                 target="_blank" rel="noopener noreferrer">Gaming Scalability Environment (G-ScalE) lab</a>,
+                          my supervisor, lab mates, and I decided that having a <span className='has-text-weight-medium'>logo</span> was
+                          a good idea. We could put it on our presentation slides, and visually distinguish ourselves online. You can
+                          see some of this work in the wild
+                          on <a className="is-link"
+                                href="https://twitter.com/lab_scale"
+                                target="_blank" rel="noopener noreferrer">G-ScalE&#39;s Twitter page</a>,
+                          and in the footer of this page next to the link to my profile on the G-ScalE website.
+                          We also decided to make some business cards to give out at meetings and
+                          conferences.
+                        </p>
+                        <p>
+                          This was a fun project. It let me practice
+                          my <span className='has-text-weight-medium'>visual design and Photoshop skills</span>, <span className='has-text-weight-medium'>incorporate
+                          feedback</span>  from other members of the lab, and
+                          ensure that <span className='has-text-weight-medium'>certain
+                          pieces could scale well</span> if its size changed on a webpage.
+                        </p>
+
+                        <div className='is-flex is-justify-content-space-evenly is-flex-wrap-wrap
+                                        is-full-width
+                                        mt-4'>
+                          <Image
+                            priority
+                            loader={imgLoader}
+                            src={gscaleCard}
+                            width={150}
+                            height={294}
+                            className="py-1"
+                            alt="">
+                          </Image>
+
+                          <Image
+                            priority
+                            loader={imgLoader}
+                            src={caretteCard}
+                            width={150}
+                            height={294}
+                            className="py-1"
+                            alt="">
+                          </Image>
+
+                          <Image
+                            priority
+                            loader={imgLoader}
+                            src={genevaCard}
+                            width={150}
+                            height={294}
+                            className="py-1"
+                            alt="">
+                          </Image>
+
+                          <Image
+                            priority
+                            loader={imgLoader}
+                            src={sashaCard}
+                            width={150}
+                            height={294}
+                            className="py-1"
+                            alt="">
+                          </Image>
                         </div>
                       </InfoTile>
-
                     </div>
                   </div>
                 </div>
@@ -175,7 +272,7 @@ export default function Community( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Community Involvement
+                    Community Involvement—McMaster University
                   </h1>
                 </header>
               </div>
@@ -187,19 +284,13 @@ export default function Community( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle={
-                        <p className='has-text-weight-medium px-3'>
-                        Life in Computing and Software (LiCS)
-                        <br></br>
-                        <i>McMaster University</i>
-                      </p>
-                      }
-                      tileLink={
-                        <p className='has-text-weight-medium px-3'>
-                          May 2022 to Present,
-                          <br></br>
-                          May 2018 to September 2020
-                        </p>
-                      }
+                            <p>
+                              Life in Computing and Software (LiCS)
+                              <br className='my-1'></br>
+                              <i className='has-text-weight-medium'>May 2022 to Present, May 2018 to September 2020</i>
+                            </p>
+                          }
+                          tileLink={<span></span>}
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
@@ -277,17 +368,13 @@ export default function Community( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                                  <p className='has-text-weight-medium px-3'>
+                                  <p>
                                     McMaster IEEE Student Branch
-                                    <br></br>
-                                    <i>McMaster University</i>
+                                    <br className='my-1'></br>
+                                    <i className='has-text-weight-medium'>September 2014 to April 2017</i>
                                   </p>
-                              }
-                              tileLink={
-                                <p className='has-text-weight-medium px-3'>
-                                  September 2014 to April 2017
-                                </p>
-                              }
+                                }
+                              tileLink={<span></span>}
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
@@ -319,19 +406,36 @@ export default function Community( ) {
                           </ul>
                         </div>
                       </InfoTile>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className='column'>
+              <div className="card">
+                <header className="card-header is-align-items-center">
+                  <h1 className="card-header-title">
+                    Community Involvement—Other
+                  </h1>
+                </header>
+              </div>
+            </div>
+
+            <div className='column'>
+              <div className="tile is-ancestor">
+                <div className="tile is-vertical">
+                  <div className="tile">
+                    <div className="tile is-parent is-vertical">
                       <InfoTile tileTitle={
-                                  <p className='has-text-weight-medium px-3'>
+                                  <p>
                                     IBM Future Blue Events
-                                    <br></br>
-                                    <i>IBM, Markham, ON</i>
+                                    <br className='my-1'></br>
+                                    <i className='has-text-weight-medium'>May 2012 to August 2013</i>
                                   </p>
-                              }
-                              tileLink={
-                                <p className='has-text-weight-medium px-3'>
-                                  May 2012 to August 2013
-                                </p>
-                              }
+                                }
+                              tileLink={<span></span>}
                               pictureSrc={null}
                               pictureAlt=""
                               lighter>
@@ -374,6 +478,7 @@ export default function Community( ) {
                 </div>
               </div>
             </div>
+
           </div>
         </section>
       </Layout>

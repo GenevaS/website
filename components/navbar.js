@@ -12,13 +12,13 @@ const homeAddress = "/";
 const publications = "Publications & Presentations";
 const pubAddress = "/publications";
 
-const projects = "Projects"
+const projects = "Technical & Design Projects"
 const projectAddress = "/projects";
 
 const teaching = "Supervising & Teaching";
 const teachAddress = "/teaching";
 
-const awards = "Competitions & Awards";
+const awards = "Awards";
 const awardsAddress = "/awards";
 
 const community = "Community Service";
@@ -67,15 +67,15 @@ function NavBar(  ) {
 
             {IsActiveLink(home, homeAddress)}
 
-            {IsActiveLink(publications, pubAddress)}
-
             {IsActiveLink(teaching, teachAddress)}
 
-            {IsActiveLink(awards, awardsAddress)}
+            {IsActiveLink(publications, pubAddress)}
+            
+            {IsActiveLink(projects, projectAddress)}
 
             {IsActiveLink(community, communityAddress)}
 
-            {IsActiveLink(projects, projectAddress)}
+            {IsActiveLink(awards, awardsAddress)}
 
             {IsActiveLink(industry, industryAddress)}
 

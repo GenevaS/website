@@ -51,7 +51,7 @@ export default function Awards( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Competitions & Competition-based Awards
+                    Competitions
                   </h1>
                 </header>
               </div>
@@ -63,12 +63,44 @@ export default function Awards( ) {
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
 
-                        <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
-                                Second Place in McMaster University&#39;s Fourth Graduate Computing and Software Poster & Demo Competition
-                                <br></br>
-                                <i>April 2022</i>
+                      <InfoTile tileTitle={
+                            <p>
+                                <a className='is-link'
+                                 href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'
+                                 target="_blank" rel="noopener noreferrer">Third Place and Voted People&#39;s Choice</a> in McMaster&#39;s
+                                 Second Annual GradFlix Competition
+                                <br className='my-1'></br>
+                                <i className='has-text-weight-medium'>April 2022</i>
                             </p>
+                            }
+                            tileLink={gradflixLink}
+                            pictureSrc={null}
+                            lighter>
+                        <p>
+                          This <a className="is-link"
+                                  href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'
+                                  target="_blank" rel="noopener noreferrer">graduate student video competition</a> was
+                          for <span className='has-text-weight-medium'>explaning my research to a non-technical audience</span>.
+                          In <span className='has-text-weight-medium'>one minute or less</span>. That&#39;s not a lot of time
+                          to cover several years of work! Fortunately, I could get creative and pair what I was saying to
+                          something visual and active.
+                        </p>
+                        <p>
+                          With <span className='has-text-weight-medium'>a camera, some friends, Audacity, Adobe Premiere, and Adobe After
+                          Effects</span>, I brought my stick figure <span className='has-text-weight-medium'>storyboard</span> to life.
+                          You can watch it on
+                          the <a className='is-link'
+                                 href='https://youtu.be/VHo-bTDCiXs?t=722'
+                                 target="_blank" rel="noopener noreferrer">McMaster School of Graduate Studies YouTube channel</a>.
+                        </p>
+                      </InfoTile>
+
+                      <InfoTile tileTitle={
+                              <p>
+                                Second Place in McMaster University&#39;s Fourth Graduate Computing and Software Poster & Demo Competition
+                                <br className='my-1'></br>
+                                <i className='has-text-weight-medium'>April 2022</i>
+                              </p>
                             }
                             tileLink={posterdownload}
                             pictureSrc={null}
@@ -95,86 +127,10 @@ export default function Awards( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
-                                McMaster University Dean&#39;s Award for Excellence in Communicating Graduate Research
-                                <br></br>
-                                <i>April 2022</i>
-                            </p>
-                            }
-                            tileLink={gradflixLink}
-                            pictureSrc={null}
-                            lighter>
-                        <p>
-                          I was honoured with this award
-                          for <a className='is-link has-text-weight-medium'
-                                 href='https://gs.mcmaster.ca/current-students/resources/gradflix-final-showcase-2022/#tab-content-winners'
-                                 target="_blank" rel="noopener noreferrer">placing Third
-                          and by being voted the People&#39;s Choice</a> in <span className='has-text-weight-medium'>McMaster&#39;s
-                          Second Annual GradFlix competition</span>!
-                        </p>
-                        <p>
-                          This <a className="is-link"
-                                  href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'
-                                  target="_blank" rel="noopener noreferrer">graduate student video competition</a> was
-                          for <span className='has-text-weight-medium'>explaning my research to a non-technical audience</span>.
-                          In <span className='has-text-weight-medium'>one minute or less</span>. That&#39;s not a lot of time
-                          to cover several years of work! Fortunately, I could get creative and pair what I was saying to
-                          something visual and active.
-                        </p>
-                        <p>
-                          With <span className='has-text-weight-medium'>a camera, some friends, Audacity, Adobe Premiere, and Adobe After
-                          Effects</span>, I brought my stick figure <span className='has-text-weight-medium'>storyboard</span> to life.
-                          You can watch it on
-                          the <a className='is-link'
-                                 href='https://youtu.be/VHo-bTDCiXs?t=722'
-                                 target="_blank" rel="noopener noreferrer">McMaster School of Graduate Studies YouTube channel</a>.
-                        </p>
-                      </InfoTile>
-
-                      <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            First Ubisoft Future Women in Games Mentorship
-                            <br></br>
-                            <i>October 2019</i>
-                          </p>
-                        }
-                          pictureSrc={null}
-                          lighter>
-                        <p>
-                          I admire many of Ubisoft&#39;s games, so naturally I jumped at the chance to
-                          participate in
-                          their <a className="is-link"
-                                   href='https://toronto.ubisoft.com/ubisoft-future-women-in-games-mentorship-winners/'
-                                   target="_blank" rel="noopener noreferrer">Game Design Challenge</a>. <span className='has-text-weight-medium'>Centering
-                          on the theme</span> &#34;my morning routine&#34;, I focused on
-                          a challenge that I face almost daily: escaping my apartment
-                          without one of my adorable cats tearing a hole in my stockings.
-                        </p>
-                        <p>
-                          I settled on a <span className='has-text-weight-medium'>horror-style stealth game</span> comparable
-                          to <a className="is-link"
-                                href='https://amnesiagame.com/#main'
-                                target="_blank" rel="noopener noreferrer">Frictional Games&#39; Amnesia: The Dark Descent</a> and <a className="is-link"
-                                                                                                                                     href='https://www.blooberteam.com/layers-of-fear'
-                                                                                                                                     target="_blank" rel="noopener noreferrer">Bloober
-                                                                                                                                     Team&#39;s Layers of Fear</a>.
-                          I decided to play with the idea of feline spirits that are either out to get you, or
-                          will (maybe) help you. I <span className='has-text-weight-medium'>submitted a successful one-page
-                          pitch describing a the concept and plans for prototyping and testing it</span>. Next,
-                          I <span className='has-text-weight-medium'>created a Design Solution Presentation</span>, outlining
-                          the intended player experience and success criteria, my inspirations for the design, the game feature
-                          itself, and how I would build a prototype in five weeks. Unfortunately, I was not invited to continue
-                          past this stage. Still, I am very pleased with the ideas I created for this and I am grateful for the
-                          opportunity to work on
-                          my <span className='has-text-weight-medium'>game design skills</span>.
-                        </p>
-                      </InfoTile>
-
-                      <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
+                            <p>
                                 Third Place in McMaster University&#39;s Department of Computing and Software Three Minute Thesis (3MT)
-                                <br></br>
-                                <i>June 2018</i>
+                                <br className='my-1'></br>
+                                <i className='has-text-weight-medium'>June 2018</i>
                             </p>
                             }
                                 tileLink={slidedownload}
@@ -203,37 +159,10 @@ export default function Awards( ) {
                       </InfoTile>
 
                       <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
-                              Faculty of Engineering & McMaster University Three Minute Thesis (3MT) Competitions
-                              <br></br>
-                              <i>March 2019 & October 2018</i>
-                            </p>
-                          }
-                            pictureSrc={null}
-                            lighter>
-                        <p>
-                            I
-                            had <a className="is-link"
-                                   href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
-                                   target="_blank" rel="noopener noreferrer">three minutes and one static slide</a> to
-                            convey what I&#39;ve been working on for my Ph.D. I had to
-                            <span className='has-text-weight-medium'>communicate the problem and what
-                            I was doing about it</span> to a panel of judges that were not familiar
-                            with my work or field. Needless to say, it was a challenge (and
-                            public speaking is one of my least favourite things to do).
-                        </p>
-                        <p>
-                          I did it though, and am quite pleased with how I did. Audience members who know
-                          me were surprised that I could speak that loudly. Unfortunately, I did not place
-                          in either the faculty or university-wide competitions.
-                        </p>
-                      </InfoTile>
-
-                      <InfoTile tileTitle={
-                            <p className='has-text-weight-medium px-3'>
+                            <p>
                                 Third Place in the IBM Canada Markham Lab TechChallenge
-                                <br></br>
-                                <i>April 2013</i>
+                                <br className='my-1'></br>
+                                <i className='has-text-weight-medium'>April 2013</i>
                             </p>
                             }
                                 pictureSrc={null}
@@ -256,7 +185,7 @@ export default function Awards( ) {
               <div className="card">
                 <header className="card-header is-align-items-center">
                   <h1 className="card-header-title">
-                    Academic Awards
+                    Academic Merit
                   </h1>
                 </header>
               </div>
@@ -272,7 +201,21 @@ export default function Awards( ) {
                                 <div className='content'>
 
                                     <p>
-                                        <a className='is-link has-text-weight-medium'
+                                        <span className='has-text-weight-semibold'>
+                                          McMaster University Dean&#39;s Award for Excellence 
+                                          in Communicating Graduate Research
+                                        </span>
+                                        <br></br>
+                                        <span className='has-text-weight-medium'><i>2022</i></span>
+                                        <ul>
+                                            <li>Awarded to the top winners of <a className="is-link"
+                                                                                 href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'
+                                                                                 target="_blank" rel="noopener noreferrer">McMaster&#39;s Second Annual GradFlix competition</a></li>
+                                        </ul>
+                                    </p>
+
+                                    <p>
+                                        <a className='is-link has-text-weight-semibold'
                                            href='https://gs.mcmaster.ca/current-students/scholarships/ontario-graduate-scholarship-and-the-queen-elizabeth-ii-graduate-scholarship-in-science-and-technology/'
                                            target="_blank" rel="noopener noreferrer">Ontario
                                           Graduate Scholarship (OGS)</a>
@@ -284,7 +227,7 @@ export default function Awards( ) {
                                     </p>
 
                                     <p>
-                                      <span className='has-text-weight-medium'>McMaster University Dean&#39;s Honour List</span>
+                                      <span className='has-text-weight-semibold'>McMaster University Dean&#39;s Honour List</span>
                                       <br></br>
                                       <span className='has-text-weight-medium'><i>2010, 2011, 2013</i></span>
                                       <ul>
@@ -296,7 +239,7 @@ export default function Awards( ) {
                                     </p>
 
                                     <p>
-                                      <span className='has-text-weight-medium'>Golden Key International Honour Society Member</span>
+                                      <span className='has-text-weight-semibold'>Golden Key International Honour Society Member</span>
                                       <br></br>
                                       <span className='has-text-weight-medium'><i>2012</i></span>
                                       <ul>
@@ -308,7 +251,7 @@ export default function Awards( ) {
                                     </p>
 
                                     <p>
-                                      <span className='has-text-weight-medium'>The McMaster Honour Award, Level 2</span>
+                                      <span className='has-text-weight-semibold'>The McMaster Honour Award, Level 2</span>
                                       <br></br>
                                       <span className='has-text-weight-medium'><i>2009</i></span>
                                       <ul>

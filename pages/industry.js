@@ -36,7 +36,7 @@ export default function Industry( ) {
                                     is-align-items-center p-3">                    
                     <table className='column is-full p-0'>
 
-                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2'>
+                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2 has-text-weight-semibold'>
                         <td className='column is-one-fifth p-0'>2017–2023 (ABD)</td>
                         <td className='column is-two-fifths p-0'>Ph.D., Software Engineering</td>
                         <td className='column is-two-fifths p-0'>McMaster University</td>
@@ -56,7 +56,7 @@ export default function Industry( ) {
 
                       <hr className='has-background-grey my-3'></hr>
 
-                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2'>
+                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2 has-text-weight-semibold'>
                         <td className='column is-one-fifth p-0'>2014–2017</td>
                         <td className='column is-two-fifths p-0'>M.A.Sc., Software Engineering</td>
                         <td className='column is-two-fifths p-0'>McMaster University</td>
@@ -80,7 +80,7 @@ export default function Industry( ) {
 
                       <hr className='has-background-grey my-3'></hr>
 
-                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2'>
+                      <tr className='columns is-full mx-0 px-0 mt-1 mb-2 has-text-weight-semibold'>
                         <td className='column is-one-fifth p-0'>2009–2014</td>
                         <td className='column is-two-fifths p-0'>B.Eng. (With Distinction)</td>
                         <td className='column is-two-fifths p-0'>McMaster University</td>
@@ -114,19 +114,13 @@ export default function Industry( ) {
                     <div className="tile is-parent is-vertical">
 
                       <InfoTile tileTitle={
-                          <p className='has-text-weight-medium px-3'>
-                            DB2 Information Developer (Co-op)
-                            <br></br>
-                            <i>IBM Markham Lab</i>
+                          <p>
+                            DB2 Information Developer (Co-op), IBM Markham Lab
+                            <br className='my-1'></br>
+                            <i className='has-text-weight-medium'>May 2012 to August 2013</i>
                           </p>
                       }
-                      tileLink={
-                        <p className='has-text-weight-medium px-3'>
-                          May 2012 to August 2013
-                          <br></br>
-                          (16 months)
-                        </p>
-                      }
+                      tileLink={<span></span>}
                       pictureSrc={null}
                       pictureAlt=""
                       lighter>
