@@ -96,15 +96,14 @@ export default function Home( ) {
         <section className='columns'>
           <div className='column px-6'>
             <p className='block px-5'>
-              Broadly, I am interested in the research behind and design of software systems (although 
-              I have been known to be interested in other things too). Most of my interest and focus is
-              on <a className="is-link has-text-weight-medium"
+              I'm interested in the research behind and design of software systems, focusing 
+              on <a className="is-link"
                     href="https://en.wikipedia.org/wiki/Game_design"
                     target="_blank" rel="noopener noreferrer">Game Design</a>
-              , <a className="is-link has-text-weight-medium"
+              , <a className="is-link"
                     href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"
                     target="_blank" rel="noopener noreferrer">Human-Computer Interactions (HCI)</a>
-              , and <a className="is-link has-text-weight-medium"
+              , and <a className="is-link"
                    href="https://en.wikipedia.org/wiki/Affective_computing"
                    target="_blank" rel="noopener noreferrer">Affective Computing</a>
               . These allow me to take a user/player-centric design approach and help bridge the worlds 
@@ -112,26 +111,26 @@ export default function Home( ) {
             </p>
 
             <p className='block px-5'>
-              Right now, I am drawing on <i>all</i> of my research interests to design, implement, and test 
-              EMgine (Emotion Engine), a software library for evaluating what emotion a computer-controlled 
-              game character (Non-Player Character) is experiencing in the current game state. The goal 
-              is to improve the character's believability to emotionally engage players and enhance their 
-              engagement with the game as a whole.
+              Right now, I'm designing, implementing, and testing EMgine (Emotion Engine), a software 
+              library for evaluating what emotion a computer-controlled game character (Non-Player
+              Character) is experiencing in the current game state. My goal is to improve the character's
+              believability to emotionally engage players and enhance their engagement with the game as 
+              a whole.
             </p>
 
             <p className='block px-5'>
-              I am creating EMgine so that game designers retain maximal control over their characters' 
+              I'm creating EMgine so that game designers retain maximum control over their characters' 
               in-game behaviours. This means that game designers decide when, how, and which elements of EMgine 
-              to use. To this end, I am applying my software design skills and a rigorous design process to 
+              to use. To this end, I'm applying my software design skills and a rigorous design process to 
               ensure that the decisions driving EMgine's development are well informed, documented, and easy for 
               others to understand. You can check out the progress on EMgine's development 
-              on <a className="is-link has-text-weight-medium"
+              on <a className="is-link"
                     href="https://github.com/GenevaS/EMgine"
                     target="_blank" rel="noopener noreferrer" aria-label="Go to the EMgine GitHub">GitHub</a>.
             </p>
 
             <p className='block px-5'>
-              In pursuit of believable game characters "with emotion", I have also developed 
+              In pursuit of believable game characters "with emotion", I've also developed 
               a <a className='is-link'
                    href='https://en.wikipedia.org/wiki/Video_game_modding'
                    target="_blank" rel="noopener noreferrer">mod(ification)</a> for 
