@@ -80,14 +80,14 @@ export default function Awards( ) {
                           This <a className="is-link"
                                   href='https://gs.mcmaster.ca/current-students/resources/gradflix-video-competition/'
                                   target="_blank" rel="noopener noreferrer">graduate student video competition</a> was
-                          for <span className='has-text-weight-medium'>explaning my research to a non-technical audience</span>.
-                          In <span className='has-text-weight-medium'>one minute or less</span>. That&#39;s not a lot of time
+                          for explaning my research to a non-technical audience.
+                          In one minute or less. That&#39;s not a lot of time
                           to cover several years of work! Fortunately, I could get creative and pair what I was saying to
                           something visual and active.
                         </p>
                         <p>
-                          With <span className='has-text-weight-medium'>a camera, some friends, Audacity, Adobe Premiere, and Adobe After
-                          Effects</span>, I brought my stick figure <span className='has-text-weight-medium'>storyboard</span> to life.
+                          With a camera, some friends, Audacity, Adobe Premiere, and Adobe After
+                          Effects, I brought my stick figure storyboard to life.
                           You can watch it on
                           the <a className='is-link'
                                  href='https://youtu.be/VHo-bTDCiXs?t=722'
@@ -106,23 +106,23 @@ export default function Awards( ) {
                             pictureSrc={null}
                             lighter>
                         <p>
-                          I was awarded <span className='has-text-weight-medium'>first place for aesthetic poster design</span>,
-                          and <span className='has-text-weight-medium'>tied for second place in the People&#39;s Choice</span> with
+                          I was awarded first place for aesthetic poster design,
+                          and tied for second place in the People&#39;s Choice with
                           my coworker <a className='is-link'
                                          href='https://www.cas.mcmaster.ca/~sorainsm/'
                                          target="_blank" rel="noopener noreferrer">Sasha Soraine</a>.
-                          Overall, I won <span className='has-text-weight-medium'>second place</span>.
+                          Overall, I won second place.
                         </p>
                         <p>
                           This is a poster competition for graduate students in the <a className="is-link"
                                                                                        href="https://www.eng.mcmaster.ca/cas"
                                                                                        target="_blank" rel="noopener noreferrer">Department
                           of Computing and Software</a> to get experience
-                          with <span className='has-text-weight-medium'>academic poster design and presentation</span>.
+                          with academic poster design and presentation.
                         </p>
                         <p>
                           I enjoyed the challenge of squeezing years of research into a small and visually appealing product. It
-                          also let me have some <span className='has-text-weight-medium'>Photoshop</span> fun!
+                          also let me have some Photoshop fun!
                         </p>
                       </InfoTile>
 
@@ -138,7 +138,7 @@ export default function Awards( ) {
                                 lighter>
                         <p>
                             I
-                            had <a className="is-link has-text-weight-medium"
+                            had <a className="is-link"
                                  href='https://gs.mcmaster.ca/current-students/resources/three-minute-thesis/'
                                  target="_blank" rel="noopener noreferrer">three
                             minutes and one static slide</a> to convey my Ph.D. research. I had to communicate
@@ -148,13 +148,13 @@ export default function Awards( ) {
                         </p>
                         <p>
                           I did it though, and am quite pleased with how I did. People were surprised that I could speak that
-                          loudly. That must have <span className='has-text-weight-medium'>helped capture the attention of another
-                          student who came to work in our lab the following summer</span>. They claim that it was my 3MT that
+                          loudly. That must have helped capture the attention of another
+                          student who came to work in our lab the following summer. They claim that it was my 3MT that
                           interested them in it, and I can&#39;t think of a higher form of praise.
                         </p>
                         <p>
                             Since the focus is on <i>what</i> I wanted to say, I kept it simple and designed the slide
-                            in <span className='has-text-weight-medium'>PowerPoint</span>.
+                            in PowerPoint.
                         </p>
                       </InfoTile>
 
@@ -169,10 +169,10 @@ export default function Awards( ) {
                                 lighter>
                         <p>
                             This was a fun, three-week design challenge. In teams of five, we designed
-                            a <span className='has-text-weight-medium'>user experience and interface for
-                            a game targeted at high school students</span> by
-                            creating <span className='has-text-weight-medium'>personas</span> and <span className='has-text-weight-medium'>paper
-                            prototypes</span>.
+                            a user experience and interface for
+                            a game targeted at high school students by
+                            creating personas and paper
+                            prototypes.
                         </p>
                       </InfoTile>
                     </div>

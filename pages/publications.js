@@ -197,7 +197,7 @@ export default function Publications( ) {
 
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>. 2019. Problems That 
-                            You&#34;ve Solved in Video Games: The Agent Assignment Problem. Presentation 
+                            You&#39;ve Solved in Video Games: The Agent Assignment Problem. Presentation 
                             for the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, 
                             ON, Canada.
                           </p>

@@ -96,7 +96,7 @@ export default function Home( ) {
         <section className='columns'>
           <div className='column px-6'>
             <p className='block px-5'>
-              I&#34;m interested in the research behind and design of software systems, focusing 
+              I&#39;m interested in the research behind and design of software systems, focusing 
               on <a className="is-link"
                     href="https://en.wikipedia.org/wiki/Game_design"
                     target="_blank" rel="noopener noreferrer">Game Design</a>
@@ -111,26 +111,26 @@ export default function Home( ) {
             </p>
 
             <p className='block px-5'>
-              Right now, I&#34;m designing, implementing, and testing EMgine (Emotion Engine), a software 
+              Right now, I&#39;m designing, implementing, and testing EMgine (Emotion Engine), a software 
               library for evaluating what emotion a computer-controlled game character (Non-Player
-              Character) is experiencing in the current game state. My goal is to improve the character&#34;s
+              Character) is experiencing in the current game state. My goal is to improve the character&#39;s
               believability to emotionally engage players and enhance their engagement with the game as 
               a whole.
             </p>
 
             <p className='block px-5'>
-              I&#34;m creating EMgine so that game designers retain maximum control over their characters&#34; 
+              I&#39;m creating EMgine so that game designers retain maximum control over their characters&#39; 
               in-game behaviours. This means that game designers decide when, how, and which elements of EMgine 
-              to use. To this end, I&#34;m applying my software design skills and a rigorous design process to 
-              ensure that the decisions driving EMgine&#34;s development are well informed, documented, and easy for 
-              others to understand. You can check out the progress on EMgine&#34;s development 
+              to use. To this end, I&#39;m applying my software design skills and a rigorous design process to 
+              ensure that the decisions driving EMgine&#39;s development are well informed, documented, and easy for 
+              others to understand. You can check out the progress on EMgine&#39;s development 
               on <a className="is-link"
                     href="https://github.com/GenevaS/EMgine"
                     target="_blank" rel="noopener noreferrer" aria-label="Go to the EMgine GitHub">GitHub</a>.
             </p>
 
             <p className='block px-5'>
-              In pursuit of believable game characters &#34;&#34;with emotion&#34;&#34;, I&#34;ve also developed 
+              In pursuit of believable game characters &#34;with emotion&#34;, I&#39;ve also developed 
               a <a className='is-link'
                    href='https://en.wikipedia.org/wiki/Video_game_modding'
                    target="_blank" rel="noopener noreferrer">mod(ification)</a> for 

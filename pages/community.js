@@ -34,10 +34,9 @@ const licsDescription = <p>
                                                                      href="https://www.eng.mcmaster.ca/cas"
                                                                      target="_blank" rel="noopener noreferrer">Department
                           of Computing and Software</a> at McMaster. Our goals
-                          include <span className='has-text-weight-medium'>building a community of graduate
-                          students, faculty, and staff</span> through social events, and
-                          to <span className='has-text-weight-medium'>advocate for the graduate
-                          students</span> within the department.
+                          include building a community of graduate students, 
+                          faculty, and staff through social events, and to 
+                          advocate for the graduate students in the department.
                         </p>;
 
 const gscaleWebsiteLink = <a className="icon"
@@ -196,11 +195,11 @@ export default function Community( ) {
                               pictureSrc={null}
                               lighter>
                         <p>
-                          When we were discussing how to best <span className='has-text-weight-medium'>market the work we do</span> at
+                          When we were discussing how to best market the work we do at
                           the <a className='is-link'
                                  href='https://gscale.cas.mcmaster.ca/'
                                  target="_blank" rel="noopener noreferrer">Gaming Scalability Environment (G-ScalE) lab</a>,
-                          my supervisor, lab mates, and I decided that having a <span className='has-text-weight-medium'>logo</span> was
+                          my supervisor, lab mates, and I decided that having a logo was
                           a good idea. We could put it on our presentation slides, and visually distinguish ourselves online. You can
                           see some of this work in the wild
                           on <a className="is-link"
@@ -211,11 +210,9 @@ export default function Community( ) {
                           conferences.
                         </p>
                         <p>
-                          This was a fun project. It let me practice
-                          my <span className='has-text-weight-medium'>visual design and Photoshop skills</span>, <span className='has-text-weight-medium'>incorporate
-                          feedback</span>  from other members of the lab, and
-                          ensure that <span className='has-text-weight-medium'>certain
-                          pieces could scale well</span> if its size changed on a webpage.
+                          This was a fun project. It let me practice my visual design and Photoshop skills, 
+                          incorporate feedback from other members of the lab, and ensure that certain
+                          pieces could scale well if its size changed on a webpage.
                         </p>
 
                         <div className='is-flex is-justify-content-space-evenly is-flex-wrap-wrap
@@ -335,23 +332,20 @@ export default function Community( ) {
                           </p>
                           <ul>
                             <li>
-                              Was the <span className='has-text-weight-medium'>Vice President
-                              Administration</span> (May 2019 to September 2020), which includes recording
-                              the LiCS Executive Meeting Minutes and participating in the Graduate Student
-                              Association (GSA) Clubs Meeting and follow-up in 2020
+                              Was the Vice President Administration (May 2019 to September 2020), which 
+                              includes recording the LiCS Executive Meeting Minutes and participating 
+                              in the Graduate Student Association (GSA) Clubs Meeting and follow-up in 2020
                             </li>
 
                             <li>
-                              <span className='has-text-weight-medium'>Assisted</span> with tasks associated
-                              with the <span className='has-text-weight-medium'>Vice President of Finance</span>,
+                              Assisted with tasks associated with the Vice President of Finance,
                               such as recording and reimbursing LiCS members for event-related expenses
                             </li>
 
                             <li>
-                              Attended the <span className='has-text-weight-medium'>Graduate
-                              Curriculum Planning Meeting (GCPC)</span> as
-                              the <span className='has-text-weight-medium'>graduate student
-                              representative</span> for the Winter 2020 term (January to April)
+                              Attended the Graduate Curriculum Planning Meeting (GCPC) as
+                              the graduate student representative for the Winter 2020 
+                              term (January to April)
                             </li>
 
                             <li>
@@ -359,8 +353,7 @@ export default function Community( ) {
                             </li>
 
                             <li>
-                              Acted as an <span className='has-text-weight-medium'>&#34;Advisor
-                              to the Executive Core&#34;</span> where I continue to provide
+                              Acted as an &#34;Advisor to the Executive Core&#34; where I continue to provide
                               advice and information to new LiCS members
                             </li>
                           </ul>
@@ -380,7 +373,7 @@ export default function Community( ) {
                               lighter>
                         <div className='content'>
                           <p>
-                            This student group represents the <a className="is-link has-text-weight-medium"
+                            This student group represents the <a className="is-link"
                                                                  href="https://www.ieee.org/"
                                                                  target="_blank" rel="noopener noreferrer">IEEE</a>,
                             one of the largest international, technical,
@@ -393,13 +386,11 @@ export default function Community( ) {
                           </p>
                           <ul>
                             <li>
-                              Taught <span className='has-text-weight-medium'>lab safety training and
-                              hands-on soldering skills</span>
+                              Taught lab safety training and hands-on soldering skills
                             </li>
 
                             <li>
-                              Was the <span className='has-text-weight-medium'>Branch
-                              Secretary</span> (September 2015 to April 2016), which
+                              Was the Branch Secretary (September 2015 to April 2016), which
                               entailed recording and publishing the weekly Meeting Minutes
                             </li>
                             
@@ -447,16 +438,14 @@ export default function Community( ) {
 
                           <ul>
                             <li>
-                              Spending a morning in a <span className='has-text-weight-medium'>Grade 6
-                              classroom</span> to help <span className='has-text-weight-medium'>spark
-                              interest in science and engineering</span> (I&#39;ll never forget the look
+                              Spending a morning in a Grade 6 classroom to help spark
+                              interest in science and engineering (I&#39;ll never forget the look
                               on one student&#39;s face when they realized that the monitor was not the
                               computer)
                             </li>
 
                             <li>
-                              Helped supervise <span className='has-text-weight-medium'>STEM</span>-oriented
-                              activities for <span className='has-text-weight-medium'>Grade 8 girls</span>
+                              Helped supervise STEM-oriented activities for Grade 8 girls
                             </li>
 
                             <li>
@@ -467,8 +456,7 @@ export default function Community( ) {
 
                             <li>
                               Encouraged discussion and participation during the annual IBM event where current
-                              and incoming interns get to know each other through <span className='has-text-weight-medium'>team
-                              events</span>
+                              and incoming interns get to know each other through team events
                             </li>
                           </ul>
                         </div>
