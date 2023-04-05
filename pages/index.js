@@ -96,42 +96,51 @@ export default function Home( ) {
         <section className='columns'>
           <div className='column px-6'>
             <p className='block px-5'>
-              I am interested in the <span className='has-text-weight-medium'>research
-              behind and design of software systems, especially in the context of game 
-              design and affective computing</span> (although I have been known to be 
-              interested in other things too). I am especially interested
-              in <a className="is-link has-text-weight-medium"
+              Broadly, I am interested in the research behind and design of software systems (although 
+              I have been known to be interested in other things too). Most of my interest and focus is
+              on <a className="is-link has-text-weight-medium"
+                    href="https://en.wikipedia.org/wiki/Game_design"
+                    target="_blank" rel="noopener noreferrer">Game Design</a>
+              , <a className="is-link has-text-weight-medium"
                     href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"
                     target="_blank" rel="noopener noreferrer">Human-Computer Interactions (HCI)</a>
-              , where I can help bridge the worlds of the people who design systems
-              and the people who use them.
+              , and <a className="is-link has-text-weight-medium"
+                   href="https://en.wikipedia.org/wiki/Affective_computing"
+                   target="_blank" rel="noopener noreferrer">Affective Computing</a>
+              . These allow me to take a user/player-centric design approach and help bridge the worlds 
+              of the people who design systems and the people who use them.
             </p>
 
             <p className='block px-5'>
-              Right now, <span className='has-text-weight-medium'>I am designing an engine that will
-              evaluate what emotion a computer-controlled game character (Non-Player Character) should
-              experience given the current game state</span>. The aim is to 
-              enhance <span className='has-text-weight-medium'>player engagement</span>.
+              Right now, I am drawing on <i>all</i> of my research interests to design, implement, and test 
+              EMgine (Emotion Engine), a software library for evaluating what emotion a computer-controlled 
+              game character (Non-Player Character) is experiencing in the current game state. The goal 
+              is to improve the character's believability to emotionally engage players and enhance their 
+              engagement with the game as a whole.
             </p>
 
             <p className='block px-5'>
-              The engine must be as flexible as possible so that game designers and developers have maximal control
-              over how they use it. To this end, I am applying my software design skills to a rigorous design process
-              to ensure that decisions
-              are <span className='has-text-weight-medium'>well informed, documented, and easy for others to understand</span>.
-              You can check out my progress on EMgine (Emotion Engine) on <a className="is-link has-text-weight-medium"
+              I am creating EMgine so that game designers retain maximal control over their characters' 
+              in-game behaviours. This means that game designers decide when, how, and which elements of EMgine 
+              to use. To this end, I am applying my software design skills and a rigorous design process to 
+              ensure that the decisions driving EMgine's development are well informed, documented, and easy for 
+              others to understand. You can check out the progress on EMgine's development 
+              on <a className="is-link has-text-weight-medium"
                     href="https://github.com/GenevaS/EMgine"
                     target="_blank" rel="noopener noreferrer" aria-label="Go to the EMgine GitHub">GitHub</a>.
             </p>
 
             <p className='block px-5'>
-              In pursuit of this emotion engine, I have
-              also <span className='has-text-weight-medium'>developed a mod</span> for the popular
-              game, <a className='is-link'
-                       href='https://elderscrolls.bethesda.net/en/skyrim'
-                       target="_blank" rel="noopener noreferrer">Skyrim</a>. For this mod, I 
-              have <span className='has-text-weight-medium'>designed and run user studies</span> to get a 
-              preliminary evaluation of NPC believability and player interest.
+              In pursuit of believable game characters "with emotion", I have also developed a mod(ification) 
+              for the popular game, <i><a className='is-link'
+                                       href='https://elderscrolls.bethesda.net/en/skyrim'
+                                       target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a></i>
+              . For this mod (named <a className='is-link'
+                                       href='https://half-life.fandom.com/wiki/GLaDOS'
+                                       target="_blank" rel="noopener noreferrer">GLaDOS after the character from <i>Portal</i></a>)
+              , I designed and ran a user study to get a preliminary evaluation of character believability
+              and player interest. It was encouraging to know that my participants are eager to see where 
+              this work can take games!
             </p>
 
           </div>

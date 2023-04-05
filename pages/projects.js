@@ -11,6 +11,7 @@ import InfoTile from '../components/infotile'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faFileZipper } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
@@ -35,6 +36,12 @@ const emgineprojectLink = <a className='icon'
                             target="_blank" rel="noopener noreferrer"
                             aria-label="Go to GitHub repository for the EMgine Project">
                             {githubicon}
+                          </a>
+
+const thetempleDocsLink = <a className='icon'
+                             download target="_blank" rel="noopener noreferrer"
+                             aria-label="Get ZIP file for the Skyrim Mod from MacSphere">
+                             {zipicon}
                           </a>
 
 const skyrimmodprojectLink = <a className='icon'
@@ -87,7 +94,17 @@ export default function Projects( ) {
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          .
+                          EMgine is a game development tool for designers to give their NPCs "emotions". It does
+                          this by providing a library for "generating emotions" given the current state of the 
+                          game entity "expriencing" emotion and the game world. The end goal is to give designers
+                          another option for making believable and emotionally engaging game characters.
+                        </p>
+
+                        <p>
+                          Game design is both a creative and technical endeavour, so I am using a user-centric 
+                          design approach to ensure that both game designers and players are always at the forefront
+                          of EMgine's design. This lead to the library design, which affords game designers the choice
+                          of when, how, and what parts of it they use in their games.
                         </p>
                       </InfoTile>
 
@@ -108,8 +125,8 @@ export default function Projects( ) {
                           I&#39;m trained to do software engineering...). And here we are!
                         </p>
                         <p>
-                          Web development is new to me, so this was also an opportunity to learn
-                          new things. This is why I chose to use
+                          Web development was new to me, so it was also an opportunity to learn
+                          new things. This was why I chose to use
                           the <a className='is-link'
                                  href='https://nextjs.org/'
                                  target="_blank" rel="noopener noreferrer">Next.js React Framework</a> and <a className='is-link'
@@ -123,12 +140,12 @@ export default function Projects( ) {
                         </p>
                         <p>
                           My goals are to present relevant and interesting things about myself
-                          and my work, while also <span className='has-text-weight-medium'>creating a visually appealing and responsive
-                          website</span>. I also aimed to make this webpage <span className='has-text-weight-medium'>accessible</span> by
+                          and my work, while also creating a visually appealing and responsive
+                          website. I also aimed to make this webpage accessible by
                           following <a className='is-link'
                                        href='https://www.w3.org/WAI/standards-guidelines/wcag/'
                                        target="_blank" rel="noopener noreferrer">WACG</a> to
-                          the best of my understanding. I&#39;m sure there are accesibility improvements to make,
+                          the best of my understanding. I&#39;m sure there are many accessibility improvements to make,
                           so do feel free to open a <a className='is-link'
                                                        href='https://github.com/GenevaS/website/issues'
                                                        target="_blank" rel="noopener noreferrer">Git Issue</a> in
@@ -138,13 +155,15 @@ export default function Projects( ) {
 
                       <InfoTile tileTitle={
                           <p>
-                            First Ubisoft Future Women in Games Mentorship
+                            First Ubisoft Future Women in Games Mentorship—Game Design Challenge
                             <br className='my-1'></br>
-                            <i className='has-text-weight-medium'>October 2019</i>
+                            <i className='has-text-weight-medium'>September to October 2019</i>
                           </p>
                         }
                         tileLink={
-                          <span></span>                       
+                          <Link href="/assets/TheTemple_GameDesign_Pitch_And_DesignSolution.zip">
+                            {thetempleDocsLink}
+                          </Link>
                         }
                           pictureSrc={null}
                           lighter>
@@ -205,11 +224,11 @@ export default function Projects( ) {
 
                       <InfoTile tileTitle={
                                             <p>
-                                              Bethesda's <a className='is-link'
+                                              "GLaDOS" Mod for Bethesda's <a className='is-link'
                                                             href='https://elderscrolls.bethesda.net/en/skyrim'
-                                                            target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a> "GLaDOS" Mod
+                                                            target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a> 
                                               <br className='my-1'></br>
-                                              <i className='has-text-weight-medium'>September to December 2017</i>
+                                              <i className='has-text-weight-medium'>2017</i>
                                             </p>
                                           }
                                 tileLink={skyrimmodprojectLink}

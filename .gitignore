@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 *.pdf
+*.zip
 
 # debug
 npm-debug.log*
