@@ -131,10 +131,13 @@ export default function Home( ) {
             </p>
 
             <p className='block px-5'>
-              In pursuit of believable game characters "with emotion", I have also developed a mod(ification) 
-              for the popular game, <i><a className='is-link'
-                                       href='https://elderscrolls.bethesda.net/en/skyrim'
-                                       target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a></i>
+              In pursuit of believable game characters "with emotion", I have also developed 
+              a <a className='is-link'
+                   href='https://en.wikipedia.org/wiki/Video_game_modding'
+                   target="_blank" rel="noopener noreferrer">mod(ification)</a> for 
+              the popular game, <i><a className='is-link'
+                                      href='https://elderscrolls.bethesda.net/en/skyrim'
+                                      target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a></i>
               . For this mod (named <a className='is-link'
                                        href='https://half-life.fandom.com/wiki/GLaDOS'
                                        target="_blank" rel="noopener noreferrer">GLaDOS after the character from <i>Portal</i></a>)

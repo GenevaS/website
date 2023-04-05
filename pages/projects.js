@@ -4,6 +4,7 @@
  */
 
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Layout, { siteTitle } from '../components/layout'
 import InfoTile from '../components/infotile'
@@ -11,8 +12,6 @@ import InfoTile from '../components/infotile'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faFileZipper } from '@fortawesome/free-solid-svg-icons'
-import Link from 'next/link'
-
 
 const githubicon = <FontAwesomeIcon className='has-text-black' icon={faGithubSquare} transform='grow-13' alt="GitHub Icon"/>
 const zipicon = <FontAwesomeIcon className='has-text-black' icon={faFileZipper} transform='grow-7' alt="ZIP File Icon"/>
@@ -40,14 +39,14 @@ const emgineprojectLink = <a className='icon'
 
 const thetempleDocsLink = <a className='icon'
                              download target="_blank" rel="noopener noreferrer"
-                             aria-label="Get ZIP file for the Skyrim Mod from MacSphere">
+                             aria-label="Download the ZIP file with The Temple's pitch and design solution presentation">
                              {zipicon}
                           </a>
 
 const skyrimmodprojectLink = <a className='icon'
                          href="https://macsphere.mcmaster.ca/bitstream/11375/21369/3/Smith_Geneva_M_2017April_MAScSoftwareEngineering_GLaDOS.zip"
                          target="_blank" rel="noopener noreferrer"
-                         aria-label="Get ZIP file for the Skyrim Mod from MacSphere">
+                         aria-label="Get ZIP file for the GLaDOS Skyrim Mod from MacSphere">
                         {zipicon}
                       </a>
 
@@ -104,7 +103,11 @@ export default function Projects( ) {
                           Game design is both a creative and technical endeavour, so I am using a user-centric 
                           design approach to ensure that both game designers and players are always at the forefront
                           of EMgine's design. This lead to the library design, which affords game designers the choice
-                          of when, how, and what parts of it they use in their games.
+                          of when, how, and what parts of it they use in their games. Game designer needs also drove 
+                          the decision to use C# because it is one of the programming languages supported 
+                          in <a className='is-link'
+                                href='https://unity.com/solutions/create-games'
+                                target="_blank" rel="noopener noreferrer">Unity Game Engine</a>.
                         </p>
                       </InfoTile>
 
@@ -208,17 +211,15 @@ export default function Projects( ) {
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          I created this tool for my doctoral project—named GLaDOS at the
-                          time, after a character in
-                          the <a className='is-link'
-                                 href="https://half-life.fandom.com/wiki/Portal"
-                                 target="_blank" rel="noopener noreferrer">Portal</a> games—to
-                          help me test the range of a mathematical function when the domain
-                          of its variables is known. I completed it as a course project, paying
-                          particular attention to the <span className='has-text-weight-medium'>design process</span> and
-                          accompanying <span className='has-text-weight-medium'>documentation</span>. I implemented C&#179;
-                          in <span className='has-text-weight-medium'>C#</span> because of its GUI Builder tool so that the
-                          finished project would be more user-friendly (and nicer to look at).
+                          I created this tool for my GLaDOS project
+                          , <a className='is-link'
+                               href='https://half-life.fandom.com/wiki/GLaDOS'
+                               target="_blank" rel="noopener noreferrer">named for a character in
+                          the Portal</a> games—to help me test the range of a mathematical function when 
+                          the domain of its variables is known. I completed it as a course project, paying
+                          particular attention to the design process and accompanying documentation. I implemented 
+                          C&#179; in C# because of its GUI Builder tool so that the finished project would be more 
+                          user-friendly (and nicer to look at).
                         </p>
                       </InfoTile>
 
@@ -226,16 +227,42 @@ export default function Projects( ) {
                                             <p>
                                               "GLaDOS" Mod for Bethesda's <a className='is-link'
                                                             href='https://elderscrolls.bethesda.net/en/skyrim'
-                                                            target="_blank" rel="noopener noreferrer">The Elder Scrolls V: Skyrim</a> 
+                                                            target="_blank" rel="noopener noreferrer"><i>The Elder Scrolls V: Skyrim</i></a> 
                                               <br className='my-1'></br>
-                                              <i className='has-text-weight-medium'>2017</i>
+                                              <i className='has-text-weight-medium'>2016 to 2017</i>
                                             </p>
                                           }
                                 tileLink={skyrimmodprojectLink}
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          .
+                          Before my work on EMgine, my investigation into believable game characters "with emotions" got 
+                          me to try <a className='is-link'
+                                       href='https://en.wikipedia.org/wiki/Video_game_modding'
+                                       target="_blank" rel="noopener noreferrer">modding</a>. This allowed me to work 
+                          with a pre-existing game with well-defined characters so that I only needed to worry about 
+                          how emotion "worked" rather than how I could test them in a game. The modding community 
+                          for <i>Skyrim</i> is very large and active, so it is a good place for experiementing with 
+                          different ideas to see how they affect the game's player experience.
+                        </p>
+
+                        <p>
+                          This was a fun and interesting look into one of Bethesda's development tools and their 
+                          implementation of characters. I designed my mod so that characters all used the same 
+                          "processing" modules; their differences are contained in character-specific 
+                          "configuration data" based on a set of tags I created. Each character is assigned "values"
+                          with data necessary for emotion generation. Picking these values was entertaining because
+                          I got to imagine how each character feels about different aspects of their world based on 
+                          their—often sparse—narrative descriptions.
+                        </p>
+
+                        <p>
+                          Even though I was only able to give the citizens 
+                          of <a className='is-link'
+                                href='https://en.uesp.net/wiki/Skyrim:Windhelm'
+                                target="_blank" rel="noopener noreferrer">Windhelm</a> emotions with the time I had, 
+                          it was still enough for my play testers to notice and be intrigued by the characters' new 
+                          reactions to them.
                         </p>
                       </InfoTile>
 
