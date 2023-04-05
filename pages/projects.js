@@ -93,16 +93,17 @@ export default function Projects( ) {
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          EMgine is a game development tool for designers to give their NPCs "emotions". It does
-                          this by providing a library for "generating emotions" given the current state of the 
-                          game entity "expriencing" emotion and the game world. The end goal is to give designers
+                          EMgine is a game development tool for designers to give their NPCs &#34;&#34;
+                          emotions&#34;&#34;. It does this by providing a library for &#34;&#34;generating 
+                          emotions&#34;&#34; given the current state of the game entity &#34;&#34;expriencing
+                          &#34;&#34; emotion and the game world. The end goal is to give designers
                           another option for making believable and emotionally engaging game characters.
                         </p>
 
                         <p>
                           Game design is both a creative and technical endeavour, so I am using a user-centric 
                           design approach to ensure that both game designers and players are always at the forefront
-                          of EMgine's design. This lead to the library design, which affords game designers the choice
+                          of EMgine&#34;s design. This lead to the library design, which affords game designers the choice
                           of when, how, and what parts of it they use in their games. Game designer needs also drove 
                           the decision to use C# because it is one of the programming languages supported 
                           in <a className='is-link'
@@ -225,7 +226,7 @@ export default function Projects( ) {
 
                       <InfoTile tileTitle={
                                             <p>
-                                              "GLaDOS" Mod for Bethesda's <a className='is-link'
+                                              &#34;&#34;GLaDOS&#34;&#34; Mod for Bethesda&#34;s <a className='is-link'
                                                             href='https://elderscrolls.bethesda.net/en/skyrim'
                                                             target="_blank" rel="noopener noreferrer"><i>The Elder Scrolls V: Skyrim</i></a> 
                                               <br className='my-1'></br>
@@ -236,24 +237,25 @@ export default function Projects( ) {
                                 pictureSrc={null}
                                 lighter>
                         <p>
-                          Before my work on EMgine, my investigation into believable game characters "with emotions" got 
-                          me to try <a className='is-link'
-                                       href='https://en.wikipedia.org/wiki/Video_game_modding'
-                                       target="_blank" rel="noopener noreferrer">modding</a>. This allowed me to work 
+                          Before my work on EMgine, my investigation into believable game characters &#34;&#34;with 
+                          emotions&#34;&#34; got me to 
+                          try <a className='is-link'
+                                 href='https://en.wikipedia.org/wiki/Video_game_modding'
+                                 target="_blank" rel="noopener noreferrer">modding</a>. This allowed me to work 
                           with a pre-existing game with well-defined characters so that I only needed to worry about 
-                          how emotion "worked" rather than how I could test them in a game. The modding community 
-                          for <i>Skyrim</i> is very large and active, so it is a good place for experiementing with 
-                          different ideas to see how they affect the game's player experience.
+                          how emotion &#34;&#34;worked&#34;&#34; rather than how I could test them in a game. The 
+                          modding community for <i>Skyrim</i> is very large and active, so it is a good place for 
+                          experiementing with different ideas to see how they affect the game&#34;s player experience.
                         </p>
 
                         <p>
-                          This was a fun and interesting look into one of Bethesda's development tools and their 
+                          This was a fun and interesting look into one of Bethesda&#34;s development tools and their 
                           implementation of characters. I designed my mod so that characters all used the same 
-                          "processing" modules; their differences are contained in character-specific 
-                          "configuration data" based on a set of tags I created. Each character is assigned "values"
-                          with data necessary for emotion generation. Picking these values was entertaining because
-                          I got to imagine how each character feels about different aspects of their world based on 
-                          their—often sparse—narrative descriptions.
+                          &#34;&#34;processing&#34;&#34; modules; their differences are contained in character-specific 
+                          &#34;&#34;configuration data&#34;&#34; based on a set of tags I created. Each character is 
+                          assigned &#34;&#34;values&#34;&#34; with data necessary for emotion generation. Picking these 
+                          values was entertaining because I got to imagine how each character feels about different 
+                          aspects of their world based on their—often sparse—narrative descriptions.
                         </p>
 
                         <p>
@@ -261,7 +263,7 @@ export default function Projects( ) {
                           of <a className='is-link'
                                 href='https://en.uesp.net/wiki/Skyrim:Windhelm'
                                 target="_blank" rel="noopener noreferrer">Windhelm</a> emotions with the time I had, 
-                          it was still enough for my play testers to notice and be intrigued by the characters' new 
+                          it was still enough for my play testers to notice and be intrigued by the characters&#34; new 
                           reactions to them.
                         </p>
                       </InfoTile>
