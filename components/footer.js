@@ -42,7 +42,7 @@ function Footer() {
       </div>
 
       <div className='pt-6 has-text-grey-lighter'>
-        <span className='is-size-7 has-text-weight-medium'>Last Updated April 2023</span>
+        <span className='is-size-7 has-text-weight-medium'>Last Updated July 2023</span>
       </div>
     </footer>
 	)

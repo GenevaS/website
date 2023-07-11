@@ -37,14 +37,17 @@ export default function Industry( ) {
                     <table className='column is-full p-0'>
 
                       <tr className='columns is-full mx-0 px-0 mt-1 mb-2 has-text-weight-semibold'>
-                        <td className='column is-one-fifth p-0'>2017–2023 (ABD)</td>
+                        <td className='column is-one-fifth p-0'>2017–2023</td>
                         <td className='column is-two-fifths p-0'>Ph.D., Software Engineering</td>
                         <td className='column is-two-fifths p-0'>McMaster University</td>
                       </tr>
 
                       <tr>
                         <td>Thesis: Start Your EM(otion En)gine: Towards Computational Models of Emotion for 
-                            Improving the Believability of Video Game Non-Player Characters (In preparation)</td>
+                            Improving the Believability of Video Game Non-Player Characters (<a className='is-link'
+                                 href='http://hdl.handle.net/11375/28699'
+                                 target="_blank" rel="noopener noreferrer"
+                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for Start Your EM(otion En)gine">http://hdl.handle.net/11375/28699</a>)</td>
                       </tr>
 
                       <tr>

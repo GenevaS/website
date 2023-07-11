@@ -16,6 +16,9 @@ import sashaCard from "../public/images/gscale_businesscard_back_Sasha.png"
 import caretteCard from "../public/images/gscale_businesscard_Carette.png"
 import licsLogo from "../public/images/lambda-logo-icon.png"
 
+import ibmPicture from "../public/images/ibm.png"
+import xpPicture from "../public/images/XP.png"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
 
@@ -43,6 +46,13 @@ const gscaleWebsiteLink = <a className="icon"
                              href="https://gscale.cas.mcmaster.ca/"
                              target="_blank" rel="noopener noreferrer"
                              aria-label="Go to G-ScalE Website">
+                              {worldIcon}
+                          </a>
+
+const xpsiteLink = <a className="icon"
+                             href="https://xpgamesummit.com/"
+                             target="_blank" rel="noopener noreferrer"
+                             aria-label="Go to XP Summit 2023 Website">
                               {worldIcon}
                           </a>
 
@@ -284,7 +294,7 @@ export default function Community( ) {
                             <p>
                               Life in Computing and Software (LiCS)
                               <br className='my-1'></br>
-                              <i className='has-text-weight-medium'>May 2022 to Present, May 2018 to September 2020</i>
+                              <i className='has-text-weight-medium'>May 2022 to January 2023, May 2018 to September 2020</i>
                             </p>
                           }
                           tileLink={<span></span>}
@@ -419,6 +429,32 @@ export default function Community( ) {
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
+                    <InfoTile tileTitle={
+                                  <p>
+                                    2023 XP Game Developer Summit
+                                    <br className='my-1'></br>
+                                    <i className='has-text-weight-medium'>April 20–21, 2023</i>
+                                  </p>
+                                }
+                              tileLink={xpsiteLink}
+                              pictureOnLeft
+                              pictureSrc={xpPicture}
+                              pictureAlt=""
+                              lighter>
+                        <div className='content'>
+                          <p>
+                            I was assigned the role of stage manager for one of the panel rooms at this
+                            industry event. I've had some experience with this kind of job before and I 
+                            never tire of seeing how much work goes on behind the scenes to make them run
+                            well. My job was to coordinate the different teams, other volunteers managing
+                            door traffic, and panelists to help us stay on top of our schedule. I was 
+                            fortunate to work with an amazing A/V and stage management team and the 
+                            panelists were patient and attentive as I ran them through stage directions 
+                            and worked to get them set up for their talks. 
+                          </p>
+                        </div>
+                      </InfoTile>
+
                       <InfoTile tileTitle={
                                   <p>
                                     IBM Future Blue Events
@@ -427,7 +463,7 @@ export default function Community( ) {
                                   </p>
                                 }
                               tileLink={<span></span>}
-                              pictureSrc={null}
+                              pictureSrc={ibmPicture}
                               pictureAlt=""
                               lighter>
                         <div className='content'>

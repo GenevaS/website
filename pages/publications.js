@@ -103,18 +103,6 @@ export default function Publications( ) {
                               lighter>
                         <div className='content'>
 
-                        <p>
-                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
-                            Building Test Cases for Video Game-Focused Computational Models of Emotion. <u>To 
-                            appear</u> in the <i>Proceedings of the Interdisciplinary Design of Emotion Sensitive 
-                            Agents (IDEA) International Workshop</i>. May 30, 2023. Co-located with the 22nd 
-                            International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023), 
-                            May 29–June 2, 2023, London, England. Preprint available at <a className='is-link'
-                                  href="http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf"
-                                  target="_blank" rel="noopener noreferrer"
-                                  style={{wordBreak: "break-all"}} aria-label="Go to preprint for Building Test Cases">http://www.cas.mcmaster.ca/~carette/publications/Inspect.pdf</a>
-                          </p>
-
                           <p>
                             <span className='is-highlighted'>Geneva Smith</span>, Robert J. Teather, Jordan Lass, Jacques Carette. 2015.
                             Effects of Interior Bezel Size and Configuration on Gaming Performance with Large Tiled Displays. In
@@ -136,7 +124,7 @@ export default function Publications( ) {
                           <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
                             Start Your EMgine—A Methodology for Choosing Emotion Theories for Computational Models 
-                            of Emotion. Submitted January 11, 2023 to <i>Entertainment Computing</i>. Available
+                            of Emotion. Revision submitted May 26, 2023 to <i>Entertainment Computing</i>. Available
                             at <a className='is-link'
                                   href="https://doi.org/10.2139/ssrn.4327741"
                                   target="_blank" rel="noopener noreferrer"
@@ -152,15 +140,15 @@ export default function Publications( ) {
                         <div className='content'>
 
                           <p>
-                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023 (<u>Upcoming</u>). Creating 
-                            Believable Stories with NPCs. In <i>Conversations with Games:  Emergent Narratives 
-                            and Gameplay Experience</i>. Panel to be presented at the <i>2023 International
+                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023. "Creating 
+                            Believable Stories with NPCs". In <i>Conversations with Games:  Emergent Narratives 
+                            and Gameplay Experience</i>. Panel presented at the <i>2023 International
                             Conference on Games and Narrative (ICGaN)</i>. May 15–19, 2023, Online.
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Towards Emotional
-                            Game Characters. In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. "Towards Emotional
+                            Game Characters". In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:
                             Design, Implementation, and the [Social] User Experience</i>. Panel presented at
                             the <i>20th Annual Convention of the Media Ecology Association (MEA)</i>. June
                             27–30, 2019, Toronto, ON, Canada.
@@ -174,17 +162,30 @@ export default function Publications( ) {
                               lighter>
                         <div className='content'>
 
+                        <p>
+                            <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
+                            "Building Test Cases for Video Game-Focused Computational Models of Emotion". Presented 
+                            at the <i>Interdisciplinary Design of Emotion Sensitive Agents (IDEA) International 
+                              Workshop</i>. May 30, 2023. Held in conjunction with the 22nd International Conference 
+                              on Autonomous Agents and Multiagent Systems (AAMAS 2023), May 29–June 2, 2023, London, 
+                              England. <a className='is-link'
+                                  href="https://en.uit.no/project/idea/accepted_papers"
+                                  target="_blank" rel="noopener noreferrer"
+                                  style={{wordBreak: "break-all"}} 
+                                  aria-label="Go to IDEA Workshop Page for Accepted Papers">https://en.uit.no/project/idea/accepted_papers</a>
+                          </p>
+
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2017. GLaDOS:
+                            <span className='is-highlighted'>Geneva Smith</span>. 2017. "GLaDOS:
                             Integrating Emotion-Based Behaviours into Non-Player Characters in
-                            Computer Role-Playing Games. Presentation at the <i>2017 IMMERSe
+                            Computer Role-Playing Games". Presented at the <i>2017 IMMERSe
                             Network Meeting</i>. June 7–9, 2017, Ottawa, ON, Canada.
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2015. Ordinary
+                            <span className='is-highlighted'>Geneva Smith</span>. 2015. "Ordinary
                             People: Integrating Emotional Reactions into Non-Player Characters in
-                            Computer Role Playing Games. Presentation at the <i>2015 IMMERSe
+                            Computer Role Playing Games". Presented at the <i>2015 IMMERSe
                             Network Meeting</i>. November 26–27, 2015, Waterloo, ON, Canada.
                           </p>
                         </div>
@@ -196,10 +197,10 @@ export default function Publications( ) {
                         <div className='content'>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2019. Problems That 
-                            You&#39;ve Solved in Video Games: The Agent Assignment Problem. Presentation 
-                            for the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, 
-                            ON, Canada.
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. "Problems That 
+                            You've Solved in Video Games: The Agent Assignment Problem". Presented in
+                            the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, ON, 
+                            Canada.
                           </p>
                         </div>
                       </InfoTile>
@@ -217,7 +218,10 @@ export default function Publications( ) {
                                                                                   href="https://www.eng.mcmaster.ca/faculty/jacques-carette/"
                                                                                   target="_blank" rel="noopener noreferrer"
                                                                                   aria-label="Go to Dr. Jacque Carette's profile on McMaster University's website">Dr. Jacques Carette</a>
-                            . In preparation.
+                            . <a className='is-link'
+                                 href='http://hdl.handle.net/11375/28699'
+                                 target="_blank" rel="noopener noreferrer"
+                                 style={{wordBreak: "break-all"}} aria-label="Go to official page for Start Your EM(otion En)gine">http://hdl.handle.net/11375/28699</a>
                           </p>
 
                           <p>
