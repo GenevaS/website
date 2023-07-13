@@ -225,7 +225,7 @@ export default function Publications( ) {
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2017.
+                            <span className='is-highlighted'>Geneva M. Smith</span>. 2017.
                             <i> GLaDOS: Integrating Emotion-Based Behaviours into Non-Player Characters in Computer
                             Role-Playing Games</i>. Masters Thesis. Department of Computing and Software,
                             McMaster University, Hamilton, ON, Canada. Advisor <a className='is-link'
