@@ -444,7 +444,7 @@ export default function Community( ) {
                         <div className='content'>
                           <p>
                             I was assigned the role of stage manager for one of the panel rooms at this
-                            industry event. I've had some experience with this kind of job before and I 
+                            industry event. I&#39;ve had some experience with this kind of job before and I 
                             never tire of seeing how much work goes on behind the scenes to make them run
                             well. My job was to coordinate the different teams, other volunteers managing
                             door traffic, and panelists to help us stay on top of our schedule. I was 

@@ -140,15 +140,15 @@ export default function Publications( ) {
                         <div className='content'>
 
                           <p>
-                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023. "Creating 
-                            Believable Stories with NPCs". In <i>Conversations with Games:  Emergent Narratives 
+                            <span className='is-highlighted'>Geneva M. Smith</span>. 2023. &#34;Creating 
+                            Believable Stories with NPCs&#34;. In <i>Conversations with Games:  Emergent Narratives 
                             and Gameplay Experience</i>. Panel presented at the <i>2023 International
                             Conference on Games and Narrative (ICGaN)</i>. May 15–19, 2023, Online.
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2019. "Towards Emotional
-                            Game Characters". In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. &#34;Towards Emotional
+                            Game Characters&#34;. In Melody Devries (Chair) <i>Confronting Ecologies of Emotion:
                             Design, Implementation, and the [Social] User Experience</i>. Panel presented at
                             the <i>20th Annual Convention of the Media Ecology Association (MEA)</i>. June
                             27–30, 2019, Toronto, ON, Canada.
@@ -164,11 +164,11 @@ export default function Publications( ) {
 
                         <p>
                             <span className='is-highlighted'>Geneva M. Smith</span> and Jacques Carette. 2023.
-                            "Building Test Cases for Video Game-Focused Computational Models of Emotion". Presented 
-                            at the <i>Interdisciplinary Design of Emotion Sensitive Agents (IDEA) International 
-                              Workshop</i>. May 30, 2023. Held in conjunction with the 22nd International Conference 
-                              on Autonomous Agents and Multiagent Systems (AAMAS 2023), May 29–June 2, 2023, London, 
-                              England. <a className='is-link'
+                            &#34;Building Test Cases for Video Game-Focused Computational Models of Emotion&#34;. 
+                            Presented at the <i>Interdisciplinary Design of Emotion Sensitive Agents (IDEA) 
+                            International Workshop</i>. May 30, 2023. Held in conjunction with the 22nd International 
+                            Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023), May 29–June 2, 2023, 
+                            London, England. <a className='is-link'
                                   href="https://en.uit.no/project/idea/accepted_papers"
                                   target="_blank" rel="noopener noreferrer"
                                   style={{wordBreak: "break-all"}} 
@@ -176,16 +176,16 @@ export default function Publications( ) {
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2017. "GLaDOS:
+                            <span className='is-highlighted'>Geneva Smith</span>. 2017. &#34;GLaDOS:
                             Integrating Emotion-Based Behaviours into Non-Player Characters in
-                            Computer Role-Playing Games". Presented at the <i>2017 IMMERSe
+                            Computer Role-Playing Games&#34;. Presented at the <i>2017 IMMERSe
                             Network Meeting</i>. June 7–9, 2017, Ottawa, ON, Canada.
                           </p>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2015. "Ordinary
+                            <span className='is-highlighted'>Geneva Smith</span>. 2015. &#34;Ordinary
                             People: Integrating Emotional Reactions into Non-Player Characters in
-                            Computer Role Playing Games". Presented at the <i>2015 IMMERSe
+                            Computer Role Playing Games&#34;. Presented at the <i>2015 IMMERSe
                             Network Meeting</i>. November 26–27, 2015, Waterloo, ON, Canada.
                           </p>
                         </div>
@@ -197,8 +197,8 @@ export default function Publications( ) {
                         <div className='content'>
 
                           <p>
-                            <span className='is-highlighted'>Geneva Smith</span>. 2019. "Problems That 
-                            You've Solved in Video Games: The Agent Assignment Problem". Presented in
+                            <span className='is-highlighted'>Geneva Smith</span>. 2019. &#34;Problems That 
+                            You&#39;ve Solved in Video Games: The Agent Assignment Problem&#34;. Presented in
                             the LiCS Talk Series at McMaster University. July 19, 2019, Hamilton, ON, 
                             Canada.
                           </p>
